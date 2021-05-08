@@ -1,5 +1,10 @@
 ---
 title: "Atelier - S'organiser avec des logiciels open-source"
+knit: (function(input_file, encoding) {
+  out_dir <- './';
+  rmarkdown::render(input_file,
+ encoding="UTF-8",
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
 author: "Clément Hardy"
 date: "May 8, 2021"
 output: html_document
