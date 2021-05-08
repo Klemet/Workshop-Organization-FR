@@ -1,0 +1,1 @@
+Ce repository contiendra rapidement le contenu de l'atelier que je dévellope afin de faire découvrir des logiciels open-source pour mieux s'organiser, et pour organiser l'information avec laquelle on entre en contact au quotidien.
