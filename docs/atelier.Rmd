@@ -5,31 +5,273 @@ knit: (function(input_file, encoding) {
   rmarkdown::render(input_file,
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "Clément Hardy"
-date: "May 8, 2021"
-output: html_document
+author: "Clement Hardy"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+<!-- Pour inserer les emojis, voir l'utilisation du package emo : https://github.com/hadley/emo-->
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+# Introduction
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+- **Nos vies modernes nous mettent constamment en contact avec de l'information**. Tellement d'informations qu'il peut être très difficile de la structurer, mais aussi de la retrouver.
 
-```{r cars}
-summary(cars)
-```
+- **Différents logiciels existent aujourd'hui pour alléger le travail que nous demandons à notre cerveaux pour gérer ces informations**. Cependant, ces logiciels sont souvent possédés par des grandes entreprises qui maintiennent un flou sur leur accès aux données entreposées, et sur leur partage à d'autres compagnies ou agences de renseignement. Ils présentent aussi des méthodes ou des fonctionnements parfois très rigides, et qui ne sont peut être pas adaptés à vous.
 
-## Including Plots
+- **Il est cependant possible de profiter des bons cotés de la technologie afin de pouvoir bien naviguer dans cet océan d'informations, sans pour autant compromettre sa vie privée**. C'est le but de cet atelier, qui vous présentera différents logiciels open-source et gratuits pour vous aider à mieux gérer l'information que vous rencontrez au quotidien, tout en ayant le contrôle sur vos données. Il vous présentera aussi différentes méthodes d'organisation de l'information pour vous aider à mieux la gérer, en bénéficiant du fait d'utiliser différents logiciels complémentaires pour cela.
 
-You can also embed plots, for example:
+- **Le but de cet atelier n'est pas de vous présenter une méthodologie rigide que vous devriez suivre à tout prix**. Cet atelier est la pour vous encourage à la découverte et à l’expérimentation, avec un bémol important : retenez bien que la solution parfaite n’existe pas, et que l’expérimentation peut être épuisante si elle se fait sur de trop longues durées. Faites vous confiance, et laissez vous le temps d'essayer un système pendant un moment avant de chercher à le modifier !
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+# Objectifs de l'atelier
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+- Découvrir et apprendre à utiliser les fonctions de base des les logiciels suivants :
+  - Joplin
+  - Zotero
+  - Zettlr
+  - Nextcloud
+- Apprendre à utiliser ces différents logiciels ensemble pour gérer l'information avec les méthodes suivantes :
+  - La méthode du *Zettelkasten*
+  - La méthode PARA
+  - Un exemple d'organisation globale couplant *Zettelkasten* et PARA
+
+# Des logiciels open-source pour s'organiser
+
+## Joplin
+
+![](./imgs/joplinAllClient.jpg)
+
+### Qu'est-ce que Joplin ?
+
+**Joplin est comme un carnet de notes infini qui vous permet de les classer et de les retrouver de pleins de manières différentes.**
+
+C'est un logiciel open-source et entièrement gratuit qui permet de créer des notes dans le langage d’écriture “Markdown”, en les classant dans des “carnets” (notebooks) et en les associant avec des étiquettes (tags). **Il est une excellente alternative à des logiciels tels que Evernote our Microsoft One Note**.
+
+### Qu'est-ce que permet de faire Joplin ?
+
+Joplin permet d’énormément faciliter son organisation, en remplaçant en un seul endroit tout besoin de post-its, de carnets de notes ou de listes de taches.
+
+En particulier, Joplin vous permet de :
+
+- **Rassembler toute information écrite ou graphique au même endroit** : Vos notes de cours, vos réflexions, vos projets, vos recettes de cuisines, vos listes de courses, vos listes de taches, etc.
+- **Retrouver toutes ces informations très rapidement** (quelques secondes) grâce à l’outil de recherche.
+- **L’utiliser sur tous types d’ordinateur** (Windows, Mac, Linux) et **sur tous les téléphones** (android, IOs).
+- **Synchroniser vos données sur le cloud que vous choisissez** : Nextcloud (voir plus loin), Google Drive, One Drive, etc. Vous pouvez donc avoir toutes vos données écrites partout, tout le temps, sur tous les supports.
+- **Sécuriser tous vos textes en les encryptant avec un mot de passe**.
+- **Avoir une interface totalement customisable** qui permet de vous concentrer totalement sur ce que vous écrivez pour ne pas perdre de temps.
+- D’**exporter vos notes de pleins de manières possible**, avec un format (le markdown) lisible partout et en tout temps.
+- **Gérer automatiquement les images et les fichiers que vous insérez dans vos notes**
+- **Versionner vos notes automatiquement **(pour revenir en arrière n’importe quand si vous avez fait une bêtise).
+- Et bien plus encore.
+
+### Qu'est-ce que le "Markdown" ?
+
+![](./imgs/markdownLogo.jpg)
+
+Le markdown est une syntaxe d’écriture facile à lire et à écrire pour formatter du texte qui est très utilisée aujourd'hui. Au passage, sachez que **le document de cet atelier est écrit en markdown !**
+
+La syntaxe se compose d'un set de règles qui permettent d'indiquer, dans un document texte "classique" lisible par tous les éditeurs de texte, comment est-ce que le texte doit être formaté. **Le texte sera ensuite formaté par un logiciel pour le lire, ou bien pour en faire un document à publier ou à partager**.
+
+Voici quelques exemples qui vous permettra de mieux comprendre la syntaxe Markdown :
+
+En markdown, indiquer qu'un mot est en gras s'écrit :
+
+```Le mot **markdown** est en gras.```
+
+Cela rend l'apparence suivante quand mis en forme par un logiciel comme Joplin :
+
+Le mot **markdown** est en gras.
+
+Indiquer un lien s'écrit :
+
+```Un lien vers la [page wikipédia](https://fr.wikipedia.org/wiki/Markdown) du markdown.```
+
+Ce qui donne :
+
+Un lien vers la [page wikipédia](https://fr.wikipedia.org/wiki/Markdown) du markdown.
+
+Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikipédia correspondante](https://fr.wikipedia.org/wiki/Markdown), qui contient de nombreux exemples. Mais ne vous inquiétez pas : **Joplin vous propose de nombreux outils et examples pour ne pas avoir à l'apprendre**.
+
+**Les avantages du Markdown sont nombreux** :
+
+- Un document Markdown est un document texte qui peut s'ouvrir avec n'importe quel éditeur de texte.
+- Éditer un document en markdown permet de se concentrer sur le sens de ce que l'on écrit, sans se préoccuper de l'apparence : c'est la philosophie “Ce que vous voyez et ce que vous voulez dire” (What you see is what you mean).
+- Un document Markdown peut être lu de différentes manières par les logiciels de mise en page, qui peuvent le transcrire en pleins de format différents (.pdf, .html, etc.) et avec des apparences différentes (police d'écriture, couleurs, etc.).
+
+À lire tout cela, si vous ne connaissez pas encore le Markdown, vous êtes sûrement sceptiques. Mais ne vous inquiétez pas : **Joplin permet de passer outre le Markdown si vous ne l’aimez pas**. Mais vous verrez que l’essayer, c’est l’adopter.
+
+### Installation de Joplin
+
+- Rendez-vous simplement sur [la page web du logiciel](https://joplinapp.org/)
+- Choisissez la version correspondant à votre système d’exploitation : Windows, Mac ou Linux.
+- Lancez l'installateur et suivez les instructions.
+
+`r emo::ji("light_bulb")` **Si vous souhaitez avoir l'interface en français, pensez à indiquer "français" comme langue durant l'installation**. Si vous ne l'avez pas fait, vous pourrez changer la langue dans “Tools” puis “Options” puis “General”.
+
+### Prise en main de Joplin
+
+#### Interface
+
+Par défaut, la fenêtre de Joplin se compose de 3 parties importantes :
+
+- la liste de vos carnets (notebooks) tout à gauche
+- la liste des notes à l’intérieur du carnet ou vous vous trouvez, au milieu
+- l’éditeur à droite, qui s’affiche généralement en deux partie (la partie édition, et la partie visualisation).
+
+ ![](./imgs/Joplin_interface.jpg)
+
+#### L'essentiel
+
+Ce qu'il faut savoir pour comprendre l'essentiel du fonctionnement de Joplin :
+
+- Les carnets peuvent contenir des notes, ou d'autres carnets.
+- Les notes sont écrite en syntaxe markdown.
+- Les notes peuvent êtres associées à une ou plusieurs étiquettes, qui vous permettent de les retrouver plus facilement
+- L'éditeur vous montre à la fois le document écrit en langage Markdown (a gauche), et son apparence une fois mis en forme par le thème de Joplin que vous avez choisis (à droite).
+- L'éditeur contient différents boutons pour mettre en forme le texte en Markdown facilement (en gras, en italique, lien, liste, titre, etc.).
+- Joplin contient un carnet avec quelques notes vous récapitulant toutes les fonctionnalités du logiciel; **ne les supprimez pas ! Elles pourront vous êtres très utiles.**
+- Avec la commande `Ctrl + P`, vous accédez à la barre de recherche qui vous permet de trouver une note en quelques secondes. Tapez juste des mots liés à la note.
+
+### Exercices
+
+Il me serait possible de vous faire la liste de toutes les fonctionnalités de Joplin; mais cela serait très long à lire (il y en a beaucoup), et plutôt ennuyeux. Par le biais de quelques exercices, je vous encourage à les découvrir par vous même.
+
+#### 1. Créer un carnet
+
+- Dans Joplin, créez un nouveau carnet, nommez "`r emo::ji("notebook_with_decorative_cover")` Carnet pour exercice".
+
+`r emo::ji("light_bulb")`  **Notez la possibilité de mettre des emojis dans les titres de vos carnets et de vos notes pour mieux les différencier**.
+
+#### 2. Créer une note
+
+- Dans le "Carnet pour exercice", créez une nouvelle note nommée "Note pour exercice".
+
+#### 3. Insérer une image dans une note
+
+- Ouvrez la note "Note pour exercice" dans l'éditeur.
+- Rendez vous sur [ce lien](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/11.10.2015_Samoyed_%28cropped%29.jpg/800px-11.10.2015_Samoyed_%28cropped%29.jpg).
+- Dans votre navigateur, faite un clic droit sur l'image, et choisissez `Copier`.
+- Retournez dans votre note. Faite un clic droit dans l'éditeur et choisissez l'option `Coller`, ou bien faite `Ctrl + V`.
+
+`r emo::ji("light_bulb")`  **Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer. Pratique !**
+
+#### 4. Utiliser des étiquettes
+
+- Donnez à la note "Note pour exercice" l'étiquette "Exercice" en trouvant ajoutant une étiquette avec le bouton correspondant.
+
+#### 5. Changer l'interface
+
+- Allez dans l’onglet `Affichage`, puis cliquez sur l'option `Changer la composition de l’application`.
+- Utilisez les flèches qui se trouvent sur chaque partie de l'interface pour :
+  - Mettre l'éditeur tout à gauche de l'interface
+  - Mettre la liste des carnets en dessous de la liste des notes dans le carnet ouvert
+  - Cliquez sur les limites entre les sections de l'interface pour les mettre à une taille raisonnable
+- Appuyez sur `Echap` pour sortir de l'outil pour changer la composition de l'application
+- Laissez l'interface comme elle est, remettez la comme avant, ou bien mettez la comme vous le préférez !
+
+#### 6. Télécharger un plugin
+
+- Allez dans l'onglet `Outils`, puis cliquez sur `Options`.
+- Allez dans l'onglet `Plugins` du menu des options.
+- Dans la barre de recherche, cherchez le plugin `Quick Links` et installez le.
+- Dans la barre de recherche, cherchez le plugin `Note Tabs` et installez le.
+- Redémarrez Joplin grace au petit menu qui vous indique de le redémarrer pour que les plugins fonctionnent; ou bien, arrêtez Joplin complètement (fermez la fenêtre n'arrête pas Joplin par défaut), et relancez le.
+- Réalisez les étapes de l'exercice 4 pour adapter votre interface aux onglets ajoutés par le plugin `Note Tabs`.
+
+#### 7. Insérer des liens vers d'autres notes
+
+- Dans le "Carnet pour exercice", créez une seconde note nommée "Note vers laquelle faire un lien".
+- Retournez dans la note "Note pour exercice".
+- Dans celle-ci, écrivez le texte suivante dans l'éditeur :
+
+`Ici, je vais faire un lien vers une autre note : `
+
+- Complétez ce texte avec un lien vers la note "Note vers laquelle faire un lien". Pour ce faire, vous avez deux choix :
+  - Dans la fenêtre des notes, faites un clic droit sur la note "Note vers laquelle faire un lien", et choisissez l'option "copier le lien Markdown". Collez ensuite ce lien dans votre texte.
+  - Profitez du plugin Quick Links que vous avez installé : tapez `@@` dans votre texte, puis choisissez la note "Note vers laquelle faire un lien" dans la fenêtre d'autocomplétion qui s'ouvre.
+- Une fois le lien insérez, regardez la partie de l'éditeur qui vous montre votre notre mise en forme. Un lien s'y trouve. Cliquez dessus, et il vous amènera vers l'autre note.
+
+#### 8. Exporter une note
+
+- Faites un clic droit sur la note "Note pour exercice" dans la fenêtre des notes. Choisissez l'option `Exporter`, puis `PDF`.
+- Sauvegardez le `.pdf` dans votre ordinateur, et ouvrez le.
+
+### Autres fonctionnalités importantes de Joplin à découvrir
+
+Joplin dispose d'un très grand nombre de fonctionnalités. Il serait trop long de vous les faire toute découvrir lors de cet atelier. Je vous recommande de jeter un oeil à trois d'entre elle en particulier quand vous aurez le temps :
+
+- **La synchronisation avec un cloud**. Cela vous permet de retrouver toutes vos notes n'importe ou, y compris dans votre téléphone portable grace à l'appli Joplin gratuite.
+- **L’encryption**, qui vous permet d'encrypter vos notes pour que vous soyez le/la seul.e a pouvoir les lire.
+- **La modification de l'apparence de Joplin** et de la mise en forme de vos documents depuis le texte en Markdown.
+
+Pour toute autre informations, vous pouvez aller vous renseigner sur le [site de Joplin](https://joplinapp.org/), sur [sa page GitHub](https://github.com/laurent22/joplin), ou dans [son forum](https://discourse.joplinapp.org/).
+
+## Zotero
+
+### Qu'est-ce que Zotero ?
+
+**Zotero est un logiciel de gestion de bibliographie.**
+
+### Qu'est-ce que permet de faire Zotero ?
+
+Zotero permet de :
+
+- Facilement sauvegarder toutes les métadonnées associés à un document (titre, auteurs, endroit de publication, date, URL, etc.).
+- Associer des notes ou des étiquettes à chaque références.
+- Trier ces références par catégories, ou par leurs caractéristiques pour les retrouver facilement.
+- Télécharger les fichiers PDF associés quand cela est possible.
+- Exporter des fichiers .bib qui contiennent tous les détails de références pour pouvoir les insérer dans un document.
+- Insérer et gérer la bibliographie d'un document dans Microsoft Word, Libreoffice ou Google Doc a l'aide ses plugins.
+
+### Installation de Zotero
+
+- Rendez vous sur le [site de Zotero](https://www.zotero.org/) et téléchargez l'installateur.
+- Suivez les instruction pour l'installer.
+- Ouvrez Zotero. Dans sa fenêtre, allez dans l'onglet `Outils`, et cliquez sur l'option `Installer le Connecteur Zotero dans le navigateur`. Suivez les instructions pour installer le connecteur.
+
+### Prise en main de Zotero
+
+#### L'interface principale
+
+Dans son interface principale, Zotero vous propose sur la gauche un menu dans lequel vous pouvez créer différentes "collections" qui contiennent des références.
+
+Au milieu, vous trouverez la liste des références dans la collection dans laquelle vous vous trouvez.
+
+A droite, vous trouvez les détails d'une référence sur laquelle vous avez cliquée.
+
+En haut, vous trouverez différentes options pour creer une référence vous même. Cependant, cela n'est pas nécéssaire, grâce au connecteur de votre navigateur.
+
+#### Le Connecteur de Zotero pour votre navigateur web
+
+Lorsque vous allez sur une page web, que vous lisez un article de blog ou un article scientifique dans votre navigateur internet, le connecteur Zotero vous permet de sauvegarder la page que vous lisez dans votre bibliothèque de références en un seul clic.
+
+Pour cela, il vous suffit de cliquer sur le bouton du connecteur dans votre navigateur internet, normalement situé en haut à droite. Celui-ci peut prendre différentes icônes, selon la page sur laquelle vous vous trouvez. **Zotero détectera automatiquement le document auquel la page fait référence, que ce soit un post sur un blog, un livre, ou un article scientifique.**
+
+### Exercices
+
+#### 1. Creer une collection
+
+#### 2. Récuperer 5 références différentes
+
+#### 3. Installer le module Zotero pour Word ou pour Libreoffice
+
+#### 4. Installer le plugin de Zotero "Better bibtex"
+
+#### 5. Exporter votre base de donnée de Zotero avec l'option de mise à jour
+
+## Zettlr
+
+## Nextcloud
+
+# Combiner des méthodes d'organisation connues et les logiciels que vous avez découvert
+
+## La méthode *Zettelkasten*
+
+## La méthode PARA
+
+## Un exemple de combinaison de tous ces outils et de ces deux méthodes
