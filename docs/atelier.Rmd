@@ -5,9 +5,9 @@ knit: (function(input_file, encoding) {
   rmarkdown::render(input_file,
  encoding=encoding,
  output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
-author: "Clement Hardy"
 output:
   html_document:
+    css: "style.css"
     toc: true
     toc_float: true
 ---
@@ -99,7 +99,7 @@ Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikip�
 
 **Les avantages du Markdown sont nombreux** :
 
-- Un document Markdown est un document texte qui peut s'ouvrir avec n'importe quel éditeur de texte.
+- Un document Markdown est un document texte qui peut s'ouvrir avec n'importe quel éditeur de texte (bloc note, Notepad++, Atom, etc.).
 - Éditer un document en markdown permet de se concentrer sur le sens de ce que l'on écrit, sans se préoccuper de l'apparence : c'est la philosophie “Ce que vous voyez et ce que vous voulez dire” (What you see is what you mean).
 - Un document Markdown peut être lu de différentes manières par les logiciels de mise en page, qui peuvent le transcrire en pleins de format différents (.pdf, .html, etc.) et avec des apparences différentes (police d'écriture, couleurs, etc.).
 
@@ -145,11 +145,11 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 
 - Dans Joplin, créez un nouveau carnet, nommez "`r emo::ji("notebook_with_decorative_cover")` Carnet pour exercice".
 
-`r emo::ji("light_bulb")`  **Notez la possibilité de mettre des emojis dans les titres de vos carnets et de vos notes pour mieux les différencier**.
+`r emo::ji("light_bulb")`  *Notez la possibilité de mettre des emojis dans les titres de vos carnets et de vos notes pour mieux les différencier.*
 
 #### 2. Créer une note
 
-- Dans le "Carnet pour exercice", créez une nouvelle note nommée "Note pour exercice".
+- Dans le "Carnet pour exercice", créez une nouvelle note nommée "Note pour exercice" avec le bouton `Nouvelle note`.
 
 #### 3. Insérer une image dans une note
 
@@ -158,7 +158,27 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 - Dans votre navigateur, faite un clic droit sur l'image, et choisissez `Copier`.
 - Retournez dans votre note. Faite un clic droit dans l'éditeur et choisissez l'option `Coller`, ou bien faite `Ctrl + V`.
 
-`r emo::ji("light_bulb")`  **Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer. Pratique !**
+`r emo::ji("light_bulb")`  *Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer. Pratique !**
+
+#### 4. Créer une tache et une liste de tache
+
+- Dans le "Carnet pour exercice", créez une nouvelle tache nommée "Tache de l'exercice 4" avec le bouton `Nouvelle tache`.
+
+`r emo::ji("light_bulb")`  *Dans Joplin, les taches sont simplement des notes qui sont associées à une cache à cocher. Cependant, vous pouvez, comme pour toute note, y associer des fichiers, des images, et du texte.*
+
+- Dans l'éditeur, écrivez les choses suivantes (attention de bien respecter les espaces !) :
+
+```
+- [ ] Faire une nouvelle tache dans Joplin
+- [ ] Écrire une liste de tache dans le texte Markdown de cette tache
+- [ ] Cocher les cases de cette liste de tache
+- [ ] Cocher la tache
+```
+
+- Regardez au texte de votre tache mis en forme dans la droite de l'éditeur. Cliquez sur les différentes cases à cocher, et regardez ce qui se passe.
+- Quand cela est fait, cochez votre tache à cocher dans la fenêtre des notes de Joplin. Regardez ce qui se passe.
+
+`r emo::ji("light_bulb")`  *Vous avez découvert l'une des fonctionnalités les plus utiles du Markdown : les cases à cocher. Dans le format texte, une case non-cochée s'écrit "`- [ ]`", et une case cochée s'écrit "`- [x]`".*
 
 #### 4. Utiliser des étiquettes
 
@@ -221,17 +241,18 @@ Pour toute autre informations, vous pouvez aller vous renseigner sur le [site de
 
 Zotero permet de :
 
-- Facilement sauvegarder toutes les métadonnées associés à un document (titre, auteurs, endroit de publication, date, URL, etc.).
-- Associer des notes ou des étiquettes à chaque références.
-- Trier ces références par catégories, ou par leurs caractéristiques pour les retrouver facilement.
-- Télécharger les fichiers PDF associés quand cela est possible.
-- Exporter des fichiers .bib qui contiennent tous les détails de références pour pouvoir les insérer dans un document.
-- Insérer et gérer la bibliographie d'un document dans Microsoft Word, Libreoffice ou Google Doc a l'aide ses plugins.
+- **Facilement sauvegarder toutes les métadonnées associés à un document **(titre, auteurs, endroit de publication, date, URL, etc.).
+- **Associer des notes ou des étiquettes** à chaque références.
+- **Trier ces références par catégorie**s, ou par leurs caractéristiques pour les retrouver facilement.
+- **Télécharger les fichiers PDF associés** quand cela est possible.
+- **Exporter des fichiers de bibliographie** qui contiennent tous les détails de références pour pouvoir les insérer dans un document.
+- **Insérer et gérer la bibliographie d'un document** dans Microsoft Word, Libreoffice ou Google Doc a l'aide ses plugins.
 
 ### Installation de Zotero
 
 - Rendez vous sur le [site de Zotero](https://www.zotero.org/) et téléchargez l'installateur.
 - Suivez les instruction pour l'installer.
+- Si Zotero vous propose d'installer le module pour Word ou Libreoffice, vous pouvez le faire maintenant; sinon, cela vous sera proposé comme exercice.
 - Ouvrez Zotero. Dans sa fenêtre, allez dans l'onglet `Outils`, et cliquez sur l'option `Installer le Connecteur Zotero dans le navigateur`. Suivez les instructions pour installer le connecteur.
 
 ### Prise en main de Zotero
@@ -240,11 +261,11 @@ Zotero permet de :
 
 Dans son interface principale, Zotero vous propose sur la gauche un menu dans lequel vous pouvez créer différentes "collections" qui contiennent des références.
 
-Au milieu, vous trouverez la liste des références dans la collection dans laquelle vous vous trouvez.
+- **Au milieu**, vous trouverez la liste des références dans la collection dans laquelle vous vous trouvez.
 
-A droite, vous trouvez les détails d'une référence sur laquelle vous avez cliquée.
+- **A droite**, vous trouvez les détails d'une référence sur laquelle vous avez cliqué.
 
-En haut, vous trouverez différentes options pour creer une référence vous même. Cependant, cela n'est pas nécéssaire, grâce au connecteur de votre navigateur.
+- **En haut**, vous trouverez différentes options pour créer une référence vous même. Cependant, cela n'est pas nécessaire, grâce au connecteur de votre navigateur.
 
 #### Le Connecteur de Zotero pour votre navigateur web
 
@@ -254,19 +275,188 @@ Pour cela, il vous suffit de cliquer sur le bouton du connecteur dans votre navi
 
 ### Exercices
 
-#### 1. Creer une collection
+#### 1. Créer une collection
+
+- En haut à gauche de la fenêtre de Zotero, trouvez le bouton "créer une nouvelle collection". Utilisez le pour créer une nouvelle collection d'articles nommée "Exercice".
 
 #### 2. Récuperer 5 références différentes
 
+- Dans la fenêtre de Zotero, assurez vous que vous êtes bien dans la collection d'articles nommée "Exercice".
+- Aller sur les liens suivant dans votre navigateur internet : [Lien 1](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1060.0560), [lien 2](https://www.sciencedirect.com/science/article/abs/pii/S0164121202000651), [lien 3](https://www.jstor.org/stable/25148740?seq=1#metadata_info_tab_contents), [lien 4](http://adaptknowledge.com/wp-content/uploads/rapidintake/PI_CL/media/InnArticle.pdf), [lien 5](https://opencommons.uconn.edu/libr_pubs/7/).
+- Pour chacun des liens, utilisez le bouton du connecteur Zotero dans votre navigateur internet pour que Zotero sauvegarde directement les méta-données liées aux 5 articles dans votre bibliothèque.
+- Regardez les articles dans la fenêtre Zotero : Zotero n'as pas pu trouver toutes les méta-données pour deux d'entre eux.
+- Aller sur [Google Scholar](https://scholar.google.ca/). Dans la barre de recherche, tapez le titre d'un des deux articles que Zotero n'as pas réussi à correctement détecter.
+- Dans la liste des résultats de Google Scholar, trouvez l'article. Toujours dans cette liste, trouvez le bouton en formes de guillemets sous les informations de l'article. Dans la pop-up qui s'ouvre, cliquez sur le lien avec écrit "BibTex".
+- Google Scholar vous amène sur une page ou se trouve un séquence de texte. Il s'agit des informations liées à cette référence au format appelé "BibTex". Sélectionnez le texte et faite `copier` ou `Ctrl  + C`.
+- Retournez dans la fenêtre Zotero, allez dans l'onglet `Fichier`, puis cliquez sur `Importer depuis le presse-papier`.
+- Vous voyez maintenant que Zotero à inséré les bonnes méta-données de cet article. Supprimez les méta-données incomplètes en faisant un clic droit, puis `Mettre le document à la corbeille`.
+- Recommencez l'opération pour l'autre article que Zotero n'as pas bien réussi à détecter.
+
 #### 3. Installer le module Zotero pour Word ou pour Libreoffice
 
-#### 4. Installer le plugin de Zotero "Better bibtex"
+- Si vous ne l'avez pas fait lors de l'installation, installez le module Zotero pour Microsoft Word ou pour Libreoffice, en cliquant sur `Edition`, `Préférences`, onglet `Citer`, onglet `Traitement de texte`, `Installer le module word` ou `Installer le module Libreoffice`.
+
+#### 4. Installer le plugin de Zotero "Better BibTex"
+
+- Rendez vous sur [ce lien la](https://github.com/retorquere/zotero-better-bibtex/releases/download/v5.4.7/zotero-better-bibtex-5.4.7.xpi) pour télécharger le plugin "Better BibTex"
+
+`r emo::ji("light_bulb")`  *Le plugin "Better BibTex" permet de mieux connecter Zotero à l'utilisation de logiciels qui utilisent du Markdown. Nous allons l'utiliser juste après !*
+
+- Dans la fenêtre de Zotero, allez dans l'onglet `Outils`, puis `Extensions`. Cliquez ensuite sur la petite icône d'engrenage à droite de la fenêtre, puis choisissez l'option "Installer depuis un fichier". Dans la fenêtre qui s'ouvre, sélectionné le fichier du plugin "Better BibTex" que vous avez téléchargé.
+- Redémarrez Zotero.
 
 #### 5. Exporter votre base de donnée de Zotero avec l'option de mise à jour
 
+- Dans la fenêtre de Zotero, allez dans `Fichier`, et sélectionnez l'option `Exporter la bibliothèque`.
+- Dans la liste Format, choisissez le format `Better CSL JSON`
+- Dans les options, choisissez l'option Garder à jour et laissez toutes les autres comme désactivées.
+- Exportez le fichier .bib résultant quelque part sur votre ordinateur.
+
+`r emo::ji("light_bulb")`  *Ce fichier .json contient les informations de toutes les références de votre bibliothèque, associée à un petit code pour chaque que nous allons pouvoir insérer dans des documents en Markdown. En plus de cela, il est gardé automatiquement à jour grace à plugin "Better BibTex"; cela veut dire que chaque fois que vous ajouterez une référence dans Zotero, ce fichier .json sera mis à jour pour qu'elle y soit ajoutée.*
+
 ## Zettlr
 
+### Qu'est-ce que Zettlr ?
+
+**Zettlr est un éditeur de document en Markdown "Académique" qui possède des fonctions complémentaires à celles de Joplin.**
+
+### Qu'est-ce que permet de faire Zettlr ?
+
+Zettlr permet de :
+
+- Éditer des documents en Markdown avec une interface bien plus proche de celle de Microsoft Word ou Libreoffice.
+- Insérer et gérer des références bibliographiques au sein d'un document en Markdown.
+- D'exporter votre document en Markdown dans des formats que Joplin n'est pas encore capable de gérer : .docx (document Word), .odt (document Libreoffice), .html (page web).
+- Gérer des projets entiers (comme des mémoires, une thèse, un rapport, etc.) en Markdown, avec les chapitres séparés en différents fichiers.
+
+`r emo::ji("light_bulb")`  *Zettlr est donc un éditeur de documents en Markdown qui permet de compléter Joplin, en proposant des choses que Joplin n'est pas encore capable de faire. Cependant, sachez que Joplin évolue constamment avec le temps, et que certaines de ces fonctionnalités sont déjà sur le plan de route de Joplin ! Zettlr reste cependant un très beau logiciel qui peut être très agréable à utiliser par lui même, et qui propose presques toutes les fonctions de Joplin.*
+
+### Installation de Zettlr
+
+- Rendez vous sur [la page web de Zettlr](https://www.zettlr.com/) pour télécharger l'installateur correspondant à votre  système d'exploitation.
+- Lancez l'installateur, et suivez les instructions.
+
+### Prise en main de Zettlr
+
+Zettlr à une interface relativement similaire à Joplin, si ce n'est que Zettlr ne présente pas un éditeur séparé en deux parties comme Joplin. Dans l'éditeur de Joplin, certaines parties du texte en Markdown sont déjà mises en forme, et peuvent être modifiées en passant sont curseur dessus.
+
+- **A gauche** se trouve les dossiers ouverts de Zettlr.
+- **A droite** se trouve l'éditeur de Zettlr.
+- **En haut** se trouvent différentes boutons permettant de mettre en forme le document, de l'exporter, etc.
+- **Tout en haut à droite** se trouve le bouton pour faire apparaître la barre latérale de Zettlr, qui permet de d'afficher la table des contenus de la note, mais aussi les références bibliographiques qu'elle contient.
+
+### Exercices
+
+#### 1. Connecter Zettlr à la base de donnée Zotero
+
+- Dans Zettlr, cliquez sur l’icône en forme d'engrenage en haut à gauche de la fenêtre pour ouvrir les paramètres, puis rendez vous dans l'onglet `Exporter`.
+- Cliquez sur le bouton `Choisir un fichier` à coté du champ `Fichier de référence bibliographique`.
+- Dans la fenêtre qui s'ouvre, allez chercher le fichier .json créé précédemment lors des exercices de Zotero.
+
+#### 2. Editer une note de Joplin et insérer 5 références dedans
+
+- Dans Joplin, créez une nouvelle note nommée "Note avec références".
+- Toujours dans Joplin, allez dans Outil, puis cliquez sur Options. Dans l'onglet Général des options, dans le champ Commande de l'éditeur de texte, appuyez sur le bouton pour sélectionner dans la fenêtre qui s'ouvre l'emplacement du programme Zettlr (sur windows, par défaut, il est installé au chemin `C:\Program Files\Zettlr`).
+- Retournez dans la note "Note avec références" dans Joplin. Au dessus de l'éditeur, trouvez la petite icône en forme de carré avec une flèche qui en sort. Elle vous permet d'ouvrir la note présente dans un éditeur externe.
+- Zettlr va normalement s'ouvrir avec la note. Maintenant, copiez le texte suivant dans la note par Zettlr :
+
+`Différentes articles ont été publiés à propos des logiciels open-source [].`
+
+- Dans la partie entre crochets, indiquez les 5 références de tous les articles enregistrés dans les exercices de Zotero. Pour indiquez une référence, tapez le symbole `@`, puis cherchez dans la liste d'auto-complétion la référence dont vous avez besoin.
+
+`r emo::ji("light_bulb")`  *Pour faire différentes références ensembles, il suffit de faire des crochets, et de faire plusieurs références commençant par `@`, et séparées par le symbole `;`.*
+
+#### 3. Voir les références dans la barre latérale
+
+- Ouvrez la note  "Note avec références" dans Zettlr.
+- En haut à droite de Zettlr, trouvez le bouton pour afficher la barre latérale.
+- Dans la barre latérale, trouvez le bouton pour afficher les références du document.
+
+#### 4. Exporter le fichier Markdown en .docx ou en .odt
+
+- Ouvrez la note  "Note avec références" dans Zettlr.
+- En bas de la note, faite un titre de premier niveau nommé "Références".
+- En haut de la fenêtre Zettlr, trouvez le bouton `Exporter le fichier courant`.
+- Exportez la note en `.docx` ou en `.odt` et ouvrez la dans ce format.
+
+#### 5. Découvrir le mode sans distraction
+
+- Ouvrez la note  "Note avec références" dans Zettlr.
+- Allez dans l'onglet `Affichage` de Zettlr, puis cliquez sur `Mode sans distraction`, ou bien faites `Ctrl + J`.
+- Observez les changements de l'interface.
+
 ## Nextcloud
+
+### Qu'est-ce que Nextcloud ?
+
+**Nextcloud est un logiciel de cloud comme Google Drive, qui est open-source et gratuit.**
+
+### Qu'est-ce que permet de faire Nextcloud ?
+
+Nextcloud permet de :
+
+- Avoir un espace de stockage de fichiers en ligne qui vous appartient totalement.
+- Avoir accès à pleins d'applications différentes toutes open-source qui permettent de gérer des listes de taches, des *kanban boards*, des calendriers, des contacts, des notes, des recettes, des cartes, de tracker la position de son téléphone, de collaborer sur des documents, et bien plus encore.
+
+`r emo::ji("light_bulb")`  *Il est totalement possible de synchroniser sa base de donnée Joplin sur un espace Nextcloud. C'est d’ailleurs ce qui est recommandé par les créateurs de Joplin !*
+
+### Installation de Nextcloud
+
+Ici, c'est un peu particulier. **Nextcloud ne peut pas être installé sur votre ordinateur**. Il doit être installé sur un **[serveur informatique](https://fr.wikipedia.org/wiki/Serveur_informatique)**, qui est un ordinateur particulier fait pour répondre aux demandes de "clients" (comme votre ordinateur) via internet. Ce serveur peut appartenir à une compagnie (beaucoup de compagnies louent des serveurs pour pouvoir héberger son site internet, un espace de stockage comme Nextcloud ou d'autre choses); ou bien, vous pouvez en acheter un petit pour vous, comme un [Raspberry Pi](https://fr.wikipedia.org/wiki/Raspberry_Pi).
+
+Nous ne verrons pas ici l'installation de Nextcloud, qui peut être compliquée. Vous aurez cependant une liste d'options pour obtenir un serveur Nextcloud.
+
+**Par un hébergeur tierce (en payant au mois ou à l'année) avec Nextcloud pré-installé :**
+
+- [Hertznet](https://www.hetzner.com/storage/storage-share) : hébergeur allemand, prix très compétitifs, très bonne performance. Mon choix personnel.
+- [Wolkli](https://woelkli.com/fr) : hébergeur Suisse. Beaucoup plus coûteux, mais difficile de faire mieux en terme de protection des données (les lois de la Suisse protège tout accès contre votre gré).
+
+**En achetant votre propre serveur :**
+
+- Acheter un [Raspberry Pi](https://www.buyapi.ca/) et [installer Nextcloud sur celui-ci](https://ownyourbits.com/nextcloudpi/).
+- Acheter un serveur préparé parmi [ceux recommandé par Nextcloud](https://nextcloud.com/devices/).
+
+**Pour cet atelier, nous utiliserons un compte sur un hébergeur qui propose un compte "gratuit" de Nextcloud avec un accès à de nombreuses applications, "Cloudamo".**
+
+- Rendez vous sur la [page principale de Nextcloud](https://nextcloud.com/signup/).
+- Dans la barre au centre, indiquez votre adresse e-mail.
+- Dans la liste des hébergeurs en dessous, choisissez Cloudamo.
+- Cliquez sur `Sign up`.
+- Dans la page qui s'ouvre, choisissez un mot de passe puis cliquez sur Log in.
+- Allez voir dans votre boite mail pour trouver l’e-mail de confirmation de Cloudamo. **Regardez bien dans vos spams**.
+- Cliquez sur le lien de validation qui se trouve dans l'e-mail de Cloudamo, et connectez vous sur la page qui s'ouvre.
+
+`r emo::ji("light_bulb")`  *Si vous décidez d'utiliser Nextcloud et que vous avez apprécié Cloudamo, vous pouvez choisir un abonnement chez cet hébergeur pour obtenir plus d'espace de stockage ! Mais je vous recommande grandement [Hertznet](https://www.hetzner.com/storage/storage-share).*
+
+### Prise en main de Nextcloud
+
+Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icônes qui se trouvent en **haut de l'écran**. **En haut à droite** se trouve une icône qui vous permet de changer différents paramètres liés à votre profil, ou bien de vous déconnecter.
+
+### Exercices
+
+#### 1. Créer des taches de différentes priorités, dans différentes catégories
+
+- Sur Nextcloud, rendez vous dans l'onglet `Tâches`.
+- Dans le menu à gauche, cliquez sur `Ajouter une liste` pour créer une liste de tâches nommées "Personnel". Refaite la même chose pour créer une autre liste nommée "Social".
+
+`r emo::ji("light_bulb")`  *Les listes de tâches, tous comme les calendriers que l'on verra ensuite, sont associés à des couleurs. Utilisez les pour différencier facilement différentes listes, et ainsi catégoriser vos tâches !*
+
+- Dans la liste de tâches "Nextcloud", créez 5 nouvelles taches :
+  - Créer des taches pour l'exercice 1
+  - Comprendre comment Nextcloud fonctionne
+  - Regarder une vidéo de chat mignon
+  - Regarder une vidéo de chien mignon
+  - Faire la vaisselle
+
+- Dans la liste de tâches "Social", créez 2 nouvelles taches :
+  - Appeler ma meilleure amie pour lui dire que je l'apprécie beaucoup
+  - Préparer une soirée
+
+#### 2. Mettre des commentaires dans les taches
+#### 3. Créer et utiliser un Kanban board
+#### 4. Assigner différentes personnes du groupe à différentes taches (Faire des taches très très simples, comme un mini mini projet ?)
+#### 5. Utiliser le calendrier
+#### 6. Synchroniser les taches et le calendrier de Nextcloud avec son téléphone
 
 # Combiner des méthodes d'organisation connues et les logiciels que vous avez découvert
 
