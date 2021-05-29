@@ -1,0 +1,191 @@
+## Nextcloud
+
+### Qu'est-ce que Nextcloud ?
+
+**Nextcloud est un logiciel de cloud comme Google Drive, qui est open-source et gratuit.**
+
+### Qu'est-ce que permet de faire Nextcloud ?
+
+Nextcloud permet de :
+
+- Avoir un espace de stockage de fichiers en ligne qui vous appartient totalement.
+- Avoir accès à pleins d'applications différentes toutes open-source qui permettent de gérer des listes de taches, des *kanban boards*, des calendriers, des contacts, des notes, des recettes, des cartes, de tracker la position de son téléphone, de collaborer sur des documents, et bien plus encore.
+
+> `r emo::ji("light_bulb")`  *Il est totalement possible de synchroniser sa base de donnée Joplin sur un espace Nextcloud. C'est d’ailleurs ce qui est recommandé par les créateurs de Joplin !*
+
+### Installation de Nextcloud
+
+Ici, c'est un peu particulier. **Nextcloud ne peut pas être installé sur votre ordinateur**. Il doit être installé sur un **[serveur informatique](https://fr.wikipedia.org/wiki/Serveur_informatique)**, qui est un ordinateur particulier fait pour répondre aux demandes de "clients" (comme votre ordinateur) via internet. Ce serveur peut appartenir à une compagnie (beaucoup de compagnies louent des serveurs pour pouvoir héberger son site internet, un espace de stockage comme Nextcloud ou d'autre choses); ou bien, vous pouvez en acheter un petit pour vous, comme un [Raspberry Pi](https://fr.wikipedia.org/wiki/Raspberry_Pi).
+
+Nous ne verrons pas ici l'installation de Nextcloud, qui peut être compliquée. Vous aurez cependant une liste d'options pour obtenir un serveur Nextcloud.
+
+**Par un hébergeur tierce (en payant au mois ou à l'année) avec Nextcloud pré-installé :**
+
+- [Hertznet](https://www.hetzner.com/storage/storage-share) : hébergeur allemand, prix très compétitifs, très bonne performance. Mon choix personnel.
+- [Wolkli](https://woelkli.com/fr) : hébergeur Suisse. Beaucoup plus coûteux, mais difficile de faire mieux en terme de protection des données (les lois de la Suisse protège tout accès contre votre gré).
+
+**En achetant votre propre serveur :**
+
+- Acheter un [Raspberry Pi](https://www.buyapi.ca/) et [installer Nextcloud sur celui-ci](https://ownyourbits.com/nextcloudpi/).
+- Acheter un serveur préparé parmi [ceux recommandé par Nextcloud](https://nextcloud.com/devices/).
+
+**Pour cet atelier, nous utiliserons un compte sur un hébergeur qui propose un compte "gratuit" de Nextcloud avec un accès à de nombreuses applications, "Cloudamo".**
+
+- Rendez vous sur la [page principale de Nextcloud](https://nextcloud.com/signup/).
+- Dans la barre au centre, indiquez votre adresse e-mail.
+- Dans la liste des hébergeurs en dessous, choisissez Cloudamo.
+- Cliquez sur `Sign up`.
+- Dans la page qui s'ouvre, choisissez un mot de passe puis cliquez sur Log in.
+- Allez voir dans votre boite mail pour trouver l’e-mail de confirmation de Cloudamo. **Regardez bien dans vos spams**.
+- Cliquez sur le lien de validation qui se trouve dans l'e-mail de Cloudamo, et connectez vous sur la page qui s'ouvre.
+
+> `r emo::ji("light_bulb")`  *Si vous décidez d'utiliser Nextcloud et que vous avez apprécié Cloudamo, vous pouvez choisir un abonnement chez cet hébergeur pour obtenir plus d'espace de stockage ! Mais je vous recommande grandement [Hertznet](https://www.hetzner.com/storage/storage-share).*
+
+### Prise en main de Nextcloud
+
+Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icônes qui se trouvent en **haut de l'écran**. **En haut à droite** se trouve une icône qui vous permet de changer différents paramètres liés à votre profil, ou bien de vous déconnecter.
+
+### Exercices
+
+#### 1. Créer des taches de différentes priorités, dans différentes catégories
+
+- Sur Nextcloud, rendez vous dans l'onglet `Tâches`.
+- Dans le menu à gauche, cliquez sur `Ajouter une liste` pour créer une liste de tâches nommée "Personnel". Refaite la même chose pour créer une autre liste nommée "Social".
+
+> `r emo::ji("light_bulb")`  *Les listes de tâches, tous comme les calendriers que l'on verra ensuite, sont associées à des couleurs. Utilisez les pour différencier facilement différentes listes, et ainsi catégoriser vos tâches !*
+
+- Dans la liste de tâches "Nextcloud", créez 5 nouvelles taches :
+  - Créer des taches pour l'exercice 1
+  - Comprendre comment Nextcloud fonctionne
+  - Regarder une vidéo de chat mignon
+  - Regarder une vidéo de chien mignon
+  - Faire la vaisselle
+
+Pour la tache "Comprendre comment Nextcloud fonctionne", utilisez le petit bouton a droite de la tache pour ajouter trois sous-taches :
+  - Comprendre comment fonctionne les tâches de Nextcloud
+  - Comprendre comment fonctionne les tableaux *kanban* de Nextcloud
+  - Comprendre comment fonctionne les agendas de Nextcloud
+
+- Dans la liste de tâches "Social", créez 2 nouvelles taches :
+  - Appeler ma meilleure amie pour lui dire que je l'apprécie beaucoup
+  - Préparer une soirée
+
+- Cliquez sur chacune de ces taches tour à tour. Dans le menu qui s'ouvre sur la droite, définissez une priorité pour ces taches.
+
+- En haut à droite à l'écran, trouvez le bouton pour choisir comment les taches sont triées. Triez les par priorité, et observez comment elles s'organisent.
+
+#### 2. Mettre des commentaires dans les taches
+
+- Sur Nextcloud, rendez vous dans l'onglet `Tâches`.
+- Cliquez sur chacune des taches créées durant l'exercice 1 tour à tour.
+  - Dans le menu qui s'ouvre sur la droite, écrivez quelques détails sur la tache. Par exemple : la vidéo de chien à regarder doit concerner un Samoyed. Vous pouvez même y mettre un lien pour une vidéo que vous souhaitez regarder plus tard
+
+#### 3. Créer et utiliser un Kanban board
+
+- Sur Nextcloud, rendez vous dans l'onglet `Deck`.
+- Dans le menu à gauche, utilisez `Ajouter un tableau` pour créer un nouveau tableau *kanban* nommé "Projet de l'atelier".
+- Rendez vous dans ce nouveau tableau, et créez 3 colonnes dans celui-ci : "A faire", "En cours", et "Terminé".
+- Dans la colonne "A faire", utilisez le petit bouton `+` pour créer 5 nouvelles "cartes" :
+  - Découvrir Joplin
+  - Découvrir Zotero
+  - Découvrir Zettlr
+  - Découvrir Nextcloud
+  - Découvrir des méthodes pour les mettre en oeuvre
+- Déplacez les cartes dans les bonnes colonnes : les trois première doivent aller dans la colonne "Terminé". La 4eme doit aller dans la colonne "à faire". La dernière doit rester ou elle est.
+- Cliquez sur la carte "découvrir Nextcloud". Dans la description de celle-ci, écrivez le texte suivant :
+```
+- [ ] Comprendre ce qu'est Nextcloud
+- [ ] Comprendre a quoi sert Nextcloud
+- [ ] Faire l'exercice 1
+- [ ] Faire l'exercice 2
+- [ ] Faire l'exercice 3
+- [ ] Faire l'exercice 4
+- [ ] Faire l'exercice 5
+- [ ] Faire l'exercice 6
+```
+- Sauvegardez la description de la carte ainsi modifiée. Fermez la fenêtre de la carte, et observez ce qui est maintenant inscrit dessus dans le tableau.
+- Rouvrez la fenêtre de la carte en cliquant dessus. Cochez les cases de la descriptions à l'aide du clic de votre souris. Revenez dans le tableau, et regardez ce qui se passe.
+- Tout en haut à droite, trouvez le bouton qui ouvre le menu du tableau. Allez dans l'onglet `Etiquettes`.
+- Créez deux nouvelles étiquettes, en choisissant les couleurs que vous souhaitez : "Logiciels" et "Méthodes".
+- Ouvrez la description des cartes pour leur mettre l'étiquette qui leur correspond. Regardez le résultat visuel de votre tableau.
+
+#### 4. Utiliser le calendrier
+
+- Sur Nextcloud, rendez vous dans l'onglet `Agenda`.
+- A coté du bouton `Aujourd'hui` dans le menu à gauche, utilisez le bouton qui permet de changer la vue (jour, semaine, mois, etc.). Essayez les différentes vues, puis sélectionnez la vue du mois.
+- Dans le menu à gauche, sélectionnez l'agenda "Personnel".
+
+> `r emo::ji("light_bulb")`  *Les groupes de taches et d’événements de l'agenda sont au sein d'un même fichier dans Nextcloud ! C'est parce que tous deux sont au format nommé "[ICalendar](https://fr.wikipedia.org/wiki/ICalendar)". Le format ICalendar est un formé de données très utilisé par quasiment toutes les boites mails qui existent. C'est le même qui est utilisé, généralement, lorsque vous recevez une invitation à un événement par mail ! C'est aussi un format qui rend la synchronisation avec votre téléphone très facile, comme nous allons le voir bientôt. Cependant, vos taches n' apparaîtront pas dans votre calendrier, et vice-versa. Cela va peut être être possible dans une prochaine update des applications Tâches et Agenda.*
+
+- Double-cliquez dans la case correspondant à la journée aujourd'hui pour faire apparaître la fenêtre vous permettant de créer un nouvel événement.
+- Nommez cet événement "Fin des exercices de Nextcloud". Programmez le pour aujourd'hui, et pour débuter dans 10 minutes. Sa durée n'as pas d'importance.
+- Créez un nouvel événement sur la date d'aujourd'hui, nommé "Atelier pour découvrir des logiciels open-source pour s'organiser". Cochez la case pour indiquer que cet événement sera sur la journée entière.
+- Dans le menu à gauche, sélectionnez l'agenda "Social".
+- Créez un nouvel événement dans deux jours, nommé "Rendez vous avec moi-même", de 15h00 jusqu’à 17h00.
+
+> `r emo::ji("light_bulb")`  *Comme vous le voyez, les taches qui s'affichent dans votre calendrier sont associées à la couleur de l'agenda dans lequel elles se trouvent ! Ceci est très pratique pour pouvoir différencier visuellement et très rapidement quel événement concerne quel sphère de votre vie. Comme pour les listes de taches, profitez en !*
+
+#### 5. Synchroniser les taches de Nextcloud avec son téléphone
+
+- Saisissez vous de votre téléphone portable.
+
+- Si vous êtes sur un téléphone android :
+  - Rendez vous dans le *Google Play Store* pour télécharger l'application gratuite et open source "[Tasks.org](https://play.google.com/store/apps/details?id=org.tasks&hl=en_US&gl=US)".
+  - Ouvrez l'application, et touchez l’icône du menu en haut à gauche. Rendez vous dans la section `Paramètres`.
+  - Touchez l'option `Ajouter un compte`, puis choisissez un compte de type `CalDAV`.
+  - Dans le champ `Nom d'utilisateur`, entrez l'adresse mail que vous avez utilisée pour vous inscrire à Cloudamo.
+  - Dans le champ `Mot de passe`, entrez le mot de passe que vous utilisez pour vos connecter sur Cloudamo.
+  - Dans le champ `URL`, entrez `https://us.cloudamo.com`.
+  - Validez, puis laissez l'application faire sa synchronisation.
+  - Dans le menu de l'application, vérifiez que vous avez maintenant accès aux listes de tâches que vous avez créé sur Cloudamo. Cliquez sur les taches pour voir que vous pouvez les éditer dans tous leurs détails : leur priorité, leur notes, leurs sous-taches, etc.
+
+> `r emo::ji("light_bulb")`  *Tasks.org est une application totalement open-source et gratuite pour gérer vos taches. Elle possède de très nombreuses fonctionnalités. Changez son thème, mettez des icônes pour vos listes de taches, utilisez ses widgets pour ajouter rapidement des taches depuis votre écran d'accueil, faites des taches récurrentes, et bien d'autres encore !*
+
+- Si vous êtes sur un téléphone Apple :
+  - Ouvrez l'application `Rappels`.
+  - Sélectionnez l'option `Calendrier`.
+  - Sélectionnez l'option `Comptes`, puis `Ajouter un compte`.
+  - Sélectionnez l'option `Autre` comme type de compte, puis `Ajouter un compte CalDAV`.
+  - Dans le champ `URL`, entrez `https://us.cloudamo.com`.
+  - Dans le champ `Nom d'utilisateur`, entrez l'adresse mail que vous avez utilisée pour vous inscrire à Cloudamo.
+  - Dans le champ `Mot de passe`, entrez le mot de passe que vous utilisez pour vos connecter sur Cloudamo.
+  - Laissez l'application faire sa synchronisation.
+  - Allez dans l'application `Rappels` et vérifiez que vous avez maintenant accès aux listes de tâches que vous avez créé sur Cloudamo.
+
+> `r emo::ji("warning")` ***Il semble que IOS n'autorisera pas la communication avec votre compte Nextcloud si celui-ci n'est pas sur un serveur qui propose une communication dite "chiffrée" à l'aide d'un certificat SSL valide. Si vous avez des problèmes, vous pouvez télécharger une autre application du appstore qui peut s'en charger, comme [2Do](https://apps.apple.com/us/app/2do-todo-list-tasks-notes/id303656546).***
+
+> `r emo::ji("warning")` ***Les téléphone Apple n'ont pas beaucoup d'applications open-source et privées à leur disposition. Il m'est impossible de dire qui pourra avoir accès à vos données en utilisant ces applications. A l'inverse, Tasks.org sur Android ne présente pas ce problème. A vos risques et périls !***
+
+#### 6. Synchroniser le calendrier de Nextcloud avec son téléphone
+
+- Saisissez vous de votre téléphone portable.
+
+- Si vous êtes sur un téléphone android :
+  - Rendez vous dans le *Google Play Store* pour télécharger l'application gratuite et open source "[DAVx5](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US)".
+  - Ouvrez l'application, et atteignez l'écran qui vous permet d'ajouter un compte. Choisissez l'option `Connection avec une URL et un nom d'utilisateur`.
+  - Dans le champ `URL`, entrez `https://us.cloudamo.com`.
+  - Dans le champ `Nom d'utilisateur`, entrez l'adresse mail que vous avez utilisée pour vous inscrire à Cloudamo.
+  - Dans le champ `Mot de passe`, entrez le mot de passe que vous utilisez pour vos connecter sur Cloudamo.
+  - Laissez l'application faire sa synchronisation.
+  - Allez dans le calendrier de votre téléphone. Si vous n'en avez pas encore un, vous pouvez télécharger l'application open-source [Simple calendar](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=en_US&gl=US).
+
+> `r emo::ji("light_bulb")`  *Malgré son nom étrange, DAVx5 est une fantastique application. Elle est sécurisée et recommandée par les développeurs de Nextcloud pour synchroniser votre téléphone avec vos informations sur Nextcloud. Si vous choisissez un autre hébergeur de Nextcloud, il vous suffira d'entrer l'URL du serveur Nextcloud auquel vous vous connectez à la place de celle de Cloudamo.*
+
+> `r emo::ji("warning")` ***Sur Android, si vous utilisez le calendrier "Google", il m'est impossible de savoir si les données de votre calendrier pourront être lues ou partagées par Google. Je vous recommande d'utiliser une application open-source comme Simple calendar à la place.***
+
+- Si vous êtes sur un téléphone Apple :
+  - Ouvrez l'application `Rappels`.
+  - Sélectionnez l'option `Calendrier`.
+  - Sélectionnez l'option `Comptes`, puis `Ajouter un compte`.
+  - Sélectionnez l'option `Autre` comme type de compte, puis `Ajouter un compte CalDAV`.
+  - Dans le champ `URL`, entrez `https://us.cloudamo.com`.
+  - Dans le champ `Nom d'utilisateur`, entrez l'adresse mail que vous avez utilisée pour vous inscrire à Cloudamo.
+  - Dans le champ `Mot de passe`, entrez le mot de passe que vous utilisez pour vos connecter sur Cloudamo.
+  - Laissez l'application faire sa synchronisation.
+  - Allez dans le calendrier de votre téléphone.
+
+> `r emo::ji("warning")` ***Les téléphone Apple n'ont pas beaucoup d'applications open-source et privées à leur disposition. Il m'est impossible de dire qui pourra avoir accès à vos données en utilisant ces applications.***
+
+- Quelque soit votre téléphone :
+  - Vérifiez dans les paramètres de votre calendrier que les agenda "Personnel" et "Social" sont bien synchronisés.
+  - Vérifiez que les événement que vous avez crées précédemment sont affichées.

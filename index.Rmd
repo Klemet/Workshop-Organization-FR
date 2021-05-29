@@ -1,0 +1,51 @@
+---
+title: "Atelier organisation et open-source"
+author: "Clément Hardy"
+date: "`r Sys.Date()`"
+url: 'https://github.com/Klemet/Workshop-Organization-FR'
+github-repo: "Klemet/Workshop-Organization-FR"
+cover-image: "images/cover.png"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+description: "Ces pages contiennent le contenu d'un atelier de découverte de logiciels open-source dans des buts d'organisation personnelle, créé par Clément Hardy."
+---
+
+# Bienvenue !
+
+* * *
+
+**Avant de commencer :**
+
+- `r emo::ji("black_nib")` *Changez l'apparence de la page pour votre confort en cliquant sur le bouton `A` en haut à gauche de l'écran.*
+- `r emo::ji("arrow_left")` `r emo::ji("arrow_right")` *Déplacez vous entre les pages en utilisant les flèches gauches ou droite, ou bien en utilisant la table des matières sur la gauche.*
+- `r emo::ji("clock4")` *Prévoyez 3 à 4 heures de lecture si vous souhaitez tout lire en détail.*
+
+**Bonne lecture !**
+
+* * *
+
+## Introduction {.unlisted .unnumbered}
+
+- **Nos vies modernes nous mettent constamment en contact avec de l'information**. Tellement d'informations qu'il peut être très difficile de la structurer, mais aussi de la retrouver.
+
+- **Différents logiciels existent aujourd'hui pour alléger le travail que nous demandons à notre cerveaux pour gérer ces informations**. Cependant, ces logiciels sont souvent possédés par des grandes entreprises qui maintiennent un flou sur leur accès aux données entreposées, et sur leur partage à d'autres compagnies ou agences de renseignement. Ils présentent aussi des méthodes ou des fonctionnements parfois très rigides, et qui ne sont peut être pas adaptés à vous.
+
+- **Il est cependant possible de profiter des bons cotés de la technologie afin de pouvoir bien naviguer dans cet océan d'informations, sans pour autant compromettre sa vie privée**. C'est le but de cet atelier, qui vous présentera différents logiciels open-source et gratuits pour vous aider à mieux gérer l'information que vous rencontrez au quotidien, tout en ayant le contrôle sur vos données. Il vous présentera aussi différentes méthodes d'organisation de l'information pour vous aider à mieux la gérer, en bénéficiant du fait d'utiliser différents logiciels complémentaires pour cela.
+
+- **Le but de cet atelier n'est pas de vous présenter une méthodologie rigide que vous devriez suivre à tout prix**. Cet atelier est la pour vous encourage à la découverte et à l’expérimentation, avec un bémol important : retenez bien que la solution parfaite n’existe pas, et que l’expérimentation peut être épuisante si elle se fait sur de trop longues durées. Faites vous confiance, et laissez vous le temps d'essayer un système pendant un moment avant de chercher à le modifier !
+
+## Objectifs de l'atelier {.unlisted .unnumbered}
+
+- Découvrir et apprendre à utiliser les fonctions de base des les logiciels suivants :
+  - `r emo::ji("white_check_mark")` Joplin
+  - `r emo::ji("white_check_mark")` Zotero
+  - `r emo::ji("white_check_mark")`Zettlr
+  - `r emo::ji("white_check_mark")` Nextcloud
+- Apprendre à utiliser ces différents logiciels ensemble pour gérer l'information avec les méthodes suivantes :
+  - `r emo::ji("white_check_mark")` La méthode du *Zettelkasten*
+  - `r emo::ji("white_check_mark")` La méthode PARA
+  - `r emo::ji("white_check_mark")` La méthode de la *inbox*
+  - `r emo::ji("white_check_mark")` Un exemple d'organisation globale couplant *Zettelkasten* et PARA

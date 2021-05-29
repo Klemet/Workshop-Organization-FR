@@ -1,0 +1,82 @@
+## Zotero
+
+### Qu'est-ce que Zotero ?
+
+**Zotero est un logiciel de gestion de bibliographie.**
+
+### Qu'est-ce que permet de faire Zotero ?
+
+Zotero permet de :
+
+- **Facilement sauvegarder toutes les métadonnées associés à un document **(titre, auteurs, endroit de publication, date, URL, etc.).
+- **Associer des notes ou des étiquettes** à chaque références.
+- **Trier ces références par catégorie**s, ou par leurs caractéristiques pour les retrouver facilement.
+- **Télécharger les fichiers PDF associés** quand cela est possible.
+- **Exporter des fichiers de bibliographie** qui contiennent tous les détails de références pour pouvoir les insérer dans un document.
+- **Insérer et gérer la bibliographie d'un document** dans Microsoft Word, Libreoffice ou Google Doc a l'aide ses plugins.
+
+### Installation de Zotero
+
+- Rendez vous sur le [site de Zotero](https://www.zotero.org/) et téléchargez l'installateur.
+- Suivez les instruction pour l'installer.
+- Si Zotero vous propose d'installer le module pour Word ou Libreoffice, vous pouvez le faire maintenant; sinon, cela vous sera proposé comme exercice.
+- Ouvrez Zotero. Dans sa fenêtre, allez dans l'onglet `Outils`, et cliquez sur l'option `Installer le Connecteur Zotero dans le navigateur`. Suivez les instructions pour installer le connecteur.
+
+### Prise en main de Zotero
+
+#### L'interface principale
+
+Dans son interface principale, Zotero vous propose sur la gauche un menu dans lequel vous pouvez créer différentes "collections" qui contiennent des références.
+
+- **Au milieu**, vous trouverez la liste des références dans la collection dans laquelle vous vous trouvez.
+
+- **A droite**, vous trouvez les détails d'une référence sur laquelle vous avez cliqué.
+
+- **En haut**, vous trouverez différentes options pour créer une référence vous même. Cependant, cela n'est pas nécessaire, grâce au connecteur de votre navigateur.
+
+#### Le Connecteur de Zotero pour votre navigateur web
+
+Lorsque vous allez sur une page web, que vous lisez un article de blog ou un article scientifique dans votre navigateur internet, le connecteur Zotero vous permet de sauvegarder la page que vous lisez dans votre bibliothèque de références en un seul clic.
+
+Pour cela, il vous suffit de cliquer sur le bouton du connecteur dans votre navigateur internet, normalement situé en haut à droite. Celui-ci peut prendre différentes icônes, selon la page sur laquelle vous vous trouvez. **Zotero détectera automatiquement le document auquel la page fait référence, que ce soit un post sur un blog, un livre, ou un article scientifique.**
+
+### Exercices
+
+#### 1. Créer une collection
+
+- En haut à gauche de la fenêtre de Zotero, trouvez le bouton "créer une nouvelle collection". Utilisez le pour créer une nouvelle collection d'articles nommée "Exercice".
+
+#### 2. Récuperer 5 références différentes
+
+- Dans la fenêtre de Zotero, assurez vous que vous êtes bien dans la collection d'articles nommée "Exercice".
+- Aller sur les liens suivant dans votre navigateur internet : [Lien 1](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.1060.0560), [lien 2](https://www.sciencedirect.com/science/article/abs/pii/S0164121202000651), [lien 3](https://www.jstor.org/stable/25148740?seq=1#metadata_info_tab_contents), [lien 4](http://adaptknowledge.com/wp-content/uploads/rapidintake/PI_CL/media/InnArticle.pdf), [lien 5](https://opencommons.uconn.edu/libr_pubs/7/).
+- Pour chacun des liens, utilisez le bouton du connecteur Zotero dans votre navigateur internet pour que Zotero sauvegarde directement les méta-données liées aux 5 articles dans votre bibliothèque.
+- Regardez les articles dans la fenêtre Zotero : Zotero n'as pas pu trouver toutes les méta-données pour deux d'entre eux.
+- Aller sur [Google Scholar](https://scholar.google.ca/). Dans la barre de recherche, tapez le titre d'un des deux articles que Zotero n'as pas réussi à correctement détecter.
+- Dans la liste des résultats de Google Scholar, trouvez l'article. Toujours dans cette liste, trouvez le bouton en formes de guillemets sous les informations de l'article. Dans la pop-up qui s'ouvre, cliquez sur le lien avec écrit "BibTex".
+- Google Scholar vous amène sur une page ou se trouve un séquence de texte. Il s'agit des informations liées à cette référence au format appelé "BibTex". Sélectionnez le texte et faite `copier` ou `Ctrl  + C`.
+- Retournez dans la fenêtre Zotero, allez dans l'onglet `Fichier`, puis cliquez sur `Importer depuis le presse-papier`.
+- Vous voyez maintenant que Zotero à inséré les bonnes méta-données de cet article. Supprimez les méta-données incomplètes en faisant un clic droit, puis `Mettre le document à la corbeille`.
+- Recommencez l'opération pour l'autre article que Zotero n'as pas bien réussi à détecter.
+
+#### 3. Installer le module Zotero pour Word ou pour Libreoffice
+
+- Si vous ne l'avez pas fait lors de l'installation, installez le module Zotero pour Microsoft Word ou pour Libreoffice, en cliquant sur `Edition`, `Préférences`, onglet `Citer`, onglet `Traitement de texte`, `Installer le module word` ou `Installer le module Libreoffice`.
+
+#### 4. Installer le plugin de Zotero "Better BibTex"
+
+- Rendez vous sur [ce lien la](https://github.com/retorquere/zotero-better-bibtex/releases/download/v5.4.7/zotero-better-bibtex-5.4.7.xpi) pour télécharger le plugin "Better BibTex"
+
+> `r emo::ji("light_bulb")`  *Le plugin "Better BibTex" permet de mieux connecter Zotero à l'utilisation de logiciels qui utilisent du Markdown. Nous allons l'utiliser juste après !*
+
+- Dans la fenêtre de Zotero, allez dans l'onglet `Outils`, puis `Extensions`. Cliquez ensuite sur la petite icône d'engrenage à droite de la fenêtre, puis choisissez l'option "Installer depuis un fichier". Dans la fenêtre qui s'ouvre, sélectionné le fichier du plugin "Better BibTex" que vous avez téléchargé.
+- Redémarrez Zotero.
+
+#### 5. Exporter votre base de donnée de Zotero avec l'option de mise à jour
+
+- Dans la fenêtre de Zotero, allez dans `Fichier`, et sélectionnez l'option `Exporter la bibliothèque`.
+- Dans la liste Format, choisissez le format `Better CSL JSON`
+- Dans les options, choisissez l'option Garder à jour et laissez toutes les autres comme désactivées.
+- Exportez le fichier .bib résultant quelque part sur votre ordinateur.
+
+> `r emo::ji("light_bulb")`  *Ce fichier .json contient les informations de toutes les références de votre bibliothèque, associée à un petit code pour chaque que nous allons pouvoir insérer dans des documents en Markdown. En plus de cela, il est gardé automatiquement à jour grace à plugin "Better BibTex"; cela veut dire que chaque fois que vous ajouterez une référence dans Zotero, ce fichier .json sera mis à jour pour qu'elle y soit ajoutée.*

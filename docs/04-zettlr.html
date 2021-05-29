@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Atelier organisation et open-source</title>
+  <title>Zettlr | Atelier organisation et open-source</title>
   <meta name="description" content="Ces pages contiennent le contenu d’un atelier de découverte de logiciels open-source dans des buts d’organisation personnelle, créé par Clément Hardy." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Atelier organisation et open-source" />
+  <meta property="og:title" content="Zettlr | Atelier organisation et open-source" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://github.com/Klemet/Workshop-Organization-FR" />
   <meta property="og:image" content="https://github.com/Klemet/Workshop-Organization-FR/images/cover.png" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="Klemet/Workshop-Organization-FR" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Atelier organisation et open-source" />
+  <meta name="twitter:title" content="Zettlr | Atelier organisation et open-source" />
   
   <meta name="twitter:description" content="Ces pages contiennent le contenu d’un atelier de découverte de logiciels open-source dans des buts d’organisation personnelle, créé par Clément Hardy." />
   <meta name="twitter:image" content="https://github.com/Klemet/Workshop-Organization-FR/images/cover.png" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="01-logiciels.html"/>
+<link rel="prev" href="03-zotero.html"/>
+<link rel="next" href="05-nextcloud.html"/>
 <script src="libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -144,50 +144,94 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Atelier organisation et open-source</h1>
-<p class="author"><em>Clément Hardy</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>2021-05-30</em></p>
+<div id="zettlr" class="section level2">
+<h2>Zettlr</h2>
+<div id="quest-ce-que-zettlr" class="section level3">
+<h3>Qu’est-ce que Zettlr ?</h3>
+<p><strong>Zettlr est un éditeur de document en Markdown “Académique” qui possède des fonctions complémentaires à celles de Joplin.</strong></p>
 </div>
-<div id="bienvenue" class="section level1">
-<h1>Bienvenue !</h1>
-<hr />
-<p><strong>Avant de commencer :</strong></p>
+<div id="quest-ce-que-permet-de-faire-zettlr" class="section level3">
+<h3>Qu’est-ce que permet de faire Zettlr ?</h3>
+<p>Zettlr permet de :</p>
 <ul>
-<li>✒️ <em>Changez l’apparence de la page pour votre confort en cliquant sur le bouton <code>A</code> en haut à gauche de l’écran.</em></li>
-<li>⬅️ ➡️ <em>Déplacez vous entre les pages en utilisant les flèches gauches ou droite, ou bien en utilisant la table des matières sur la gauche.</em></li>
-<li>🕓 <em>Prévoyez 3 à 4 heures de lecture si vous souhaitez tout lire en détail.</em></li>
+<li>Éditer des documents en Markdown avec une interface bien plus proche de celle de Microsoft Word ou Libreoffice.</li>
+<li>Insérer et gérer des références bibliographiques au sein d’un document en Markdown.</li>
+<li>D’exporter votre document en Markdown dans des formats que Joplin n’est pas encore capable de gérer : .docx (document Word), .odt (document Libreoffice), .html (page web).</li>
+<li>Gérer des projets entiers (comme des mémoires, une thèse, un rapport, etc.) en Markdown, avec les chapitres séparés en différents fichiers.</li>
 </ul>
-<p><strong>Bonne lecture !</strong></p>
-<hr />
-<div id="introduction" class="section level2 unlisted unnumbered">
-<h2>Introduction</h2>
+<blockquote>
+<p>💡 <em>Zettlr est donc un éditeur de documents en Markdown qui permet de compléter Joplin, en proposant des choses que Joplin n’est pas encore capable de faire. Cependant, sachez que Joplin évolue constamment avec le temps, et que certaines de ces fonctionnalités sont déjà sur le plan de route de Joplin ! Zettlr reste cependant un très beau logiciel qui peut être très agréable à utiliser par lui même, et qui propose presques toutes les fonctions de Joplin.</em></p>
+</blockquote>
+</div>
+<div id="installation-de-zettlr" class="section level3">
+<h3>Installation de Zettlr</h3>
 <ul>
-<li><p><strong>Nos vies modernes nous mettent constamment en contact avec de l’information</strong>. Tellement d’informations qu’il peut être très difficile de la structurer, mais aussi de la retrouver.</p></li>
-<li><p><strong>Différents logiciels existent aujourd’hui pour alléger le travail que nous demandons à notre cerveaux pour gérer ces informations</strong>. Cependant, ces logiciels sont souvent possédés par des grandes entreprises qui maintiennent un flou sur leur accès aux données entreposées, et sur leur partage à d’autres compagnies ou agences de renseignement. Ils présentent aussi des méthodes ou des fonctionnements parfois très rigides, et qui ne sont peut être pas adaptés à vous.</p></li>
-<li><p><strong>Il est cependant possible de profiter des bons cotés de la technologie afin de pouvoir bien naviguer dans cet océan d’informations, sans pour autant compromettre sa vie privée</strong>. C’est le but de cet atelier, qui vous présentera différents logiciels open-source et gratuits pour vous aider à mieux gérer l’information que vous rencontrez au quotidien, tout en ayant le contrôle sur vos données. Il vous présentera aussi différentes méthodes d’organisation de l’information pour vous aider à mieux la gérer, en bénéficiant du fait d’utiliser différents logiciels complémentaires pour cela.</p></li>
-<li><p><strong>Le but de cet atelier n’est pas de vous présenter une méthodologie rigide que vous devriez suivre à tout prix</strong>. Cet atelier est la pour vous encourage à la découverte et à l’expérimentation, avec un bémol important : retenez bien que la solution parfaite n’existe pas, et que l’expérimentation peut être épuisante si elle se fait sur de trop longues durées. Faites vous confiance, et laissez vous le temps d’essayer un système pendant un moment avant de chercher à le modifier !</p></li>
+<li>Rendez vous sur <a href="https://www.zettlr.com/">la page web de Zettlr</a> pour télécharger l’installateur correspondant à votre système d’exploitation.</li>
+<li>Lancez l’installateur, et suivez les instructions.</li>
 </ul>
 </div>
-<div id="objectifs-de-latelier" class="section level2 unlisted unnumbered">
-<h2>Objectifs de l’atelier</h2>
+<div id="prise-en-main-de-zettlr" class="section level3">
+<h3>Prise en main de Zettlr</h3>
+<p>Zettlr à une interface relativement similaire à Joplin, si ce n’est que Zettlr ne présente pas un éditeur séparé en deux parties comme Joplin. Dans l’éditeur de Joplin, certaines parties du texte en Markdown sont déjà mises en forme, et peuvent être modifiées en passant sont curseur dessus.</p>
 <ul>
-<li>Découvrir et apprendre à utiliser les fonctions de base des les logiciels suivants :
+<li><strong>A gauche</strong> se trouve les dossiers ouverts de Zettlr.</li>
+<li><strong>A droite</strong> se trouve l’éditeur de Zettlr.</li>
+<li><strong>En haut</strong> se trouvent différentes boutons permettant de mettre en forme le document, de l’exporter, etc.</li>
+<li><strong>Tout en haut à droite</strong> se trouve le bouton pour faire apparaître la barre latérale de Zettlr, qui permet de d’afficher la table des contenus de la note, mais aussi les références bibliographiques qu’elle contient.</li>
+</ul>
+</div>
+<div id="exercices-2" class="section level3">
+<h3>Exercices</h3>
+<div id="connecter-zettlr-à-la-base-de-donnée-zotero" class="section level4">
+<h4>1. Connecter Zettlr à la base de donnée Zotero</h4>
 <ul>
-<li>✅ Joplin</li>
-<li>✅ Zotero</li>
-<li>✅Zettlr</li>
-<li>✅ Nextcloud</li>
-</ul></li>
-<li>Apprendre à utiliser ces différents logiciels ensemble pour gérer l’information avec les méthodes suivantes :
+<li>Dans Zettlr, cliquez sur l’icône en forme d’engrenage en haut à gauche de la fenêtre pour ouvrir les paramètres, puis rendez vous dans l’onglet <code>Exporter</code>.</li>
+<li>Cliquez sur le bouton <code>Choisir un fichier</code> à coté du champ <code>Fichier de référence bibliographique</code>.</li>
+<li>Dans la fenêtre qui s’ouvre, allez chercher le fichier .json créé précédemment lors des exercices de Zotero.</li>
+</ul>
+</div>
+<div id="editer-une-note-de-joplin-et-insérer-5-références-dedans" class="section level4">
+<h4>2. Editer une note de Joplin et insérer 5 références dedans</h4>
 <ul>
-<li>✅ La méthode du <em>Zettelkasten</em></li>
-<li>✅ La méthode PARA</li>
-<li>✅ La méthode de la <em>inbox</em></li>
-<li>✅ Un exemple d’organisation globale couplant <em>Zettelkasten</em> et PARA</li>
-</ul></li>
+<li>Dans Joplin, créez une nouvelle note nommée “Note avec références.”</li>
+<li>Toujours dans Joplin, allez dans Outil, puis cliquez sur Options. Dans l’onglet Général des options, dans le champ Commande de l’éditeur de texte, appuyez sur le bouton pour sélectionner dans la fenêtre qui s’ouvre l’emplacement du programme Zettlr (sur windows, par défaut, il est installé au chemin <code>C:\Program Files\Zettlr</code>).</li>
+<li>Retournez dans la note “Note avec références” dans Joplin. Au dessus de l’éditeur, trouvez la petite icône en forme de carré avec une flèche qui en sort. Elle vous permet d’ouvrir la note présente dans un éditeur externe.</li>
+<li>Zettlr va normalement s’ouvrir avec la note. Maintenant, copiez le texte suivant dans la note par Zettlr :</li>
+</ul>
+<p><code>Différentes articles ont été publiés à propos des logiciels open-source [].</code></p>
+<ul>
+<li>Dans la partie entre crochets, indiquez les 5 références de tous les articles enregistrés dans les exercices de Zotero. Pour indiquez une référence, tapez le symbole <code>@</code>, puis cherchez dans la liste d’auto-complétion la référence dont vous avez besoin.</li>
+</ul>
+<blockquote>
+<p>💡 <em>Pour faire différentes références ensembles, il suffit de faire des crochets, et de faire plusieurs références commençant par <code>@</code>, et séparées par le symbole <code>;</code>.</em></p>
+</blockquote>
+</div>
+<div id="voir-les-références-dans-la-barre-latérale" class="section level4">
+<h4>3. Voir les références dans la barre latérale</h4>
+<ul>
+<li>Ouvrez la note “Note avec références” dans Zettlr.</li>
+<li>En haut à droite de Zettlr, trouvez le bouton pour afficher la barre latérale.</li>
+<li>Dans la barre latérale, trouvez le bouton pour afficher les références du document.</li>
+</ul>
+</div>
+<div id="exporter-le-fichier-markdown-en-.docx-ou-en-.odt" class="section level4">
+<h4>4. Exporter le fichier Markdown en .docx ou en .odt</h4>
+<ul>
+<li>Ouvrez la note “Note avec références” dans Zettlr.</li>
+<li>En bas de la note, faite un titre de premier niveau nommé “Références.”</li>
+<li>En haut de la fenêtre Zettlr, trouvez le bouton <code>Exporter le fichier courant</code>.</li>
+<li>Exportez la note en <code>.docx</code> ou en <code>.odt</code> et ouvrez la dans ce format.</li>
+</ul>
+</div>
+<div id="découvrir-le-mode-sans-distraction" class="section level4">
+<h4>5. Découvrir le mode sans distraction</h4>
+<ul>
+<li>Ouvrez la note “Note avec références” dans Zettlr.</li>
+<li>Allez dans l’onglet <code>Affichage</code> de Zettlr, puis cliquez sur <code>Mode sans distraction</code>, ou bien faites <code>Ctrl + J</code>.</li>
+<li>Observez les changements de l’interface.</li>
 </ul>
 
+</div>
 </div>
 </div>
             </section>
@@ -195,8 +239,8 @@
           </div>
         </div>
       </div>
-
-<a href="01-logiciels.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="03-zotero.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="05-nextcloud.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
