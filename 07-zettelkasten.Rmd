@@ -8,7 +8,7 @@ Le mot *Zettelkasten* provient de l'allemand, et pourrait être traduit par "boi
 
 C'est une méthode utilisée dans la recherche scientifique ou dans les études; cependant, elle peut aussi vous être utiles pour organiser votre culture générale.
 
-Cette méthode à été développée par Conrad Gessner au 16eme siècle, et a été utilisée par différents chercheurs.euses depuis. En particulier, Nijlas Luhmann (sociologue Allemand) avait un *Zettelkasten* de 90 000 cartes, auquel il a attribué une grande partie de sa proficience en écriture (plus de 70 livres et 400 articles scientifiques au cours de sa vie).
+Cette méthode à été développée par Conrad Gessner au 16eme siècle, et a été utilisée par différents chercheurs.euses depuis. En particulier, Nijlas Luhmann (sociologue Allemand) avait un *Zettelkasten* de 90 000 cartes, auquel il a attribué une grande partie de sa grande productivité en écriture (plus de 70 livres et 400 articles scientifiques au cours de sa vie).
 
 ### A quoi sert le *Zettelkasten* ?
 
@@ -48,7 +48,7 @@ Un *Zettelkasten* doit respecter trois grands principes, que nous allons énonce
 
 #### Les principes du *Zettelkasten*
 
-1.**Le *Zettelkasten* doit être composé de notes qui respectent le "principe de l'atomicité".**
+1. **Le *Zettelkasten* doit être composé de notes qui respectent le "principe de l'atomicité".**
 
 Derrière ce nom compliqué se cache une réalité simple : vos notes doivent être aussi courtes que possibles, et doivent considérer un sujet très précis en particulier. C'est l'atomicité : tout comme un atome est définit comme un objet qui n'est pas séparable en plusieurs parties/coupables, vos notes devraient, autant que possible, ne pas pouvoir être séparée en d'autres notes. Cela permet d'encapsuler l'information autant que possible, et d'éviter les très longues notes qui peuvent être cauchemardesques pour s'y retrouver. Des petites notes vont aussi permettre de faire des liens plus facilement entre notes (voir plus bas).
 
@@ -138,4 +138,58 @@ Il n'y a vraiment pas de limite à ce qui peut être fait. La seule chose import
 
 #### Utiliser un *Zettelkasten* au quotidien
 
-Vous connaissez maintenant la structure d'un *Zettelkasten* sur le bout des doigts.
+Vous connaissez maintenant la structure d'un *Zettelkasten* sur le bout des doigts. Voyons maintenant comment il s'entretient au quotidien.
+
+1. **Ajouter des notes**
+
+Lorsque vous rencontrez une information intéressante, il vous suffit d'ajouter une *Zettle* dans votre *Zettelkasten*.
+
+Bien évidemment, toutes les informations que vous rencontrez dans votre quotidien ne devrait pas être mises sous forme de note. Comment savoir, dans ce cas, ce qui devrait être écrit, ou ce qui devrait être laissé ?
+
+Pour cela, une règle peut être de se demander "est-ce simplement une information, ou est-ce de la connaissance ?". Ce qui revient à se demander "Est-ce que cela me sera utile dans le futur ?". Ainsi, ce n'est peut être pas la peine de faire une note sur le fait qu'a 14h30 hier, vous avez mangé un délicieux plat de pâtes (information). Par contre, noter la recette du plat de pâtes pourrait être intéressant (connaissance). De même, tout ce qui peut vous être utile pour votre travail ou vos études peut être mis sous forme de note.
+
+Maintenant que vous avez décidé d'écrire la note, quelle taille devrait-elle avoir ? Rappelez vous le principe de l'atomicité : votre note devrait être courte, et contenir l'information essentielle relative à un sujet très précis. Si elle commence à être trop longue, pensez à la séparer en plusieurs notes. Si vous le pouvez, tachez de suivre une structure qui vous plait.
+
+Une fois que vous avez écrit la note, rappellez vous d'indiquer des références. Puis, prenez le temps de bien choisir les étiquettes, car c'est une étape importante. Et c'est bon, vous avez terminé !
+
+2. **Entretenir votre *Zettelkasten***
+
+Parfois, de temps en temps, prenez le temps d'explorer votre *Zettelkasten*. Regardez les notes liées à une étiquette en particulier pour découvrir des liens intéressants; ou bien, faite une recherche avec un mot clé pour trouver des notes similaire, et faites une note "sommaire" qui organisent celle-ci avec une structure afin de pouvoir facilement vous y retrouver. Utilisez le savoir et la connaissance que vous avez emmagasiné pour écrire des articles, des livres, des synthèses, ou bien plus encore !
+
+3 **Faites vous confiance !**
+
+Comme vous pouvez le voir, tous les principes et "règles" du *Zettelkasten* restent flexible, et reposent sur votre perception des choses et sur vos préférences. Cela peut être très intimidant lorsque l'on débute, et peut amener beaucoup de doutes. *Est-ce que cette notes est trop longue ? Est-ce que je devrais faire une note de cela ? Est-ce que je devrais choisir telle étiquette ?*. Toutes ces questions sont naturelles, et peuvent vous pousser à vous améliorer. Elles peuvent cependant très vite vous fatiguer et vous démotiver. Pour cela, rappelez vous que **l'action la plus importante d'un*Zettelkasten* est d'écrire et d'explorer** ! **Faites vous confiance**, et lancez vous. Quoi qu'il arrive, un *Zettelkasten* reste quelque chose de très dynamique, et vous pourrez l'éditer sans aucuns problèmes dans le futur.
+
+#### Exercices
+
+##### 1. Préparer Joplin pour faire un Zettelkasten
+
+- Ouvrez Joplin, et rendez vous dans l'onglet `Outils`, puis `Options`.
+-   Allez dans la rubrique Plugins, puis téléchargez le plugin `Automatic Backlinks to note`. Les plus curieux.ses pourront aussi télécharger le plugin `Link Graph UI`, qui permet de visualiser les connections entre les notes sous forme d'un graphe interactif.
+- Retournez dans l'interface de Joplin. Créez un nouveau carnet nommé "*Zettelkasten*". Au sein de ce carnet, créez trois autres carnets : "Notes à écrire", "Notes atomiques", et "Notes d'indexage".
+
+> `r emo::ji("light_bulb")`  *Ca y est, vous voila prêt.e à commence votre Zettelkasten dans Joplin ! Toutes les autres fonctions nécessaires à la création d'un Zettelkasten sont déjà présentes dans Joplin. En particulier, faire des liens et associer des étiquettes à une note sont des choses très faciles à faire. En plus, comme vous pouvez avoir Joplin sur votre téléphone, vous serez capable de faire des notes n'importe où, et n'importe quand !*
+
+##### 2. Rédiger 6 *Zettels* différentes
+
+- Dans le carnet "Notes atomiques" créez précédemment, rédigez 10 *Zettels* différentes. Essayez d'y indiquer des références, de leur trouver des étiquettes, et de faire des liens entre elles.
+  - Pour faire une étiquette dans Joplin, cliquez sur le bouton `Cliquez pour ajouter des étiquettes` en bas de l'écran. Dans la fenêtre qui s'ouvre, vous pourrez trouver une liste déroulante avec des étiquettes qui existent déjà; ou bien, vous pouvez en créer de nouvelles.
+  - Pour obtenir un lien Markdown vers une note donnée, faite un clic droit sur cette note dans la liste de note, et choisissez l'option `Obtenir le lien markdown`.
+- Pour vous aider, voici une liste de titre/thème pour ces *Zettels*, avec un petit lien vers une page web qui vous offrira des informations intéressantes pour la remplir :
+
+> [Les éléphants entendent peut être le son des nuages](https://www.sciencesetavenir.fr/animaux/biodiversite/video-les-elephants-entendent-le-deplacement-des-nuages_103502)
+
+> [Les infrasons](https://fr.wikipedia.org/wiki/Infrason)
+
+> [Les éléphants aiment se saouler avec des fruits fermentés](https://www.courrierinternational.com/article/1998/10/29/les-pachydermes-voient-des-elephants-roses)
+
+> [Les éléphants se reconnaissent dans un miroir](https://www.futura-sciences.com/sante/actualites/vie-elephant-ca-trompe-enormement-9924/)
+
+> [Le test du miroir de Gallup](https://fr.wikipedia.org/wiki/Test_du_miroir)
+
+> [La fermentation alcoolique](https://fr.wikipedia.org/wiki/Fermentation_alcoolique)
+
+##### 3. Rédiger une *Zettel* d'indexage
+
+- Dans le carnet "Notes d'indexage", créez une nouvelle note nommée "Choses étonnantes à propos des éléphants"
+- Remplissez cette *Zettel* d'indexage en créant des liens vers certaines des notes que vous avez écrites dernièrement. A vous de décider l'ordre que vous leur donnez.
