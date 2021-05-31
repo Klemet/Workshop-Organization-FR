@@ -13,6 +13,6 @@ pre code {
   white-space: inherit;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Lato, Montserrat, Helvetica, sans-serif;
-  font-weight: 900;
+  font-family: Lato, Montserrat, Helvetica, sans-serif !important;
+  font-weight: 900 !important;
 }
