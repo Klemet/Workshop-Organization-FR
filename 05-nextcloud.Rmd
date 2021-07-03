@@ -4,11 +4,9 @@
 ![](./imgs/Nextcloud_logo.png)
 </center>
 
-### Qu'est-ce que Nextcloud ?
-
 **Nextcloud est un logiciel de cloud comme Google Drive, permettant d'héberger des fichiers, mais contenant aussi de multiples applications très utiles. Il est cependant, contrairement à Google Drive, open-source et gratuit.**
 
-### Qu'est-ce que permet de faire Nextcloud ?
+### Fonctionalités de Nextcloud
 
 Nextcloud permet de :
 

@@ -4,13 +4,11 @@
 ![](./imgs/PARA_Logo.jpeg)
 </center>
 
-### Qu'est-ce que la méthode P.A.R.A ?
-
 **La méthode P.A.R.A (Projects, Areas, Resources, Archives) est une méthode pour organiser l'information digitale.**
 
 Elle a été développée par [Forte Labs](https://fortelabs.co/about-forte-labs), une compagnie qui créer du contenu ayant pour but d'aider à augmenter sa productivité à l'aide de la technologie.
 
-### A quoi sert la méthode P.A.R.A ?
+### Utilité de la méthode P.A.R.A
 
 La méthode P.A.R.A permet d'organiser votre information digitale en différentes catégories, afin qu'il vous soit facile de vous organiser avec elle. **Elle permet de savoir où trouver l'information dans votre organisation globale, et pourquoi**.
 

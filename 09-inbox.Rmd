@@ -4,13 +4,11 @@
 ![](./imgs/inbox.jpg)
 </center>
 
-### Qu'est-ce qu'une *inbox* ?
-
 **Une *inbox* se traduit par "boite entrante" en français.** Vous avez sûrement déjà lu ce mot la dans votre logiciel de gestion de mails. Il s'agit tout simplement d'**une boite virtuelle dans laquelle s'accumule des éléments (comme des mails, ou des taches) qui ont une certaine priorité qui leur est associée**.
 
 Ainsi, dans une *inbox* d'e-mails, les plus prioritaires et les plus visibles vont bien sur être les plus récents et non-lus; bien que les boites mails permettent souvent de trier les messages par d'autres critères, comme la marque "important".
 
-### A quoi sert une *inbox* pour des taches ?
+### Utilité de la *inbox*
 
 Concrètement, utiliser une *inbox* pour vos taches permet de rapidement visualiser quelles sont les taches les plus urgentes, parmi celles que vous avez à faire.
 

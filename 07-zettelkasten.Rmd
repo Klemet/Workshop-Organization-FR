@@ -4,8 +4,6 @@
 ![](./imgs/Lihmann-Zettelkasten.jpg)
 </center>
 
-### Qu'est-ce que le *Zettelkasten* ?
-
 **Le *Zettelkasten* est une méthode de gestion des connaissances et de prises de notes.**
 
 Le mot *Zettelkasten* provient de l'allemand, et pourrait être traduit par "boite à notes" ou "boites à idées", ou "boite coulissante".
@@ -14,7 +12,7 @@ C'est une méthode utilisée dans la recherche scientifique ou dans les études;
 
 Cette méthode à été développée par Conrad Gessner au 16eme siècle, et a été utilisée par différents chercheurs.euses depuis. En particulier, Nijlas Luhmann (sociologue Allemand) avait un *Zettelkasten* de 90 000 cartes, auquel il a attribué une grande partie de sa grande productivité en écriture (plus de 70 livres et 400 articles scientifiques au cours de sa vie).
 
-### A quoi sert le *Zettelkasten* ?
+### Utilité du *Zettelkasten*
 
 Le *Zettelkasten* sert à prendre en note de la connaissance et du savoir à l'aide d'un logiciel, ou de papiers.
 

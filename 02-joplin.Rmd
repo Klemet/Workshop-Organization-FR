@@ -4,13 +4,11 @@
 ![](./imgs/joplinAllClient.jpg)
 </center>
 
-### Qu'est-ce que Joplin ?
-
 **Joplin est une application de prise de notes avec des très nombreuses fonctionalités.**
 
 C'est un logiciel open-source et entièrement gratuit qui permet de créer des notes dans le langage d’écriture “Markdown”, en les classant dans des “carnets” (*notebooks*), et en les associant avec des étiquettes (*tags*). **Il est une excellente alternative à des logiciels tels que Evernote ou Microsoft One Note**.
 
-### Qu'est-ce que permet de faire Joplin ?
+### Fonctionalités de Joplin
 
 Joplin permet d’énormément faciliter son organisation, en remplaçant en un seul endroit tout besoin de post-its, de carnets de notes ou de listes de taches.
 
@@ -27,7 +25,7 @@ En particulier, Joplin vous permet de :
 - **Versionner vos notes automatiquement** (pour revenir en arrière n’importe quand si vous avez fait une bêtise).
 - Et bien plus encore.
 
-### Qu'est-ce que le "Markdown" ?
+### Le Markdown
 
 <center>
 ![](./imgs/markdownLogo.jpg)

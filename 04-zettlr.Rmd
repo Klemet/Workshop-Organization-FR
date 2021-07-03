@@ -4,12 +4,9 @@
 ![](./imgs/Zettlr_logo.png)
 </center>
 
-
-### Qu'est-ce que Zettlr ?
-
 **Zettlr est un éditeur de document en Markdown "Académique" qui possède des fonctions complémentaires à celles de Joplin.**
 
-### Qu'est-ce que permet de faire Zettlr ?
+### Fonctionalités de Zettlr
 
 Zettlr permet de :
 

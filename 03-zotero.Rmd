@@ -4,13 +4,11 @@
 ![](./imgs/zotero_logo.png)
 </center>
 
-### Qu'est-ce que Zotero ?
-
 **Zotero est un logiciel de gestion de bibliographie.**
 
 Avoir des informations de bibliographie complètes et rigoureuses est nécéssaire dans des documents universitaires (thèse, mémoire, article). Cela peut être très important pour des posts de blog ou de site internet, des vidéos, des scripts, et bien d'autres encore. Cela peut aussi être très utile pour gérer ses ressources personnelles, comme nous le verrons plus tard. On appelle les informations de bibliographie d'un document des '**méta-données**', à savoir des données *a propos du document*, mais *en dehors du document* (son titre, sa date de publication, son/ses auteurs.es, etc.).
 
-### Qu'est-ce que permet de faire Zotero ?
+### Fonctionalités de Zotero 
 
 Zotero permet de :
 
