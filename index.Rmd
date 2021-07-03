@@ -13,6 +13,10 @@ link-citations: yes
 description: "Ces pages contiennent le contenu d'un atelier de découverte de logiciels open-source dans des buts d'organisation personnelle, créé par Clément Hardy."
 ---
 
+<center>
+![](./imgs/Cover_workshop.jpg)
+</center>
+
 # Bienvenue !
 
 * * *
@@ -27,17 +31,25 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
 
 * * *
 
-## Introduction {.unlisted .unnumbered}
+## Introduction
 
-- **Nos vies modernes nous mettent constamment en contact avec de l'information**. Tellement d'informations qu'il peut être très difficile de la structurer, mais aussi de la retrouver.
+**Nos vies modernes nous mettent constamment en contact avec de l'information**.
 
-- **Différents logiciels existent aujourd'hui pour alléger le travail que nous demandons à notre cerveaux pour gérer ces informations**. Cependant, ces logiciels sont souvent possédés par des grandes entreprises qui maintiennent un flou sur leur accès aux données entreposées, et sur leur partage à d'autres compagnies ou agences de renseignement. Ils présentent aussi des méthodes ou des fonctionnements parfois très rigides, et qui ne sont peut être pas adaptés à vous.
+> Tellement d'informations qu'il peut être très difficile de la structurer, mais aussi de la retrouver.
 
-- **Il est cependant possible de profiter des bons cotés de la technologie afin de pouvoir bien naviguer dans cet océan d'informations, sans pour autant compromettre sa vie privée**. C'est le but de cet atelier, qui vous présentera différents logiciels open-source et gratuits pour vous aider à mieux gérer l'information que vous rencontrez au quotidien, tout en ayant le contrôle sur vos données. Il vous présentera aussi différentes méthodes d'organisation de l'information pour vous aider à mieux la gérer, en bénéficiant du fait d'utiliser différents logiciels complémentaires pour cela.
+**Différents logiciels existent aujourd'hui pour alléger le travail que nous demandons à notre cerveaux pour gérer ces informations**.
 
-- **Le but de cet atelier n'est pas de vous présenter une méthodologie rigide que vous devriez suivre à tout prix**. Cet atelier est la pour vous encourage à la découverte et à l’expérimentation, avec un bémol important : retenez bien que la solution parfaite n’existe pas, et que l’expérimentation peut être épuisante si elle se fait sur de trop longues durées. Faites vous confiance, et laissez vous le temps d'essayer un système pendant un moment avant de chercher à le modifier !
+> Cependant, ces logiciels sont souvent possédés par des grandes entreprises qui maintiennent un flou sur leur accès aux données entreposées, et sur leur partage à d'autres compagnies ou agences de renseignement. Ils présentent aussi des méthodes ou des fonctionnements parfois très rigides, et qui ne sont peut être pas adaptés à vous.
 
-## Objectifs de l'atelier {.unlisted .unnumbered}
+**Il est cependant possible de profiter des bons cotés de la technologie afin de pouvoir bien naviguer dans cet océan d'informations, sans pour autant compromettre sa vie privée**.
+
+> C'est le but de cet atelier, qui vous présentera différents logiciels open-source et gratuits pour vous aider à mieux gérer l'information que vous rencontrez au quotidien, tout en ayant le contrôle sur vos données. Il vous présentera aussi différentes méthodes d'organisation de l'information pour vous aider à mieux la gérer, en bénéficiant des différents logiciels que vous découvrirez.
+
+**Le but de cet atelier n'est pas de vous présenter une méthodologie rigide que vous devriez suivre à tout prix**.
+
+> Cet atelier est la pour vous encourager à la découverte et à l’expérimentation, avec un bémol important : retenez bien que la solution parfaite n’existe pas, et que l’expérimentation peut être épuisante si elle se fait sur de trop longues durées. Faites vous confiance, et laissez vous le temps d'essayer un système pendant un moment avant de chercher à le modifier !
+
+## Objectifs de l'atelier
 
 - Découvrir et apprendre à utiliser les fonctions de base des les logiciels suivants :
   - `r emo::ji("white_check_mark")` Joplin
@@ -49,3 +61,19 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
   - `r emo::ji("white_check_mark")` La méthode PARA
   - `r emo::ji("white_check_mark")` La méthode de la *inbox*
   - `r emo::ji("white_check_mark")` Un exemple d'organisation globale couplant *Zettelkasten* et PARA
+
+  ## Présentateur
+
+<center>
+</br>
+
+![](./imgs/clement.png)
+</br>
+<span style="font-family:Lato; font-size:30px;">**Clément Hardy**</span>
+</br>
+</br>
+</center>
+
+Je suis un étudiant au doctorat en écologie forestière, sous la supervision de [Elise Filotas](http://elisefilotas.ca/fr/home/) et [Christian Messier](www.cef-cfr.ca/index.php?n=Membres.ChristianMessier).
+
+Passioné par les logiciels open-source et par les méthodes d'organisation, j'ai décidé de mettre en place cet atelier afin de partager mes petites connaissances sur le sujet.

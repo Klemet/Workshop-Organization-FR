@@ -1,12 +1,14 @@
 ## Joplin
 
+<center>
 ![](./imgs/joplinAllClient.jpg)
+</center>
 
 ### Qu'est-ce que Joplin ?
 
-**Joplin est comme un carnet de notes infini qui vous permet de les classer et de les retrouver de pleins de manières différentes.**
+**Joplin est une application de prise de notes avec des très nombreuses fonctionalités.**
 
-C'est un logiciel open-source et entièrement gratuit qui permet de créer des notes dans le langage d’écriture “Markdown”, en les classant dans des “carnets” (notebooks) et en les associant avec des étiquettes (tags). **Il est une excellente alternative à des logiciels tels que Evernote our Microsoft One Note**.
+C'est un logiciel open-source et entièrement gratuit qui permet de créer des notes dans le langage d’écriture “Markdown”, en les classant dans des “carnets” (*notebooks*), et en les associant avec des étiquettes (*tags*). **Il est une excellente alternative à des logiciels tels que Evernote ou Microsoft One Note**.
 
 ### Qu'est-ce que permet de faire Joplin ?
 
@@ -15,23 +17,25 @@ Joplin permet d’énormément faciliter son organisation, en remplaçant en un 
 En particulier, Joplin vous permet de :
 
 - **Rassembler toute information écrite ou graphique au même endroit** : Vos notes de cours, vos réflexions, vos projets, vos recettes de cuisines, vos listes de courses, vos listes de taches, etc.
-- **Retrouver toutes ces informations très rapidement** (quelques secondes) grâce à l’outil de recherche.
+- **Retrouver toutes ces informations très rapidement** (en quelques secondes) grâce aux outils de recherche.
 - **L’utiliser sur tous types d’ordinateur** (Windows, Mac, Linux) et **sur tous les téléphones** (android, IOs).
 - **Synchroniser vos données sur le cloud que vous choisissez** : Nextcloud (voir plus loin), Google Drive, One Drive, etc. Vous pouvez donc avoir toutes vos données écrites partout, tout le temps, sur tous les supports.
 - **Sécuriser tous vos textes en les encryptant avec un mot de passe**.
 - **Avoir une interface totalement customisable** qui permet de vous concentrer totalement sur ce que vous écrivez pour ne pas perdre de temps.
 - D’**exporter vos notes de pleins de manières possible**, avec un format (le markdown) lisible partout et en tout temps.
 - **Gérer automatiquement les images et les fichiers que vous insérez dans vos notes**
-- **Versionner vos notes automatiquement **(pour revenir en arrière n’importe quand si vous avez fait une bêtise).
+- **Versionner vos notes automatiquement** (pour revenir en arrière n’importe quand si vous avez fait une bêtise).
 - Et bien plus encore.
 
 ### Qu'est-ce que le "Markdown" ?
 
+<center>
 ![](./imgs/markdownLogo.jpg)
+</center>
 
-Le markdown est une syntaxe d’écriture facile à lire et à écrire pour formatter du texte qui est très utilisée aujourd'hui. Au passage, sachez que **le document de cet atelier est écrit en markdown !**
+Le markdown est une syntaxe d’écriture facile à lire et à écrire pour formatter du texte qui est très utilisée aujourd'hui. Au passage, sachez que **[le document de cet atelier est écrit en markdown](https://github.com/Klemet/Workshop-Organization-FR/blob/main/02-joplin.Rmd) !**
 
-La syntaxe se compose d'un set de règles qui permettent d'indiquer, dans un document texte "classique" lisible par tous les éditeurs de texte, comment est-ce que le texte doit être formaté. **Le texte sera ensuite formaté par un logiciel pour le lire, ou bien pour en faire un document à publier ou à partager**.
+La syntaxe markdown se compose d'un set de règles qui permettent d'indiquer comment est-ce que le texte doit être formaté dans un format texte "classique" lisible par tous les éditeurs de texte. **Le texte sera ensuite formaté par un logiciel pour le lire, ou bien pour en faire un document à publier ou à partager**.
 
 Voici quelques exemples qui vous permettra de mieux comprendre la syntaxe Markdown :
 
@@ -41,7 +45,7 @@ En markdown, indiquer qu'un mot est en gras s'écrit :
 
 Cela rend l'apparence suivante quand mis en forme par un logiciel comme Joplin :
 
-Le mot **markdown** est en gras.
+> Le mot **markdown** est en gras.
 
 Indiquer un lien s'écrit :
 
@@ -49,17 +53,17 @@ Indiquer un lien s'écrit :
 
 Ce qui donne :
 
-Un lien vers la [page wikipédia](https://fr.wikipedia.org/wiki/Markdown) du markdown.
+> Un lien vers la [page wikipédia](https://fr.wikipedia.org/wiki/Markdown) du markdown.
 
-Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikipédia correspondante](https://fr.wikipedia.org/wiki/Markdown), qui contient de nombreux exemples. Mais ne vous inquiétez pas : **Joplin vous propose de nombreux outils et examples pour ne pas avoir à l'apprendre**.
+Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikipédia correspondante](https://fr.wikipedia.org/wiki/Markdown), qui contient de nombreux exemples. Mais ne vous inquiétez pas : **Joplin vous propose de nombreux outils et examples pour ne pas avoir à apprendre cette syntaxe**.
 
 **Les avantages du Markdown sont nombreux** :
 
 - Un document Markdown est un document texte qui peut s'ouvrir avec n'importe quel éditeur de texte (bloc note, Notepad++, Atom, etc.).
-- Éditer un document en markdown permet de se concentrer sur le sens de ce que l'on écrit, sans se préoccuper de l'apparence : c'est la philosophie “Ce que vous voyez et ce que vous voulez dire” (What you see is what you mean).
-- Un document Markdown peut être lu de différentes manières par les logiciels de mise en page, qui peuvent le transcrire en pleins de format différents (.pdf, .html, etc.) et avec des apparences différentes (police d'écriture, couleurs, etc.).
+- Éditer un document en markdown permet de se concentrer sur le sens de ce que l'on écrit, sans se préoccuper de l'apparence : c'est la philosophie “**Ce que vous voyez et ce que vous voulez dire**” (*What you see is what you mean*). Cette philosophie est à l'opposé du "ce que vous voyez est ce que vous obtiendrez" que l'on retrouve dans des logiciels comme Microsoft Word, dans lequel on édite à la fois le contenu du document et son format en même temps.
+- Un document Markdown peut être lu de différentes manières par les logiciels de mise en page (qui sont très nombreux), qui peuvent le transcrire en pleins de format différents (.pdf, .html, etc.) et avec des apparences différentes (police d'écriture, couleurs, etc.) très rapidement.
 
-À lire tout cela, si vous ne connaissez pas encore le Markdown, vous êtes sûrement sceptiques. Mais ne vous inquiétez pas : **Joplin permet de passer outre le Markdown si vous ne l’aimez pas**. Mais vous verrez que l’essayer, c’est l’adopter.
+À lire tout cela, si vous ne connaissez pas encore le Markdown, vous êtes sûrement sceptiques. Mais ne vous inquiétez pas : **Joplin permet de passer outre le Markdown si vous ne l’aimez pas**. Mais vous verrez que l’essayer, c’est généralement l’adopter.
 
 ### Installation de Joplin
 
@@ -79,7 +83,10 @@ Par défaut, la fenêtre de Joplin se compose de 3 parties importantes :
 - la liste des notes à l’intérieur du carnet ou vous vous trouvez, au milieu
 - l’éditeur à droite, qui s’affiche généralement en deux partie (la partie édition, et la partie visualisation).
 
- ![](./imgs/Joplin_interface.jpg)
+<center>
+
+![](./imgs/Joplin_interface.jpg)
+ </center>
 
 #### L'essentiel
 
@@ -99,7 +106,7 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 
 #### 1. Créer un carnet
 
-- Dans Joplin, créez un nouveau carnet, nommez "`r emo::ji("notebook_with_decorative_cover")` Carnet pour exercice".
+- Dans Joplin, créez un nouveau carnet, nommé "`r emo::ji("notebook_with_decorative_cover")` Carnet pour exercice".
 
 > `r emo::ji("light_bulb")`  *Notez la possibilité de mettre des emojis dans les titres de vos carnets et de vos notes pour mieux les différencier.*
 
@@ -114,7 +121,7 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 - Dans votre navigateur, faite un clic droit sur l'image, et choisissez `Copier`.
 - Retournez dans votre note. Faite un clic droit dans l'éditeur et choisissez l'option `Coller`, ou bien faite `Ctrl + V`.
 
-> `r emo::ji("light_bulb")`  *Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer. Pratique !*
+> `r emo::ji("light_bulb")`  *Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer en cliquant sur le lien. Extrèmement pratique pour s'y retrouver !*
 
 #### 4. Créer une tache et une liste de tache
 
@@ -138,16 +145,19 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 
 #### 4. Utiliser des étiquettes
 
-- Donnez à la note "Note pour exercice" l'étiquette "Exercice" en trouvant ajoutant une étiquette avec le bouton correspondant.
+- Donnez à la note "Note pour exercice" l'étiquette "Exercice" en trouvant ajoutant une étiquette avec le bouton correspondant en bas de l'interface.
+- Observez qu'une nouvelle catégorie d'étiquette est apparue dans le menu des carnets.
+
+> `r emo::ji("light_bulb")`  *Les étiquettes sont extrèmements pratiques pour retrouver facilement ses notes. Trier ses notes en les mettants dans différents carnets peut être utile; mais comme on ne peut mettre une note que dans un seul carnet, cela reste limité. Mettriez vous une note avec des idées de cadeaux d'anniversaire pour une amie dans votre carnet "amis", ou dans votre carnets "idées" ? Avec des étiquettes, la question ne se pose plus : vous pouvez mettre les deux. Je vous conseille d'utiliser des étiquettes autant que possible !*
 
 #### 5. Changer l'interface
 
 - Allez dans l’onglet `Affichage`, puis cliquez sur l'option `Changer la composition de l’application`.
 - Utilisez les flèches qui se trouvent sur chaque partie de l'interface pour :
-  - Mettre l'éditeur tout à gauche de l'interface
-  - Mettre la liste des carnets en dessous de la liste des notes dans le carnet ouvert
-  - Cliquez sur les limites entre les sections de l'interface pour les mettre à une taille raisonnable
-- Appuyez sur `Echap` pour sortir de l'outil pour changer la composition de l'application
+  - Mettre l'éditeur tout à gauche de l'interface.
+  - Mettre la liste des carnets en dessous de la liste des notes dans le carnet ouvert.
+  - Cliquez sur les limites entre les sections de l'interface pour les mettre à une taille raisonnable.
+- Appuyez sur `Echap` pour sortir de l'outil pour changer la composition de l'application.
 - Laissez l'interface comme elle est, remettez la comme avant, ou bien mettez la comme vous le préférez !
 
 #### 6. Télécharger un plugin
@@ -156,8 +166,9 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 - Allez dans l'onglet `Plugins` du menu des options.
 - Dans la barre de recherche, cherchez le plugin `Quick Links` et installez le.
 - Dans la barre de recherche, cherchez le plugin `Note Tabs` et installez le.
-- Redémarrez Joplin grace au petit menu qui vous indique de le redémarrer pour que les plugins fonctionnent; ou bien, arrêtez Joplin complètement (fermez la fenêtre n'arrête pas Joplin par défaut), et relancez le.
+- Redémarrez Joplin grace au petit menu qui vous indique de le redémarrer pour que les plugins fonctionnent; ou bien, arrêtez Joplin complètement (fermer la fenêtre n'arrête pas Joplin par défaut), et relancez le.
 - Réalisez les étapes de l'exercice 4 pour adapter votre interface aux onglets ajoutés par le plugin `Note Tabs`.
+- Si vous souhaitez enlever les onglets ajoutés par le plugin `Note Tabs`, rendez vous dans le menu `Plugins` à nouveau, et utilisez le bouton dédié pour désactiver le plugin `Note Tabs`.
 
 #### 7. Insérer des liens vers d'autres notes
 
@@ -181,7 +192,7 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 
 Joplin dispose d'un très grand nombre de fonctionnalités. Il serait trop long de vous les faire toute découvrir lors de cet atelier. Je vous recommande de jeter un oeil à trois d'entre elle en particulier quand vous aurez le temps :
 
-- **La synchronisation avec un cloud**. Cela vous permet de retrouver toutes vos notes n'importe ou, y compris dans votre téléphone portable grace à l'appli Joplin gratuite.
+- **La synchronisation avec un cloud**. Cela vous permet de retrouver toutes vos notes n'importe ou, y compris dans votre téléphone portable grace à l'application Joplin qui est gratuite, et elle aussi open-source.
 - **L’encryption**, qui vous permet d'encrypter vos notes pour que vous soyez le/la seul.e a pouvoir les lire.
 - **La modification de l'apparence de Joplin** et de la mise en forme de vos documents depuis le texte en Markdown.
 

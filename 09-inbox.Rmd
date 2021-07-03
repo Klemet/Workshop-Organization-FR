@@ -1,1 +1,70 @@
-## La notion de *inbox* pour vos taches
+## La notion de inbox pour vos taches
+
+<center>
+![](./imgs/inbox.jpg)
+</center>
+
+### Qu'est-ce qu'une *inbox* ?
+
+**Une *inbox* se traduit par "boite entrante" en français.** Vous avez sûrement déjà lu ce mot la dans votre logiciel de gestion de mails. Il s'agit tout simplement d'**une boite virtuelle dans laquelle s'accumule des éléments (comme des mails, ou des taches) qui ont une certaine priorité qui leur est associée**.
+
+Ainsi, dans une *inbox* d'e-mails, les plus prioritaires et les plus visibles vont bien sur être les plus récents et non-lus; bien que les boites mails permettent souvent de trier les messages par d'autres critères, comme la marque "important".
+
+### A quoi sert une *inbox* pour des taches ?
+
+Concrètement, utiliser une *inbox* pour vos taches permet de rapidement visualiser quelles sont les taches les plus urgentes, parmi celles que vous avez à faire.
+
+Dit comme cela, cela ne parait pas être quelque chose d'extraordinaire, mes diriez vous. Cependant, cela peut être très utile pour vous aider à travailler l'esprit plus tranquille, et à donc plus vous concentrer sur ce que vous avez à faire.
+
+Imaginez vous la situation suivante : Vous êtes en train de travailler, en journée, et en semaine. Vous recevez un appel d'un ami qui vous propose d'aller faire un *escape game* à l'occasion. Vous vous mettez d'accord que ce sera à vous de choisir l'*escape game* en question. Vous recevez ensuite un mail de votre vétérinaire, suite à un examen de santé pour votre chat; celui-ci va bien, mais il va falloir lui acheter un médicament dont il a besoin rapidement. Vous pensez, d'un coup, que vous devriez faire des courses aujourd'hui. Vous devriez aussi faire une lessive, car vous ne l'avez pas fait depuis longtemps. Votre responsable au travail s'en vient, et vous propose de vous occuper d'une tache pour laquelle il va falloir que vous échangiez avec un collègue, qui n'est peut être pas la aujourd'hui. En voulant faire une pause, vous renversez un peu de thé sur votre pantalon, et vous remarquez que celui-ci à un trou; il va falloir le faire réparer à l'occasion. Vous vous rappelez également qu'il y a longtemps, vous vous étiez dit que vous devriez regarder pour mettre à jour un logiciel particulier de votre ordinateur. Vous vous demandez si vous devriez vous en occuper maintenant, ou plus tard.
+
+Comme vous l'avez bien compris, dans notre quotidien, le nombre de taches à faire peut facilement devenir très grand, et elles peuvent concerner beaucoup d'aspects différents de notre vie : notre maison, nos finances, nos amis, nos animaux de compagnie, notre nourriture, notre travail, nos hobbys, nos outils informatiques, et j'en passe. Retenir tout ce qui doit être fait dans tous ces aspects différents de notre vie est extrêmement compliqué dans une vie d'adulte, qui comprendre de nombreuses responsabilités. En particulier se pose la question de la priorité : **lorsque nous avons beaucoup de taches à faire, par lesquelles devraient-on commencer** ?
+
+Cette question de priorité pour nos taches peut être difficile à répondre. Comment savoir si la réparation du pantalon est plus prioritaire que tout ce que vous avez déjà à faire ? Pour le savoir, il vous faudrait comparer, une à une, toutes les taches que vous avez à faire, et les comparer ensemble jusqu’à déterminer où est-ce que se classe la réparation de votre pantalon, et si vous devriez le faire aujourd'hui ou demain. Cela demande énormément de temps et d'énergie, surtout lorsque vous hésitez entre beaucoup de taches différentes !
+
+C'est ici que l'*inbox* pour les taches entre en jeu. Tout comme une boite entrante pour vos e-mails, celle-ci va vous permettre de très rapidement voir quelles taches devraient être priorisées, mais aussi d'en intégrer de nouvelles sans efforts. Cela vous laisserait beaucoup plus de temps pour travailler sur vos taches, et vous laissera une plus grande paix d'esprit. Finit de se demander "*est-ce que je me souvient bien de tout ?*", ou bien "*est-ce que je n'ai pas perdu un papier avec ma liste dessus ?*".
+
+### Mettre en place une *inbox* de taches
+
+Pour mettre en place une *inbox* de taches, vous avez simplement besoin d'un logiciel qui vous permet de :
+
+- Rapidement ajouter une tache dans votre boites de taches
+- Associer une priorité à une tache, avec suffisamment de nuance pour pouvoir bien les distinguer (**pouvoir simplement distinguer une tache comme "importante" ou non ne sera sûrement pas suffisant**).
+- Trier les taches par priorité
+- Voir vos taches mêmes quand vous n'êtes pas devant votre ordinateur (en se synchronisant avec votre téléphone)
+- [Optionellement] Vous permet de distinguer des taches de différents aspects de votre vie (ce n'est pas obligatoire, mais cela permet de mieux s'y retrouver; mais aussi d'utiliser la méthode P.A.R.A !)
+
+Bien entendu, un logiciel open-source et gratuit qui coche toutes ces cases est **Nextcloud Tasks**, que nous avons vu plus tot. En effet, celui-ci permet d'associer une priorité allant de 1 à 10 à vos taches ! Mais d'autres existent, et peuvent être utilisés.
+
+Lorsque vous aurez choisis votre logiciel, il vous suffira de définir des catégories ou des listes de taches (tout comme nous l'avons vu dans la section Nextcloud et la section sur la méthode P.A.R.A) pour ensuite commencer à utiliser votre *inbox*.
+
+Chaque fois que vous ajoutez une tache dans celle-ci, ajoutez simplement une priorité à celle-ci. Lorsque vous vous demandez qu'est-ce que vous devriez faire, triez simplement vos taches par priorité afin de tout de suite visualiser les plus importantes.
+
+> `r emo::ji("light_bulb")`  *Vous pouvez également faire une liste de taches "à faire aujourd'hui" dans laquelle vous pouvez déposer les taches sur lesquelles vous souhaiteriez travailler aujourd'hui !*
+
+### Exercices
+
+Durant ces exercices, nous utiliserons Nextcloud Tasks comme *inbox* pour vos taches. Vous pouvez cependant utiliser un autre logiciel pour cela, comme [Vikunja](https://vikunja.io/) !
+
+#### 1. Préparer votre *inbox*
+
+Pour cette exercice, je vous renvoie à l'exercice 1 de la section sur la méthode P.A.R.A, qui propose de mettre en place différentes listes de taches en fonction des différents aspects de votre vie.
+
+#### 2. Ajouter des taches à votre *inbox*
+
+- Rendez vous dans Nextcloud Tasks.
+- Dans la liste de tache "Famille", ajoutez les taches "Appeler maman", "Féliciter Noémie pour son diplôme", et "Envoyer un mail à Thomas".
+- Cliquez sur chacune de ces taches, tour à tour. Donnez leur à chacun une priorité, respectivement : 2, 4, et 6.
+- En haut à droite de la liste de taches, trouvez le bouton qui permet de trier les taches par priorité.
+- Dans la liste de taches "Amis", ajoutez les taches "Trouver dans quel *escape game* aller jouer avec Bastien", "Demander des nouvelles de Maëlie", "Jouer à un jeu vidéo avec Lucie", "Envoyer une lettre à Julia" et "Partager l'atelier open-source et organisation à tous mes amis". Donnez leur les priorités 2, 6, 6, 4 et 1 respectivement.
+- Dans la liste de taches "Finances", ajoutez les taches "Faire un bilan financier du mois", "Contacter ma banque à propos du prélèvement de dimanche dernier", avec les priorités 3 et 5 respectivement.
+- Dans la liste de taches "Travail", ajoutez les taches "Faire une réunion avec Laurence", "Mettre de l'eau dans les plantes du bureau", "Envoyer le dossier important à Jack", "Ranger mon bureau", "Ramener du thé pour les pauses", "Envoyer un mail à Catherine", et "Préparer la présentation de lundi prochain". Donnez leur les priorité 3, 1, 3, 4, 2, 5 et 2 respectivement.
+
+#### 3. Visualiser les taches de votre *inbox* pour sélectionner celles à faire
+
+- Rendez vous dans Nextcloud Tasks.
+- Créez une nouvelle liste de tache nommée "A faire aujourd'hui"
+- Dans le menu de gauche pour choisir une liste de tache, rendez vous dans la liste intelligente "Toutes les taches"
+- Regardez le contenu de vos différentes listes de taches en défilant petit à petit vers le bas. Sélectionner les taches les plus prioritaires et les plus pertinentes à faire aujourd'hui, en les glissant/déposant dans la liste de tache "A faire aujourd'hui" dans le menu de gauche.
+- Rendez vous dans votre liste de tache "A faire aujourd'hui". Utilisez le bouton de tris des taches en haut à droite de la liste pour trier les taches manuellement.
+- Déplacez les taches en cliquant dessus pour les organiser dans l'ordre selon lequel vous aimeriez les faire aujourd'hui.

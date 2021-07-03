@@ -1,10 +1,14 @@
-## La méthode *Zettelkasten*
+## La méthode Zettelkasten
+
+<center>
+![](./imgs/Lihmann-Zettelkasten.jpg)
+</center>
 
 ### Qu'est-ce que le *Zettelkasten* ?
 
-Le *Zettelkasten* est une méthode de gestion des connaissances et de prises de notes.
+**Le *Zettelkasten* est une méthode de gestion des connaissances et de prises de notes.**
 
-Le mot *Zettelkasten* provient de l'allemand, et pourrait être traduit par "boite à notes" ou "boites à idées".
+Le mot *Zettelkasten* provient de l'allemand, et pourrait être traduit par "boite à notes" ou "boites à idées", ou "boite coulissante".
 
 C'est une méthode utilisée dans la recherche scientifique ou dans les études; cependant, elle peut aussi vous être utiles pour organiser votre culture générale.
 
@@ -16,9 +20,9 @@ Le *Zettelkasten* sert à prendre en note de la connaissance et du savoir à l'a
 
 Cette méthode possède plusieurs particularités très importantes :
 
-1. **Elle permet faciliter le classement de cette connaissance afin de la retrouver très rapidement.**
+1. **Elle permet de faciliter le classement de la connaissance afin de la retrouver très rapidement.**
 
-C'est le cas car les informations y sont classées de manière très organisée.
+Le *Zettelkasten* réussi cela en associant chaque note à des étiquettes, mais aussi à d'autres notes. Ainsi, de nombreux chemins différents peuvent mener à votre note; et comme chaque note représente une connaissance précise, vous pouvez ainsi la retrouver facilement !
 
 2. **Elle permet de classer l'information d'une manière très simple et instinctive.**
 
@@ -30,7 +34,11 @@ Ceci permet alors une forte créativité par la perception de  liens entres des 
 
 4. **Elle permet d'encapsuler l'information.**
 
-Pour comprendre l'encapsulation, imaginez la situation suivante : vous décidez de créer un site web qui parle des éléphants. Sur votre site, vous avez une page qui parle de qu'est-ce que les éléphants font de leurs journées; et une autre qui parle de l'effet des bouses d'éléphants sur leur environnement. Vous comprendrez très vite que ces deux pages vont devoir parler, à un moment ou à un autre, de ce que les éléphants mangent. Ainsi, vous avez le choix : vous pouvez écrire à propos de ce que les éléphants mangent dans ces deux pages, ce qui vous oblige à ré-écrire l'information deux fois. De plus, si cette information est modifiée (par exemple, une nouvelle découverte est faite sur le régime alimentaire des éléphants), vous devrez modifier les deux pages. Cependant, vous pouvez aussi faire une page qui parle de ce que les éléphants mangent, et simplement créer un lien vers cette page dans vos deux autres pages. En ce faisait, vous n'avez pas à ré-écrire l'information plusieurs fois, et vous n'aurez à la modifier qu'une seule fois si besoin est. Vous avez ainsi encapsulé l'information à propos de ce que les éléphants mangent en la séparant du reste, et en indiquant des liens vers celle-ci la ou cela est nécessaire.
+Pour comprendre l'encapsulation, imaginez la situation suivante : vous décidez de créer un site web qui parle des éléphants. Sur votre site, vous avez une page qui parle de qu'est-ce que les éléphants font de leurs journées; et une autre qui parle de l'effet des bouses d'éléphants sur leur environnement. Vous comprendrez très vite que ces deux pages vont devoir parler, à un moment ou à un autre, de ce que les éléphants mangent.
+
+Ainsi, vous avez le choix : vous pouvez écrire à propos de ce que les éléphants mangent dans ces deux pages, ce qui vous oblige à ré-écrire l'information deux fois. De plus, si cette information est modifiée (par exemple, une nouvelle découverte est faite sur le régime alimentaire des éléphants), vous devrez modifier les deux pages. Cependant, vous pouvez aussi faire une page qui parle de ce que les éléphants mangent, et simplement créer un lien vers cette page dans vos deux autres pages.
+
+En ce faisait, vous n'avez pas à ré-écrire l'information plusieurs fois, et vous n'aurez à la modifier qu'une seule fois si besoin est. Vous avez ainsi encapsulé l'information à propos de ce que les éléphants mangent en la séparant du reste, et en indiquant des liens vers celle-ci la ou cela est nécessaire.
 
 5. **Elle évite de devoir chercher de l'information dans des longues notes ou de longs textes.**
 
@@ -40,17 +48,21 @@ Ceci est une conséquence de l'encapsulation de l'information. Pour reprendre l'
 
 Cet aspect est certainement le plus subjectif, mais il me semble indéniable. Prendre des notes sur des sujets compliqués est souvent une activité chronophage, et il peut être très décourageant de se retrouver avec un tas de notes longues et complexes qui ne servent pas bien nos buts, et qui semblent au final inutiles. Le *Zettelkasten* permet alors de rendre l'activité de prendre des notes sur tout et n'importe quoi - comment identifier une espèce d'arbre, des statistiques liés à un problème dans le monde qui nous touche, des pensées qui nous traversent - organisée, rigoureuse, et surtout productive. Chacune des notes crées au sein d'un *Zettelkasten* invite à la réflexion et à la création. Chacune des notes peut être retrouvée rapidement pour vous servir quand cela est nécessaire. Ainsi, cette activité devient moins laborieuse, moins bourrée de doutes, et beaucoup plus satisfaisante. Chaque note devient une graine plantée dans le sol qui donnera ses fruits à l'avenir.
 
+<center>
+![](./imgs/information_vs_knowledge.jpg)
+</center>
+
 ### Mettre en place un *Zettelkasten*
 
-Aujourd'hui, il est très simple de mettre en place un *Zettelkasten* par le biais d'un logiciel comme Joplin. Elle demande cependant un tout petit peu de pratique.
+Aujourd'hui, il est très simple de mettre en place un *Zettelkasten* par le biais d'un logiciel comme Joplin. Cette méthode demande cependant un tout petit peu de pratique.
 
-Un *Zettelkasten* doit respecter trois grands principes, que nous allons énoncer ici.
+En effet, un *Zettelkasten* doit respecter trois grands principes, que nous allons énoncer ici.
 
 #### Les principes du *Zettelkasten*
 
 1. **Le *Zettelkasten* doit être composé de notes qui respectent le "principe de l'atomicité".**
 
-Derrière ce nom compliqué se cache une réalité simple : vos notes doivent être aussi courtes que possibles, et doivent considérer un sujet très précis en particulier. C'est l'atomicité : tout comme un atome est définit comme un objet qui n'est pas séparable en plusieurs parties/coupables, vos notes devraient, autant que possible, ne pas pouvoir être séparée en d'autres notes. Cela permet d'encapsuler l'information autant que possible, et d'éviter les très longues notes qui peuvent être cauchemardesques pour s'y retrouver. Des petites notes vont aussi permettre de faire des liens plus facilement entre notes (voir plus bas).
+Derrière ce nom compliqué se cache une réalité simple : **vos notes doivent être aussi courtes que possibles, et doivent considérer un sujet très précis en particulier**. C'est l'atomicité : tout comme un atome est définit comme un objet qui n'est pas séparable en plusieurs parties, vos notes devraient, autant que possible, ne pas pouvoir être séparée en d'autres notes. **Cela permet d'encapsuler l'information autant que possible**, et d'éviter les très longues notes qui peuvent être cauchemardesques pour s'y retrouver. Des petites notes vont aussi permettre de faire des liens plus facilement entre notes (voir plus bas).
 
 Dans la pratique, il est tout à fait normal de commencer à écrire des notes courtes; puis, au fur et à mesure qu'elles s'allongent si on y rajoute des choses, de les séparer en plusieurs notes. Dans le *Zettelkasten*, les notes sont appelées des *Zettel*, qui signifie en allemand..."note" ! Ainsi, chaque *Zettel* doit respecter le principe de l'atomicité.
 
@@ -58,19 +70,21 @@ Dans la pratique, il est tout à fait normal de commencer à écrire des notes c
 
 La encore, derrière ces mots compliqués se cache une réalité simple.
 
-Imaginez un instant si l'encyclopédie en ligne Wikipédia n'était pas composée d'un très grand nombre d'articles différents (comme c'est le cas actuellement), mais d'une seule page web contenant toute l'information de Wikipédia ? Si c'était le cas, l'encyclopédie Wikipédia serait sous forme "textuelle" classique : un long texte linéaire ayant un début et une fin. Pour y trouver la bonne information, il faudrait regarder ce qui se trouve entre ce début et cette fin, et notre lecture serais toujours guidée dans ce sens la.
+Imaginez un instant si l'encyclopédie en ligne Wikipédia n'était pas composée d'un très grand nombre d'articles différents (comme c'est le cas actuellement), mais d'une seule page web contenant toute l'information de Wikipédia ? Si c'était le cas, l'encyclopédie Wikipédia serait sous forme "textuelle" classique : un long texte linéaire ayant un début et une fin, comme un livre. Pour y trouver la bonne information, il faudrait regarder ce qui se trouve entre ce début et cette fin, et notre lecture serais toujours guidée dans ce sens la. C'est ce qu'on fait lorsqu'on lit un dictionnaire.
 
 Heureusement, Wikipédia n'est pas une encyclopédie textuelle, mais hyper-textuelle. Cela veut dire qu'elle est composée de documents (articles) reliés entre elles par des hyperliens. Ces hyperliens, vous les connaissez bien : ce sont tout simplement les liens que vous trouvez sur des pages internet, et sur lesquels vous avez l'habitude de cliquer.
 
-L'organisation hyper-textuelle permet d'éviter de structure l'information de manière linéaire (depuis un début jusqu’à une fin), et de rendre son écriture - et son accès - tout à fait "organique". Dans Wikipédia, les articles se créent et se relient les uns aux autres au fur et à mesure, selon la nécessité de les écrire. L'ordre dans lequel ces articles sont écrit importe peu; et l'ordre dans lequel ils sont lu n'importe pas non plus. L'important est la présence de connections et de liens entre eux.
+![](./imgs/text_versus_hypertext.jpg)
 
-Il en va de même pour un *Zettelkasten*, qui est d’ailleurs souvent comparé à un "Wikipédia personnel". Dans un *Zettelkasten*, la priorité n'est pas tant la collection d'information; mais la connection des informations entre elles. Pour cela, les *Zettels* (notes) contenues dans un *Zettelkasten* vont toutes avoir un identifiant unique, comme une page web. Cet identifiant va permettre de créer des connection entre les *Zettels*, tout comme des liens entre des pages wikipédia.
+L'organisation hyper-textuelle permet d'éviter de structurer l'information de manière linéaire (depuis un début jusqu’à une fin), et de rendre son écriture - et son accès - tout à fait "organique". Dans Wikipédia, les articles se créent et se relient les uns aux autres au fur et à mesure, selon la nécessité de les écrire. L'ordre dans lequel ces articles sont écrit importe peu; et l'ordre dans lequel ils sont lus n'importe pas non plus. L'important est la présence de connections et de liens entre eux.
+
+Il en va de même pour un *Zettelkasten*, qui est d’ailleurs souvent comparé à un "Wikipédia personnel". Dans un *Zettelkasten*, la priorité n'est pas tant la collection d'information; mais la connection des informations entre elles. Pour cela, les *Zettels* (notes) contenues dans un *Zettelkasten* vont toutes avoir un identifiant unique, comme une page web. Cet identifiant va permettre de créer des connections entre les *Zettels*, tout comme des liens entre des pages wikipédia.
 
 3. **Il y a une *Zettelkasten* pour une personne, et une personne par *Zettelkasten*.**
 
 Un *Zettelkasten* doit être personnel, et plusieurs personnes ne devraient pas travailler ensemble sur un même *Zettelkasten*. La raison pour cela est que nous sommes tous.tes très différents.es dans la manière que nous avons de choisir, enregistrer, et connecter l'information avec laquelle nous entrons en contact. Ainsi, ce qui fera du sens pour une personne ne fera pas forcément de sens pour une autre. Un *Zettelkasten* doit être extrêmement confortable pour vous. Et bien que vous ne vous rappellerez pas toujours de tout ce que vous avez noté.e, et de la manière dont vous avez fait des connections, celles-ci vous paraîtrons compréhensibles lorsque vous les retrouverez quand le besoin se fera. Il est aussi important pour votre mémoire et pour votre apprentissage que vous soyez celui ou celle qui prend le temps de faire les notes, afin d'en prendre l'habitude, et afin de mieux retenir l'information qui s'y trouve.
 
-En plus de tout cela, un *Zettelkasten* peut contenir des choses très personnelles. Je ne parle pas forcément de mots de passes, ou bien de vos coordonnées bancaires : bien que ces informations peuvent aller dans un *Zettelkasten*, ceci n'est pas recommandé. Cependant, votre *Zettelkasten* pourra contenir des notes à propos de vos émotions; de vos pensées; ou de votre vécu. Il est alors important que vous vous sentiez confortable avec l'idée de coucher ces mots dans des notes, en sachant qu'ils ne seront pas lu par quelqu'un d'autre que vous si vous ne le souhaitez pas.
+En plus de tout cela, un *Zettelkasten* peut contenir des choses très personnelles. Je ne parle pas forcément de mots de passe, ou bien de vos coordonnées bancaires : bien que ces informations peuvent aller dans un *Zettelkasten*, ceci n'est pas recommandé. Cependant, votre *Zettelkasten* pourra contenir des notes à propos de vos émotions; de vos pensées; ou de votre vécu. Il est alors important que vous vous sentiez confortable avec l'idée de coucher ces mots dans des notes, en sachant qu'ils ne seront pas lu par quelqu'un d'autre que vous si vous ne le souhaitez pas.
 
 Votre *Zettelkasten* sera à vous; une véritable maison de campagne pour vos pensées et vos idées.
 
@@ -78,7 +92,7 @@ Votre *Zettelkasten* sera à vous; une véritable maison de campagne pour vos pe
 
 Maintenant que vous nous avons vu les grands principes du *Zettelkasten*, il est temps de voir comment le mettre en place, pratiquement.
 
-Commenceons par les composants les plus importants : Les *Zettels*, les étiquettes, les liens, et les boites.
+Commenceons par les composants d'un *Zettelkasten* : Les *Zettels*, les étiquettes, les liens, et les boites.
 
 ##### Les *Zettels*
 
@@ -96,23 +110,23 @@ Et c'est tout !
 
 Lorsque l'on fait un *Zettelkasten* en format papier, il est important d'avoir une méthodologie bien définie pour ce qui est de choisir l'identifiant unique de chaque *Zettel*. Mais lorsque l'on fait un *Zettelkasten* avec un programme comme Joplin (ce que je vais vous proposer ici), pas besoin de s'en inquiéter !
 
-En effet, lorsque Joplin créer une nouvelle note, celle-ci est automatiquement associée à un identifiant unique aléatoire qui ne changera pas, même si l'on change le titre de la note. On peut voir celui-ci en cliquant sur l’icône permettant de voir les propriétés de la note dans Joplin, tout en haut à droite de l'interface.
+En effet, lorsque Joplin créer une nouvelle note, celle-ci est automatiquement associée à un identifiant unique aléatoire qui ne changera pas (même si l'on change le titre de la note ensuite). On peut voir celui-ci en cliquant sur l’icône permettant de voir les propriétés de la note dans Joplin, tout en haut à droite de l'interface.
 
 ![](./imgs/Joplin_propri_note.jpg)
 
 Le corps ou contenu de la note doit être clair et concis. Si il devient trop long, alors il serait très intéressant de voir si la note peut être séparée en plusieurs notes, qui resterons aussi courtes que possibles. Il est important, autant que possible, que ce sois vous qui écriviez le corps de la note. Cela vous pousse à écrire votre propre version de l'information, ce qui mène à mieux la comprendre, mais aussi à mieux s'en rappeler. Ainsi, autant que possible, **évitez de simplement copier-coller de l'information dans une note**.
 
-Le pied de la note, contenant les références, peut être généré automatiquement par le logiciel si celui-ci gère les références bibliographique (c'est le cas de Zettlr, et ce sera bientôt le cas de Joplin en 2021). Si la note contient des pensées, vous pouvez laisser cette partie la vide.
+Le pied de la note, contenant les références, peut être généré automatiquement par le logiciel si celui-ci gère les références bibliographique (c'est le cas de Zettlr, et ce sera bientôt le cas de Joplin en 2021). Si la note contient certains de vos pensées, vous pouvez laisser cette partie la vide.
 
 ##### Les étiquettes
 
-Rappelons nous ce qui a été dit plus tot : un *Zettelkasten* n'as pas de catégories.
+Rappelons nous ce qui a été dit plus tot : **un *Zettelkasten* n'as pas de catégories.**
 
-Cela signifie que les *Zettles* ne seront pas classée dans une catégorie ou une autre. A la place, le *Zettelkasten* utilise des étiquettes.
+Cela signifie que les *Zettles* ne seront pas classée dans une catégorie ou une autre. A la place, **le *Zettelkasten* utilise des étiquettes**.
 
-La différence entre les étiquettes et les catégories est importante à comprendre. Une catégorie pourrait être vue comme une boite; une étiquette, comme une petite étiquette de couleur que l'on pourrait coller sur une note. Ainsi, une note ne peut avoir qu'une seule catégorie (elle ne peut être déposée que dans une seule boite), mais elle peut avoir plusieurs étiquettes.
+La différence entre les étiquettes et les catégories est importante à comprendre. Une catégorie pourrait être vue comme une boite; une étiquette, comme une petit autocollant de couleur que l'on pourrait coller sur une note. Ainsi, une note ne peut avoir qu'une seule catégorie (elle ne peut être déposée que dans une seule boite), mais elle peut avoir plusieurs étiquettes (plusieurs autocollants).
 
-Ainsi, dans le *Zettelkasten*, on ne classera jamais les notes pour catégorie. Lorsqu'une note est crée, vous n'aurez qu'a réfléchir aux étiquettes que vous voudrez lui associer. Par un exemple, une note sur ce que les éléphants mangent pourrait avoir les étiquettes `éléphants`, `nourriture`, et `biologie`. Le procédé est bien plus "organique", et bien plus simple : il n'y a plus vraiment d'hésitation pour savoir ou mettre votre note. Il vous suffit juste de mettre les étiquettes qui vous semble correspondre à celle-ci. Ca tombe bien, car Joplin gère très bien les étiquettes !
+Ainsi, dans le *Zettelkasten*, on ne classera jamais les notes pour catégorie. Lorsqu'une note est crée, vous n'aurez qu'a réfléchir aux étiquettes que vous voudrez lui associer. Par un exemple, une note sur ce que les éléphants mangent pourrait avoir les étiquettes `éléphants`, `nourriture`, et `biologie`. Le procédé est bien plus "organique", et bien plus simple : il n'y a plus vraiment d'hésitation pour savoir où mettre votre note. Il vous suffit juste de mettre les étiquettes qui vous semble correspondre à celle-ci. Ca tombe bien, car Joplin gère très bien les étiquettes !
 
 Les étiquettes sont importantes pour pouvoir facilement faire des liens entre vos notes, de manière très créative. Par exemple, en regardant toutes vos notes avec l'étiquette `nourriture`, vous trouverez peut être des relations intéressantes entre ce que mangent différentes espèces pour lesquelles vous avez pris des notes.
 
@@ -124,13 +138,13 @@ Un lien dans une *Zettle* fonctionne exactement comme un lien dans wikipédia, q
 
 Dans Joplin, il est possible de très facilement faire un lien en Markdown que vous pourrez cliquer pour vous rendre sur une autre note, comme si vous naviguiez sur un site internet ! Pour cela, il suffit de faire un clic droit sur la note vers laquelle vous souhaitez faire le lien dans la liste des notes de Joplin, et de choisir `Copier le lien Markdown`. Vous pourrez ensuite coller ce lien où bon vous semble.
 
-Joplin possède également un plugin qui permet de faire des liens rétroactifs. Cela veut dire que si vous lisez une note qui est visée par un lien présent dans une autre note, le plugin vous indiquera, dans la note mise en forme, un lien rétroactif vers cette note. Cela revient à vous permettre de naviguer dans les deux sens (aller-retour) entre deux notes très facilement et sans efforts, mais aussi à encore mieux voir les connection qui existent entre votre notes.
+Joplin possède également un plugin qui permet de faire des liens rétroactifs. Cela veut dire que si vous lisez une note qui est visée par un lien présent dans une autre note, le plugin vous indiquera, dans la note mise en forme, un lien rétroactif vers cette note. Cela revient à vous permettre de naviguer dans les deux sens (aller-retour) entre deux notes très facilement et sans efforts, mais aussi à encore mieux voir les connections qui existent entre votre notes.
 
 ##### Les boites
 
 Comme nous l'avons dit, un *Zettelkasten* ne possède pas de catégories. Cependant, il peut être très utile d'en définir une ou deux qui ne sont pas relatives au contenu des notes, mais à leur type.
 
-Par exemple, vous pouvez avoir une catégorie/une boite nommée "notes à écrire". Dans cette catégorie, vous laisserez les notes que vous n'avez pas eu le temps de completer proprement, et pour lesquelles vous avez très rapidement griffonné quelque chose pour la terminer plus tard.
+Par exemple, vous pouvez avoir une catégorie nommée "notes à écrire". Dans cette catégorie, vous laisserez les notes que vous n'avez pas eu le temps de completer proprement, et pour lesquelles vous avez très rapidement griffonné quelque chose pour la terminer plus tard.
 
 Vous pouvez aussi avoir une catégorie "notes d'indexages", qui contient des notes qui servent de "sommaires" pour différents thèmes, et qui vous permet de rapidement accéder à l'information. Par exemple, vous pourriez faire un note nommée `Informations sur les éléphants`, qui contiendra de nombreux liens vers des notes qui parlent des éléphants. Ainsi, vous pourriez utiliser ces notes d'indexage pour aller chercher de l'information quand vous avez besoin de la retrouver.
 
@@ -144,38 +158,44 @@ Vous connaissez maintenant la structure d'un *Zettelkasten* sur le bout des doig
 
 Lorsque vous rencontrez une information intéressante, il vous suffit d'ajouter une *Zettle* dans votre *Zettelkasten*.
 
-Bien évidemment, toutes les informations que vous rencontrez dans votre quotidien ne devrait pas être mises sous forme de note. Comment savoir, dans ce cas, ce qui devrait être écrit, ou ce qui devrait être laissé ?
+Bien évidemment, toutes les informations que vous rencontrez dans votre quotidien ne devrait pas être mises sous forme de note. Comment savoir, dans ce cas, **ce qui devrait être écrit, ou ce qui devrait être laissé** ?
 
-Pour cela, une règle peut être de se demander "est-ce simplement une information, ou est-ce de la connaissance ?". Ce qui revient à se demander "Est-ce que cela me sera utile dans le futur ?". Ainsi, ce n'est peut être pas la peine de faire une note sur le fait qu'a 14h30 hier, vous avez mangé un délicieux plat de pâtes (information). Par contre, noter la recette du plat de pâtes pourrait être intéressant (connaissance). De même, tout ce qui peut vous être utile pour votre travail ou vos études peut être mis sous forme de note.
+Pour cela, une règle peut être de se demander "est-ce simplement une information, ou est-ce de la connaissance ?". Ce qui revient à se demander "Est-ce que cela me sera utile dans le futur ?". Ainsi, ce n'est peut être pas la peine de faire une note sur le fait qu'a 14h30 hier, vous avez mangé un délicieux plat de pâtes (**information**). Par contre, noter la recette du plat de pâtes pourrait être intéressant (**connaissance**). De même, tout ce qui peut vous être utile pour votre travail ou vos études peut être mis sous forme de note.
 
-Maintenant que vous avez décidé d'écrire la note, quelle taille devrait-elle avoir ? Rappelez vous le principe de l'atomicité : votre note devrait être courte, et contenir l'information essentielle relative à un sujet très précis. Si elle commence à être trop longue, pensez à la séparer en plusieurs notes. Si vous le pouvez, tachez de suivre une structure qui vous plait.
+Maintenant que vous avez décidé d'écrire la note, **quelle taille devrait-elle avoir** ? Rappelez vous le principe de l'atomicité : votre note devrait être courte, et contenir l'information essentielle relative à un sujet très précis. Si elle commence à être trop longue, pensez à la séparer en plusieurs notes. Si vous le pouvez, tachez de suivre une structure qui vous plait.
 
 Une fois que vous avez écrit la note, rappellez vous d'indiquer des références. Puis, prenez le temps de bien choisir les étiquettes, car c'est une étape importante. Et c'est bon, vous avez terminé !
 
 2. **Entretenir votre *Zettelkasten***
 
-Parfois, de temps en temps, prenez le temps d'explorer votre *Zettelkasten*. Regardez les notes liées à une étiquette en particulier pour découvrir des liens intéressants; ou bien, faite une recherche avec un mot clé pour trouver des notes similaire, et faites une note "sommaire" qui organisent celle-ci avec une structure afin de pouvoir facilement vous y retrouver. Utilisez le savoir et la connaissance que vous avez emmagasiné pour écrire des articles, des livres, des synthèses, ou bien plus encore !
+Parfois, de temps en temps, prenez le temps d'explorer votre *Zettelkasten*. Regardez les notes liées à une étiquette en particulier pour découvrir des liens intéressants; ou bien, faite une recherche avec un mot clé pour trouver des notes similaires, et faites une note "sommaire" qui organisent celle-ci avec une structure afin de pouvoir facilement vous y retrouver. Utilisez le savoir et la connaissance que vous avez emmagasiné pour écrire des articles, des livres, des synthèses, ou bien plus encore !
 
 3 **Faites vous confiance !**
 
-Comme vous pouvez le voir, tous les principes et "règles" du *Zettelkasten* restent flexible, et reposent sur votre perception des choses et sur vos préférences. Cela peut être très intimidant lorsque l'on débute, et peut amener beaucoup de doutes. *Est-ce que cette notes est trop longue ? Est-ce que je devrais faire une note de cela ? Est-ce que je devrais choisir telle étiquette ?*. Toutes ces questions sont naturelles, et peuvent vous pousser à vous améliorer. Elles peuvent cependant très vite vous fatiguer et vous démotiver. Pour cela, rappelez vous que **l'action la plus importante d'un*Zettelkasten* est d'écrire et d'explorer** ! **Faites vous confiance**, et lancez vous. Quoi qu'il arrive, un *Zettelkasten* reste quelque chose de très dynamique, et vous pourrez l'éditer sans aucuns problèmes dans le futur.
+Comme vous pouvez le voir, **tous les principes et "règles" du *Zettelkasten* restent flexibles**, et reposent sur votre perception des choses et sur vos préférences. Cela peut être très intimidant lorsque l'on débute, et peut amener beaucoup de doutes.
+
+*Est-ce que cette notes est trop longue ? Est-ce que je devrais faire une note de cela ? Est-ce que je devrais choisir telle étiquette ?*. Toutes ces questions sont naturelles, et peuvent vous pousser à vous améliorer. Elles peuvent cependant très vite vous fatiguer et vous démotiver.
+
+Pour cela, rappelez vous que **l'action la plus importante d'un *Zettelkasten* est d'écrire et d'explorer** ! **Faites vous confiance**, et lancez vous. Quoi qu'il arrive, un *Zettelkasten* reste quelque chose de très dynamique, et vous pourrez l'éditer sans aucuns problèmes dans le futur.
 
 #### Exercices
+
+Durant ces exercices, nous mettrons en place un Zettelkasten dans le logiciel Joplin. D'autres logiciels permettent cependant de mettre en place un Zettelkasten, comme Zettlr ! N'hésitez pas à choisir ce qui vous convient le mieux. De ma propre experience, Joplin s'est révélé le plus simple d'utilisation et le plus complet.
 
 ##### 1. Préparer Joplin pour faire un Zettelkasten
 
 - Ouvrez Joplin, et rendez vous dans l'onglet `Outils`, puis `Options`.
--   Allez dans la rubrique Plugins, puis téléchargez le plugin `Automatic Backlinks to note`. Les plus curieux.ses pourront aussi télécharger le plugin `Link Graph UI`, qui permet de visualiser les connections entre les notes sous forme d'un graphe interactif.
+- Allez dans la rubrique `Plugins`, puis téléchargez le plugin `Automatic Backlinks to note`. Les plus curieux.ses pourront aussi télécharger le plugin `Link Graph UI`, qui permet de visualiser les connections entre les notes sous forme d'un graphe interactif.
 - Retournez dans l'interface de Joplin. Créez un nouveau carnet nommé "*Zettelkasten*". Au sein de ce carnet, créez trois autres carnets : "Notes à écrire", "Notes atomiques", et "Notes d'indexage".
 
 > `r emo::ji("light_bulb")`  *Ca y est, vous voila prêt.e à commence votre Zettelkasten dans Joplin ! Toutes les autres fonctions nécessaires à la création d'un Zettelkasten sont déjà présentes dans Joplin. En particulier, faire des liens et associer des étiquettes à une note sont des choses très faciles à faire. En plus, comme vous pouvez avoir Joplin sur votre téléphone, vous serez capable de faire des notes n'importe où, et n'importe quand !*
 
 ##### 2. Rédiger 6 *Zettels* différentes
 
-- Dans le carnet "Notes atomiques" créez précédemment, rédigez 10 *Zettels* différentes. Essayez d'y indiquer des références, de leur trouver des étiquettes, et de faire des liens entre elles.
+- Dans le carnet "Notes atomiques" créez précédemment, rédigez 6 *Zettels* différentes. Essayez d'y indiquer des références, de leur trouver des étiquettes, et de faire des liens entre elles.
   - Pour faire une étiquette dans Joplin, cliquez sur le bouton `Cliquez pour ajouter des étiquettes` en bas de l'écran. Dans la fenêtre qui s'ouvre, vous pourrez trouver une liste déroulante avec des étiquettes qui existent déjà; ou bien, vous pouvez en créer de nouvelles.
   - Pour obtenir un lien Markdown vers une note donnée, faite un clic droit sur cette note dans la liste de note, et choisissez l'option `Obtenir le lien markdown`.
-- Pour vous aider, voici une liste de titre/thème pour ces *Zettels*, avec un petit lien vers une page web qui vous offrira des informations intéressantes pour la remplir :
+- **Pour vous aider, voici une liste de titre/thème pour ces *Zettels***, avec un petit lien vers une page web qui vous offrira des informations intéressantes pour la remplir :
 
 > [Les éléphants entendent peut être le son des nuages](https://www.sciencesetavenir.fr/animaux/biodiversite/video-les-elephants-entendent-le-deplacement-des-nuages_103502)
 
@@ -191,5 +211,5 @@ Comme vous pouvez le voir, tous les principes et "règles" du *Zettelkasten* res
 
 ##### 3. Rédiger une *Zettel* d'indexage
 
-- Dans le carnet "Notes d'indexage", créez une nouvelle note nommée "Choses étonnantes à propos des éléphants"
+- Dans le carnet "Notes d'indexage", créez une nouvelle note nommée "Choses étonnantes à propos des éléphants".
 - Remplissez cette *Zettel* d'indexage en créant des liens vers certaines des notes que vous avez écrites dernièrement. A vous de décider l'ordre que vous leur donnez.

@@ -2,6 +2,6 @@
 
 Nous allons commencer en découvrant différents logiciels qui permettent de s'organiser.
 
-Tous ces logiciels sont open-sources (leur code source est visible pour tout le monde), et gratuits (pas d'abonnement, d'achat, ou autres).
+Tous ces logiciels sont dit *open-source* (leur code source, et donc leur fonctionnement, est visible pour tout le monde). Ils sont également gratuits (pas d'abonnement, d'achat, ou autres).
 
-Ils nécessitent cependant un petit moment d'installation et de prise en main que cet atelier devrait vous faciliter.
+Ils nécessitent cependant un petit moment d'installation et de prise en main, que cet atelier devrait vous faciliter.
