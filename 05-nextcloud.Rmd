@@ -66,7 +66,7 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
   - Regarder une vidéo de chien mignon
   - Faire la vaisselle
 
-Pour la tache "Comprendre comment Nextcloud fonctionne", utilisez le petit bouton a droite de la tache pour ajouter trois sous-taches :
+- Pour la tache "Comprendre comment Nextcloud fonctionne", utilisez le petit bouton a droite de la tache pour ajouter trois sous-taches :
   - Comprendre comment fonctionne les tâches de Nextcloud
   - Comprendre comment fonctionne les tableaux *kanban* de Nextcloud
   - Comprendre comment fonctionne les agendas de Nextcloud
