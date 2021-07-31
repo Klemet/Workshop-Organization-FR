@@ -141,14 +141,14 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 
 > `r emo::ji("light_bulb")`  *Vous avez découvert l'une des fonctionnalités les plus utiles du Markdown : les cases à cocher. Dans le format texte, une case non-cochée s'écrit "`- [ ]`", et une case cochée s'écrit "`- [x]`".*
 
-#### 4. Utiliser des étiquettes
+#### 5. Utiliser des étiquettes
 
 - Donnez à la note "Note pour exercice" l'étiquette "Exercice" en trouvant ajoutant une étiquette avec le bouton correspondant en bas de l'interface.
 - Observez qu'une nouvelle catégorie d'étiquette est apparue dans le menu des carnets.
 
 > `r emo::ji("light_bulb")`  *Les étiquettes sont extrèmements pratiques pour retrouver facilement ses notes. Trier ses notes en les mettants dans différents carnets peut être utile; mais comme on ne peut mettre une note que dans un seul carnet, cela reste limité. Mettriez vous une note avec des idées de cadeaux d'anniversaire pour une amie dans votre carnet "amis", ou dans votre carnets "idées" ? Avec des étiquettes, la question ne se pose plus : vous pouvez mettre les deux. Je vous conseille d'utiliser des étiquettes autant que possible !*
 
-#### 5. Changer l'interface
+#### 6. Changer l'interface
 
 - Allez dans l’onglet `Affichage`, puis cliquez sur l'option `Changer la composition de l’application`.
 - Utilisez les flèches qui se trouvent sur chaque partie de l'interface pour :
@@ -158,17 +158,17 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 - Appuyez sur `Echap` pour sortir de l'outil pour changer la composition de l'application.
 - Laissez l'interface comme elle est, remettez la comme avant, ou bien mettez la comme vous le préférez !
 
-#### 6. Télécharger un plugin
+#### 7. Télécharger un plugin
 
 - Allez dans l'onglet `Outils`, puis cliquez sur `Options`.
 - Allez dans l'onglet `Plugins` du menu des options.
 - Dans la barre de recherche, cherchez le plugin `Quick Links` et installez le.
 - Dans la barre de recherche, cherchez le plugin `Note Tabs` et installez le.
 - Redémarrez Joplin grace au petit menu qui vous indique de le redémarrer pour que les plugins fonctionnent; ou bien, arrêtez Joplin complètement (fermer la fenêtre n'arrête pas Joplin par défaut), et relancez le.
-- Réalisez les étapes de l'exercice 4 pour adapter votre interface aux onglets ajoutés par le plugin `Note Tabs`.
+- Réalisez les étapes de l'exercice 6 pour adapter votre interface aux onglets ajoutés par le plugin `Note Tabs`.
 - Si vous souhaitez enlever les onglets ajoutés par le plugin `Note Tabs`, rendez vous dans le menu `Plugins` à nouveau, et utilisez le bouton dédié pour désactiver le plugin `Note Tabs`.
 
-#### 7. Insérer des liens vers d'autres notes
+#### 8. Insérer des liens vers d'autres notes
 
 - Dans le "Carnet pour exercice", créez une seconde note nommée "Note vers laquelle faire un lien".
 - Retournez dans la note "Note pour exercice".
@@ -181,7 +181,7 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
   - Profitez du plugin Quick Links que vous avez installé : tapez `@@` dans votre texte, puis choisissez la note "Note vers laquelle faire un lien" dans la fenêtre d'autocomplétion qui s'ouvre.
 - Une fois le lien insérez, regardez la partie de l'éditeur qui vous montre votre notre mise en forme. Un lien s'y trouve. Cliquez dessus, et il vous amènera vers l'autre note.
 
-#### 8. Exporter une note
+#### 9. Exporter une note
 
 - Faites un clic droit sur la note "Note pour exercice" dans la fenêtre des notes. Choisissez l'option `Exporter`, puis `PDF`.
 - Sauvegardez le `.pdf` dans votre ordinateur, et ouvrez le.
