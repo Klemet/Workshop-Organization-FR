@@ -109,6 +109,7 @@ Ainsi, nous mettrons les taches liées à des projets dans Nextcloud Deck (des k
 
 - Rendez vous dans le dossier "Nextcloud" de votre ordinateur (qui est normalement synchronisé avec votre compte Nextcloud sur Cloudamo, depuis les exercices sur Nextcloud)
   - Créez 4 nouveaux dossiers : "1 - Projets", "2 - Aires", "3 - Ressources", "4 - Archives"
+  - Dans le dossier "1 - Projet", créez trois nouveaux dossiers : "Atelier open-source et organisation", "Achat d'un nouvel ordinateur" et "Fête d'anniversaire de Bastien".
   - Dans le dossier "2 - Aires", créez 6 nouveaux dossier : "Famille", "Amis", "Travail", "Karaté", "Finances" et "Santé".
 
 > `r emo::ji("light_bulb")`  *Et voila, vous êtes maintenant prêts à utiliser la méthode P.A.R.A ! Si vous avez utilisé des projets et des aires qui correspondent à votre vie, n'oubliez pas de transférer les fichiers et informations que vous avez déjà dans les logiciels correspondants.*
