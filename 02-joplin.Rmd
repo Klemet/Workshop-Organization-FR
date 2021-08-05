@@ -1,6 +1,6 @@
 ## Joplin
 
-![](./imgs/joplinAllClient.jpg)
+![](./imgs/Joplin_logo.jpg)
 
 **Joplin est une application de prise de notes avec des très nombreuses fonctionnalités.**
 

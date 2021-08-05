@@ -31,17 +31,15 @@ Enfin, les taches définies pour les différentes aires de responsabilités de l
 
 Ainsi, toutes les taches dans Nextcloud Tasks et cartes dans Nextcloud Deck peuvent être associés à des priorités, puis être triées par priorité afin de rapidement visualiser quelles taches doivent être faites. Pour en savoir plus sur la gestion des taches à la manière d'une inbox, je vous réfère à la section sur cette méthode.
 
-### La gestion des références dans les ressources : Zotero et Zettlr
+### La gestion des références dans les ressources : Zotero et le plugin BibTex de Joplin
 
-Au sein même du *Zettlekasten*, ou bien dans d'autres notes qui concernent vos projets ou vos aires de responsabilités, il vous est possible d'insérer des références bibliographiques en utilisant Zotero et Zettlr.
+Au sein même du *Zettlekasten*, ou bien dans d'autres notes qui concernent vos projets ou vos aires de responsabilités, il vous est possible d'insérer des références bibliographiques en utilisant Zotero et Joplin.
 
 De cette manière, vous aurez des documents propres et référencés sans avoir à gérer vous même, à la main, une base de données de références (ce qui peut être très compliqué). Pour plus d'informations sur l'utilisation de ces deux logiciels, je vous renvoie à leurs sections respectives.
 
-> `r emo::ji("light_bulb")`  *Un plugin pour Joplin est en train d'être développé, à l'été 2021, dans le but de pouvoir insérer des références en markdown dans Joplin. Cela vous permettra de ne pas avoir à passer par Zettlr pour cela.*
+### L'export des documents en markdown avec Joplin
 
-### L'export des documents en markdown avec Zettlr
-
-Zettlr peut aussi jouer le role d'un bon exporteur de documents en langage markdown. Bien que Joplin est capable d'exporter vos notes en markdown au format `.pdf` ou `.html`, Zettlr est capable de le faire dans un plus grand nombre de format, et aussi d'y ajouter des références. Zettlr peut être utilisé pour ouvrir vos notes Joplin sans aucuns soucis.
+Joplin peut aussi jouer le role d'un bon exportateur de documents en langage markdown. Bien que Joplin est capable d'exporter vos notes en markdown au format `.pdf` ou `.html`, d'autres logiciels (comme [Pandoc](https://pandoc.org/) ou  [Zettlr](https://www.zettlr.com/)) sont capable de le faire dans un plus grand nombre de format, et aussi d'y ajouter des références.
 
 ### Graphique récapitulatif
 

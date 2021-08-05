@@ -49,7 +49,6 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
 - Découvrir et apprendre à utiliser les fonctions de base des les logiciels suivants :
   - `r emo::ji("white_check_mark")` Joplin
   - `r emo::ji("white_check_mark")` Zotero
-  - `r emo::ji("white_check_mark")`Zettlr
   - `r emo::ji("white_check_mark")` Nextcloud
 - Apprendre à utiliser ces différents logiciels ensemble pour gérer l'information avec les méthodes suivantes :
   - `r emo::ji("white_check_mark")` La méthode du *Zettelkasten*

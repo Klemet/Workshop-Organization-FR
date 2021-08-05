@@ -8,13 +8,42 @@ Tout d'abord, rappelez vous que tous les logiciels que vous avez peut être déc
 
 Également, je tient à vous laisser un petit lien vers [ma page GitHub](https://github.com/Klemet), si vous êtes curieux.se de découvrir mes autres projets, ou bien les outils que je développe.
 
-Enfin, j'aimerais vous laisser avec quelques autres petits conseils afin d'augmenter votre productivité en plus de tout ce que nous avons vu aujourd'hui. En particulier, je vous recommande :
+Enfin, j'aimerais vous laisser avec quelques autres petits conseils afin d'augmenter votre productivité en plus de tout ce que nous avons vu aujourd'hui, ainsi que d'autres logiciels à essayer par vous même.
 
-- La [**méthode Pomodoro**](https://fr.wikipedia.org/wiki/Technique_Pomodoro) pour prendre soin de vos yeux en sortant de l'écran à intervalles régulières, mais aussi pour prendre un rythme de travail durant lequel vous êtes bien concentré sur celui-ci. C'est une méthode qui m'as énormément aidé pour devenir plus productif, et je l'utilise quotidiennement. De nombreux logiciels permettent de l'utiliser, et j'utilise personnellement [Pomotroid](https://splode.github.io/pomotroid/).
-- La **méditation dite *mindfulness* (ou pleine conscience)** peut vous aider à prendre soin de vous émotions, mais aussi à mieux vous concentrer sur votre travail. C'est une méditation non religieuse ayant pour but d'exercer l'esprit à prendre conscience de son état émotionnel, et de pouvoir se reconcentrer sur certains stimuli en particulier. Elle est aujourd'hui recommandée dans certaines thérapies en psychologie, et [certaines études scientifiques sur le sujet](https://www.sciencedirect.com/science/article/abs/pii/S0022399903005737) semblent montrer qu'elle possède un effet sur le bien être et la réduction du stress. De nombreuses applications existent sur téléphone pour commencer à la pratiquer, mais je vous recommande personnellement le [livre et les enregistrements de Christophe André sur le sujet](https://www.christopheandre.com/projects/mediter-jour-apres-jour/). Elle pourrait cependant être déconseillée à des personnes ayant vécu des traumatismes au niveau psychologique; n'hésitez pas à en parler à un.e psychologue avant de commencer.
-- Enfin, je vous recommande de **ne pas négliger votre espace de travail**, surtout si vous passez votre journée devant un ordinateur. Choisissez autant que possible le bon endroit, une bonne chaise, et pensez à mettre un éclairage de biais en arrière de votre écran afin de faciliter le travail pour vos yeux. Tachez d'avoir un bureau propre, et pensez à avoir [un style plus minimaliste](https://preview.redd.it/rofotad6dty51.jpg?width=960&crop=smart&auto=webp&s=ce63e121f680007bb702b012fcfea11cc287cefb) dans lequel tout ce dont vous n'avez pas besoin en tout instant est rangé et caché, afin de limiter ce que vous avez dans votre champ de vision.
+## Quelques habitudes à prendre
 
-Bon courage pour votre travail, en espérant que ces petites choses pourront vous aider !
+![](./imgs/timer.jpg)
 
+La [**méthode Pomodoro**](https://fr.wikipedia.org/wiki/Technique_Pomodoro) pour prendre soin de vos yeux en sortant de l'écran à intervalles régulières, mais aussi pour prendre un rythme de travail durant lequel vous êtes bien concentré sur celui-ci. C'est une méthode qui m'as énormément aidé pour devenir plus productif, et je l'utilise quotidiennement. De nombreux logiciels permettent de l'utiliser, et j'utilise personnellement [Pomotroid](https://splode.github.io/pomotroid/).
+
+* * *
+
+![](./imgs/meditation.jpg)
+
+La **méditation dite *mindfulness* (ou pleine conscience)** peut vous aider à prendre soin de vous émotions, mais aussi à mieux vous concentrer sur votre travail. C'est une méditation non religieuse ayant pour but d'exercer l'esprit à prendre conscience de son état émotionnel, et de pouvoir se reconcentrer sur certains stimuli en particulier. Elle est aujourd'hui recommandée dans certaines thérapies en psychologie, et [certaines études scientifiques sur le sujet](https://www.sciencedirect.com/science/article/abs/pii/S0022399903005737) semblent montrer qu'elle possède un effet sur le bien être et la réduction du stress.
+
+De nombreuses applications existent sur téléphone pour commencer à la pratiquer, mais je vous recommande personnellement le [livre et les enregistrements de Christophe André sur le sujet](https://www.christopheandre.com/projects/mediter-jour-apres-jour/). Elle pourrait cependant être déconseillée à des personnes ayant vécu des traumatismes au niveau psychologique; n'hésitez pas à en parler à un.e psychologue avant de commencer.
+
+* * *
+
+![](./imgs/minimalist_desk.jpg)
+
+Enfin, je vous recommande de **ne pas négliger votre espace de travail**, surtout si vous passez votre journée devant un ordinateur. Choisissez autant que possible le bon endroit, une bonne chaise, et pensez à mettre un éclairage de biais en arrière de votre écran afin de faciliter le travail pour vos yeux. Tachez d'avoir un bureau propre, et pensez à avoir [un style plus minimaliste](https://preview.redd.it/rofotad6dty51.jpg?width=960&crop=smart&auto=webp&s=ce63e121f680007bb702b012fcfea11cc287cefb) dans lequel tout ce dont vous n'avez pas besoin en tout instant est rangé et caché, afin de limiter ce que vous avez dans votre champ de vision.
+
+## Quelques autres logiciels à essayer
+
+En addition aux logiciels que nous avons vu aujourd'hui, je vous recommande également :
+
+- [Zettlr](https://www.zettlr.com/), un éditeur de document en Markdown "Académique" qui possède des fonctions complémentaires à celles de Joplin.
+- [Thunderbird](https://www.thunderbird.net), un gestionnaire de mails qui s'adapte à toute boite mail, et qui permet de les avoir toutes aux même endroit.
+- [Libreoffice](https://www.libreoffice.org/), une suite de logiciel de bureautique pour remplacer Microsoft Office.
+
+## Merci !
+
+Bon courage pour votre travail. J'espère très sincèrement que ces découvertes pourront vous aider dans celui-ci.
+
+N'hésitez pas à partager l'atelier avec vos collègues ou vos amis; il est fait pour cela !
+
+Prenez soin de vous, et au plaisir de vous avoir comme lecteur.rice à nouveau.
 
 **Clément**

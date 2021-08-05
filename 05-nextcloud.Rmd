@@ -90,7 +90,6 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
 - Dans la colonne "A faire", utilisez le petit bouton `+` pour créer 5 nouvelles "cartes" :
   - Découvrir Joplin
   - Découvrir Zotero
-  - Découvrir Zettlr
   - Découvrir Nextcloud
   - Découvrir des méthodes pour les mettre en oeuvre
 - Déplacez les cartes dans les bonnes colonnes : les trois première doivent aller dans la colonne "Terminé". La 4eme doit aller dans la colonne "à faire". La dernière doit rester ou elle est.

@@ -1,6 +1,9 @@
 ## La méthode P.A.R.A
 
+<div style="text-align: center !important; width: 100%  !important;">
 ![](./imgs/PARA_Logo.jpeg)
+*Image de [Forte Labs](https://fortelabs.co/blog/para/).*
+</div>
 
 **La méthode P.A.R.A (Projects, Areas, Resources, Archives) est une méthode pour organiser l'information digitale.**
 
@@ -24,7 +27,10 @@ Globalement, on peut se l'imaginer comme une manière de "trier" des information
 
 Pour comprendre comment la méthode P.A.R.A trie les informations selon leur utilité, il suffit de comprendre les 4 éléments qui composent son nom : Projet, Aire de responsabilité, Ressource et Archive.
 
+<div style="text-align: center !important; width: 100%  !important;">
 ![](./imgs/PARA_definitions.jpeg)
+*Image de [Forte Labs](https://fortelabs.co/blog/para/).*
+</div>
 
 - Un **projet** est définit comme "*une série de taches liées à un but, **avec une deadline***".
 
@@ -38,7 +44,10 @@ Les aires de responsabilités peuvent être "ma santé"; "mes amis"; "le badmint
 
 Une dernière chose à retenir est que **vos projets s'inscriront quasiment toujours au sein d'une aire de responsabilité**, ce qui est tout à fait normal ! Vous pouvez visualiser les choses comme sur le schéma suivant, où les petits carrés représentent des taches, et le cercle une aire de responsabilité.
 
+<div style="text-align: center !important; width: 100%  !important;">
 ![](./imgs/PARA_area_project.jpeg)
+*Image de [Forte Labs](https://fortelabs.co/blog/para/).*
+</div>
 
 - Une **ressource** est définie comme "*un sujet ou un thème d’intérêt pour vous*".
 
@@ -60,9 +69,11 @@ La méthode P.A.R.A ne donne pas une liste de logiciels particulier à utiliser 
 
 2. **La structure des utilités d'informations doit être identique dans chaque logiciel**. Cela signifie que dans chaque logiciel, vous retrouverez des catégories comme "Projets", "Aires", "Ressources" et "Archives"; et que au sein de ces catégories, l'organisation qui s'y trouvent doit se retrouver dans chacun des logiciels que vous utilisez. Ceci est important afin d'avoir une structure unique que vous retrouverez dans tous vos logiciels, ce qui réduit votre charge mentale, rend le passage d'un logiciel à un autre plus rapide, et vous évite de chercher longuement pour trouver une information. Sur les images suivantes, vous trouverez un example de cela avec 4 logiciels différents. **Attention cependant** : tous les logiciels n'ont pas à contenir tous les types d'informations possibles ! Ainsi, votre gestionnaire de tache n'as pas forcément besoin de contenir des dossiers en liens avec vos ressources ou vos archives.
 
+<div style="text-align: center !important; width: 100%  !important;">
 ![](./imgs/PARA_replication_PARA.jpeg)
-
 ![](./imgs/PARA_replication.jpeg)
+*Images de [Forte Labs](https://fortelabs.co/blog/para/).*
+</div>
 
 3. Les logiciels que vous utilisez doivent **permettre de cacher l'information qui ne vous est pas utile autant que possible** lorsque vous travaillez sur quelque chose. Ainsi, lorsque vous travaillez sur un projet, vous n'avez pas besoin d'avoir à votre écran les dossiers et fichiers de vos différentes aires de responsabilités, ou bien vos ressources. Vous n'avez besoin que des informations liées au projet. Ainsi, les logiciels que vous utilisez devraient, autant que possible, être capable de vous cacher toute information non pertinente pour que vous n'ayez pas à trier constamment parmis toutes les informations sur votre écran.
 

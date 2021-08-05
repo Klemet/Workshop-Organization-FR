@@ -44,7 +44,10 @@ Ceci est une conséquence de l'encapsulation de l'information. Pour reprendre l'
 
 Cet aspect est certainement le plus subjectif, mais il me semble indéniable. Prendre des notes sur des sujets compliqués est souvent une activité chronophage, et il peut être très décourageant de se retrouver avec un tas de notes longues et complexes qui ne servent pas bien nos buts, et qui semblent au final inutiles. Le *Zettelkasten* permet alors de rendre l'activité de prendre des notes sur tout et n'importe quoi - comment identifier une espèce d'arbre, des statistiques liés à un problème dans le monde qui nous touche, des pensées qui nous traversent - organisée, rigoureuse, et surtout productive. Chacune des notes crées au sein d'un *Zettelkasten* invite à la réflexion et à la création. Chacune des notes peut être retrouvée rapidement pour vous servir quand cela est nécessaire. Ainsi, cette activité devient moins laborieuse, moins bourrée de doutes, et beaucoup plus satisfaisante. Chaque note devient une graine plantée dans le sol qui donnera ses fruits à l'avenir.
 
+<div style="text-align: center !important; width: 100%  !important;">
 ![](./imgs/information_vs_knowledge.jpg)
+*Image de [Gapingvoid](https://www.gapingvoid.com/blog/2014/01/22/information-vs-knowledge/).*
+</div>
 
 ### Mettre en place un *Zettelkasten*
 
@@ -92,7 +95,10 @@ Commenceons par les composants d'un *Zettelkasten* : Les *Zettels*, les étiquet
 
 Une *Zettel* est une note, et elle est le composant de base du *Zettelkasten*.
 
+<div style="text-align: center !important; width: 100%  !important;">
 ![](./imgs/anatomy_zettel.png)
+*Image de [zettelkasten.de](https://zettelkasten.de/).*
+</div>
 
 Une *Zettel* est composée de trois parties :
 
@@ -110,7 +116,7 @@ En effet, lorsque Joplin créer une nouvelle note, celle-ci est automatiquement 
 
 Le corps ou contenu de la note doit être clair et concis. Si il devient trop long, alors il serait très intéressant de voir si la note peut être séparée en plusieurs notes, qui resterons aussi courtes que possibles. Il est important, autant que possible, que ce sois vous qui écriviez le corps de la note. Cela vous pousse à écrire votre propre version de l'information, ce qui mène à mieux la comprendre, mais aussi à mieux s'en rappeler. Ainsi, autant que possible, **évitez de simplement copier-coller de l'information dans une note**.
 
-Le pied de la note, contenant les références, peut être généré automatiquement par le logiciel si celui-ci gère les références bibliographique (c'est le cas de Zettlr, et ce sera bientôt le cas de Joplin en 2021). Si la note contient certains de vos pensées, vous pouvez laisser cette partie la vide.
+Le pied de la note, contenant les références, peut être généré automatiquement par le logiciel si celui-ci gère les références bibliographique (c'est le cas de Joplin avec le plugin BibTex). Si la note contient certains de vos pensées, vous pouvez laisser cette partie la vide.
 
 ##### Les étiquettes
 
@@ -174,7 +180,7 @@ Pour cela, rappelez vous que **l'action la plus importante d'un *Zettelkasten* e
 
 #### Exercices
 
-Durant ces exercices, nous mettrons en place un Zettelkasten dans le logiciel Joplin. D'autres logiciels permettent cependant de mettre en place un Zettelkasten, comme Zettlr ! N'hésitez pas à choisir ce qui vous convient le mieux. De ma propre experience, Joplin s'est révélé le plus simple d'utilisation et le plus complet.
+Durant ces exercices, nous mettrons en place un Zettelkasten dans le logiciel Joplin. D'autres logiciels permettent cependant de mettre en place un Zettelkasten, comme [Zettlr](https://www.zettlr.com/) ! N'hésitez pas à choisir ce qui vous convient le mieux. De ma propre experience, Joplin s'est révélé le plus simple d'utilisation et le plus complet.
 
 ##### 1. Préparer Joplin pour faire un Zettelkasten
 
