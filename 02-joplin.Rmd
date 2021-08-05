@@ -61,12 +61,11 @@ Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikip�
 
 ### Installation de Joplin
 
-<span class="marginnote">`r emo::ji("light_bulb")` **Si vous souhaitez avoir l'interface en français, pensez à indiquer "français" comme langue durant l'installation**. Si vous ne l'avez pas fait, vous pourrez changer la langue dans “Tools” puis “Options” puis “General”.</span>
-
 - Rendez-vous simplement sur [la page web du logiciel](https://joplinapp.org/)
 - Choisissez la version correspondant à votre système d’exploitation : Windows, Mac ou Linux.
 - Lancez l'installateur et suivez les instructions.
 
+> `r emo::ji("light_bulb")` **Si vous souhaitez avoir l'interface en français, pensez à indiquer "français" comme langue durant l'installation**. Si vous ne l'avez pas fait, vous pourrez changer la langue dans “Tools” puis “Options” puis “General”.
 
 ### Prise en main de Joplin
 
