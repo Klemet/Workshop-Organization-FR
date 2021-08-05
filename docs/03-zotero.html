@@ -247,12 +247,43 @@
 <h4>5. Exporter votre base de donnée de Zotero avec l’option de mise à jour</h4>
 <ul>
 <li>Dans la fenêtre de Zotero, allez dans <code>Fichier</code>, et sélectionnez l’option <code>Exporter la bibliothèque</code>.</li>
-<li>Dans la liste Format, choisissez le format <code>Better CSL JSON</code></li>
+<li>Dans la liste Format, choisissez le format <code>Better BibTex</code></li>
 <li>Dans les options, choisissez l’option<code>Garder à jour</code>, et laissez toutes les autres décochées.</li>
 <li>Exportez le fichier .bib résultant quelque part sur votre ordinateur.</li>
 </ul>
 <blockquote>
-<p>💡 <em>Ce fichier .json contient les informations de toutes les références de votre bibliothèque, associée à un petit code pour chaque que nous allons pouvoir insérer dans des documents en Markdown. En plus de cela, il est gardé automatiquement à jour grace à plugin “Better BibTex”; cela veut dire que chaque fois que vous ajouterez une référence dans Zotero, ce fichier .json sera mis à jour pour qu’elle y soit ajoutée.</em></p>
+<p>💡 <em>Ce fichier .bib contient les informations de toutes les références de votre bibliothèque, associée à un petit code pour chaque que nous allons pouvoir insérer dans des documents en Markdown. En plus de cela, il est gardé automatiquement à jour grace à plugin “Better BibTex”; cela veut dire que chaque fois que vous ajouterez une référence dans Zotero, ce fichier .bib sera mis à jour pour qu’elle y soit ajoutée.</em></p>
+</blockquote>
+</div>
+<div id="utiliser-le-plugin-bibtex-de-joplin-pour-ajouter-des-références" class="section level4">
+<h4>6. Utiliser le plugin BibTex de Joplin pour ajouter des références</h4>
+<ul>
+<li>Ouvrez Joplin.</li>
+<li>Allez dans l’onglet <code>Outils</code>, puis cliquez sur <code>Options</code>.</li>
+<li>Allez dans l’onglet <code>Plugins</code> du menu des options.</li>
+<li>Dans la barre de recherche, cherchez le plugin <code>Quick Links</code> et installez le.</li>
+<li>Redémarrez Joplin.</li>
+<li>Retournez dans l’onglet <code>Outils</code>, puis cliquez sur <code>Options</code>.</li>
+<li>Allez dans l’onglet <code>BibTex Plugin</code> qui est apparu dans les options.</li>
+<li>Dans le champ <code>BibTex File</code>, écrivez le chemin jusqu’au fichier .bib que vous avez généré a l’exercice 5.</li>
+<li>Choisissez l’option <code>Pandoc syntax</code> (à venir).</li>
+<li>Quittez les options, et créez une nouvelle note nommée “Note avec références” dans Joplin.</li>
+<li>Dans cette note, écrivez la phrase suivante :</li>
+</ul>
+<pre><code>Les logiciels open-source ont une longue histoire .</code></pre>
+<ul>
+<li>Positionnez votre curseur dans l’éditeur de Joplin juste avant le point final de la phrase. Puis, vous avez le choix :
+<ul>
+<li>Dans Joplin, dans la petite barre contenant les boutons de l’éditeur, cliquez sur le bouton en forme de chapeau de diplômé.e. C’est le bouton du plugin BibTex. Dans la liste qui s’ouvre (qui contient vos références), cherchez l’article par <code>Bretthauer</code> que vous avez ajouté auparavant. Appuyez sur “Entrer” pour valider.</li>
+<li>Écrivez le code de la référence vous même, en écrivant des parenthèses carrées <code>[ ]</code> avec, a l’intérieur, un <code>@</code> collé a l’identifiant unique de l’article dans Zotero (qui se trouve tout en haut des informations d’un article).</li>
+</ul></li>
+<li>Une fois la référence ajoutée, observez son rendu dans l’éditeur.</li>
+</ul>
+<blockquote>
+<p>💡 <em>Vous pouvez observer que le plugin BibTex met en forme la référence a l’intérieur du texte, mais ajoute aussi automatique une partie “références” à la fin de votre note qui indique toutes les documents référencés dans votre note.</em></p>
+</blockquote>
+<blockquote>
+<p>💡 <em>La syntaxe que je vous recommande d’utiliser dans vos notes en markdown pour les références est celle utilisée par Pandoc, un logiciel open-source très connu qui permet de transformer un document texte en presque n’importe quel format. Cette syntaxe élégante vous permet de mettre la citation dans le texte dans le format que vous souhaitez. Pour en savoir plus sur cette syntaxe, rendez vous sur <a href="https://pandoc.org/demo/example19/Extension-citations.html">ce lien</a>.</em></p>
 </blockquote>
 
 </div>
