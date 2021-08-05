@@ -1,8 +1,6 @@
 ## Nextcloud
 
-<center>
 ![](./imgs/Nextcloud_logo.png)
-</center>
 
 **Nextcloud est un logiciel de cloud comme Google Drive, permettant d'héberger des fichiers, mais contenant aussi de multiples applications très utiles. Il est cependant, contrairement à Google Drive, open-source et gratuit.**
 

@@ -1,7 +1,5 @@
 ---
 title: "Atelier organisation et open-source"
-author: "Clément Hardy"
-date: "`r Sys.Date()`"
 url: 'https://github.com/Klemet/Workshop-Organization-FR'
 github-repo: "Klemet/Workshop-Organization-FR"
 cover-image: "images/cover.png"
@@ -13,9 +11,7 @@ link-citations: yes
 description: "Ces pages contiennent le contenu d'un atelier de découverte de logiciels open-source dans des buts d'organisation personnelle, créé par Clément Hardy."
 ---
 
-<center>
 ![](./imgs/Cover_workshop.jpg)
-</center>
 
 # Bienvenue !
 
@@ -23,7 +19,6 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
 
 **Avant de commencer :**
 
-- `r emo::ji("black_nib")` *Changez l'apparence de la page pour votre confort en cliquant sur le bouton `A` en haut à gauche de l'écran.*
 - `r emo::ji("arrow_left")` `r emo::ji("arrow_right")` *Déplacez vous entre les pages en utilisant les flèches gauches ou droite, ou bien en utilisant la table des matières sur la gauche.*
 - `r emo::ji("clock4")` *Prévoyez 3 à 4 heures de lecture si vous souhaitez tout lire en détail.*
 
@@ -60,19 +55,13 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
   - `r emo::ji("white_check_mark")` La méthode du *Zettelkasten*
   - `r emo::ji("white_check_mark")` La méthode PARA
   - `r emo::ji("white_check_mark")` La méthode de la *inbox*
-  - `r emo::ji("white_check_mark")` Un exemple d'organisation globale couplant *Zettelkasten* et PARA
 
   ## Présentateur
 
-<center>
-</br>
-
+<div style="font-family:Lato; font-size:30px; text-align: center !important; width: 100%  !important;">
 ![](./imgs/clement.png)
-</br>
-<span style="font-family:Lato; font-size:30px;">**Clément Hardy**</span>
-</br>
-</br>
-</center>
+[**Clément Hardy**](http://www.cef-cfr.ca/index.php?n=Membres.ClementHardy)
+</div>
 
 Je suis un étudiant au doctorat en écologie forestière, sous la supervision de [Elise Filotas](http://elisefilotas.ca/fr/home/) et [Christian Messier](www.cef-cfr.ca/index.php?n=Membres.ChristianMessier).
 

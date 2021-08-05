@@ -1,8 +1,6 @@
 ## La méthode Zettelkasten
 
-<center>
 ![](./imgs/Lihmann-Zettelkasten.jpg)
-</center>
 
 **Le *Zettelkasten* est une méthode de gestion des connaissances et de prises de notes.**
 
@@ -46,9 +44,7 @@ Ceci est une conséquence de l'encapsulation de l'information. Pour reprendre l'
 
 Cet aspect est certainement le plus subjectif, mais il me semble indéniable. Prendre des notes sur des sujets compliqués est souvent une activité chronophage, et il peut être très décourageant de se retrouver avec un tas de notes longues et complexes qui ne servent pas bien nos buts, et qui semblent au final inutiles. Le *Zettelkasten* permet alors de rendre l'activité de prendre des notes sur tout et n'importe quoi - comment identifier une espèce d'arbre, des statistiques liés à un problème dans le monde qui nous touche, des pensées qui nous traversent - organisée, rigoureuse, et surtout productive. Chacune des notes crées au sein d'un *Zettelkasten* invite à la réflexion et à la création. Chacune des notes peut être retrouvée rapidement pour vous servir quand cela est nécessaire. Ainsi, cette activité devient moins laborieuse, moins bourrée de doutes, et beaucoup plus satisfaisante. Chaque note devient une graine plantée dans le sol qui donnera ses fruits à l'avenir.
 
-<center>
 ![](./imgs/information_vs_knowledge.jpg)
-</center>
 
 ### Mettre en place un *Zettelkasten*
 

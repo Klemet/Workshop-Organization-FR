@@ -21,10 +21,8 @@
   <meta name="twitter:description" content="Ces pages contiennent le contenu d’un atelier de découverte de logiciels open-source dans des buts d’organisation personnelle, créé par Clément Hardy." />
   <meta name="twitter:image" content="https://github.com/Klemet/Workshop-Organization-FR/images/cover.png" />
 
-<meta name="author" content="Clément Hardy" />
 
 
-<meta name="date" content="2021-07-28" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -57,7 +55,7 @@
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="book.css" type="text/css" />
 </head>
 
 <body>
@@ -70,7 +68,7 @@
       <nav role="navigation">
 
 <ul class="summary">
-<li><a href="./">Atelier organisation et open-source</a></li>
+<li class='before'><a href="./">Atelier organisation et open-source</a></li>
 
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Bienvenue !</a>
@@ -82,7 +80,7 @@
 <ul>
 <li class="chapter" data-level="" data-path="02-joplin.html"><a href="02-joplin.html"><i class="fa fa-check"></i>Joplin</a>
 <ul>
-<li class="chapter" data-level="" data-path="02-joplin.html"><a href="02-joplin.html#fonctionalités-de-joplin"><i class="fa fa-check"></i>Fonctionalités de Joplin</a></li>
+<li class="chapter" data-level="" data-path="02-joplin.html"><a href="02-joplin.html#fonctionnalités-de-joplin"><i class="fa fa-check"></i>Fonctionnalités de Joplin</a></li>
 <li class="chapter" data-level="" data-path="02-joplin.html"><a href="02-joplin.html#le-markdown"><i class="fa fa-check"></i>Le Markdown</a></li>
 <li class="chapter" data-level="" data-path="02-joplin.html"><a href="02-joplin.html#installation-de-joplin"><i class="fa fa-check"></i>Installation de Joplin</a></li>
 <li class="chapter" data-level="" data-path="02-joplin.html"><a href="02-joplin.html#prise-en-main-de-joplin"><i class="fa fa-check"></i>Prise en main de Joplin</a></li>
@@ -163,18 +161,13 @@
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">Atelier organisation et open-source</h1>
-<p class="author"><em>Clément Hardy</em></p>
-<p class="date" style="margin-top: 1.5em;"><em>2021-07-28</em></p>
 </div>
-<center>
-<img src="imgs/Cover_workshop.jpg" />
-</center>
+<p><img src="imgs/Cover_workshop.jpg" /></p>
 <div id="bienvenue" class="section level1">
 <h1>Bienvenue !</h1>
 <hr />
 <p><strong>Avant de commencer :</strong></p>
 <ul>
-<li>✒️ <em>Changez l’apparence de la page pour votre confort en cliquant sur le bouton <code>A</code> en haut à gauche de l’écran.</em></li>
 <li>⬅️ ➡️ <em>Déplacez vous entre les pages en utilisant les flèches gauches ou droite, ou bien en utilisant la table des matières sur la gauche.</em></li>
 <li>🕓 <em>Prévoyez 3 à 4 heures de lecture si vous souhaitez tout lire en détail.</em></li>
 </ul>
@@ -214,18 +207,13 @@
 <li>✅ La méthode du <em>Zettelkasten</em></li>
 <li>✅ La méthode PARA</li>
 <li>✅ La méthode de la <em>inbox</em></li>
-<li>✅ Un exemple d’organisation globale couplant <em>Zettelkasten</em> et PARA</li>
 </ul>
 <h2 id="présentateur">Présentateur</h2></li>
 </ul>
-<center>
-<p></br></p>
-<img src="imgs/clement.png" />
-</br>
-<span style="font-family:Lato; font-size:30px;"><strong>Clément Hardy</strong></span>
-</br>
-</br>
-</center>
+<div style="font-family:Lato; font-size:30px; text-align: center !important; width: 100%  !important;">
+<p><img src="imgs/clement.png" />
+<a href="http://www.cef-cfr.ca/index.php?n=Membres.ClementHardy"><strong>Clément Hardy</strong></a></p>
+</div>
 <p>Je suis un étudiant au doctorat en écologie forestière, sous la supervision de <a href="http://elisefilotas.ca/fr/home/">Elise Filotas</a> et <a href="www.cef-cfr.ca/index.php?n=Membres.ChristianMessier">Christian Messier</a>.</p>
 <p>Passioné par les logiciels open-source et par les méthodes d’organisation, j’ai décidé de mettre en place cet atelier afin de partager mes petites connaissances sur le sujet.</p>
 
@@ -264,7 +252,7 @@ gitbook.start({
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
-"theme": "night",
+"theme": "white",
 "family": "serif",
 "size": 2
 },

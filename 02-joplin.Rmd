@@ -1,14 +1,12 @@
 ## Joplin
 
-<center>
 ![](./imgs/joplinAllClient.jpg)
-</center>
 
-**Joplin est une application de prise de notes avec des très nombreuses fonctionalités.**
+**Joplin est une application de prise de notes avec des très nombreuses fonctionnalités.**
 
 C'est un logiciel open-source et entièrement gratuit qui permet de créer des notes dans le langage d’écriture “Markdown”, en les classant dans des “carnets” (*notebooks*), et en les associant avec des étiquettes (*tags*). **Il est une excellente alternative à des logiciels tels que Evernote ou Microsoft One Note**.
 
-### Fonctionalités de Joplin
+### Fonctionnalités de Joplin
 
 Joplin permet d’énormément faciliter son organisation, en remplaçant en un seul endroit tout besoin de post-its, de carnets de notes ou de listes de taches.
 
@@ -19,7 +17,7 @@ En particulier, Joplin vous permet de :
 - **L’utiliser sur tous types d’ordinateur** (Windows, Mac, Linux) et **sur tous les téléphones** (android, IOs).
 - **Synchroniser vos données sur le cloud que vous choisissez** : Nextcloud (voir plus loin), Google Drive, One Drive, etc. Vous pouvez donc avoir toutes vos données écrites partout, tout le temps, sur tous les supports.
 - **Sécuriser tous vos textes en les encryptant avec un mot de passe**.
-- **Avoir une interface totalement customisable** qui permet de vous concentrer totalement sur ce que vous écrivez pour ne pas perdre de temps.
+- **Avoir une interface totalement personnalisable** qui permet de vous concentrer totalement sur ce que vous écrivez pour ne pas perdre de temps.
 - D’**exporter vos notes de pleins de manières possible**, avec un format (le markdown) lisible partout et en tout temps.
 - **Gérer automatiquement les images et les fichiers que vous insérez dans vos notes**
 - **Versionner vos notes automatiquement** (pour revenir en arrière n’importe quand si vous avez fait une bêtise).
@@ -27,9 +25,7 @@ En particulier, Joplin vous permet de :
 
 ### Le Markdown
 
-<center>
 ![](./imgs/markdownLogo.jpg)
-</center>
 
 Le markdown est une syntaxe d’écriture facile à lire et à écrire pour formatter du texte qui est très utilisée aujourd'hui. Au passage, sachez que **[le document de cet atelier est écrit en markdown](https://github.com/Klemet/Workshop-Organization-FR/blob/main/02-joplin.Rmd) !**
 
@@ -65,11 +61,12 @@ Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikip�
 
 ### Installation de Joplin
 
+<span class="marginnote">`r emo::ji("light_bulb")` **Si vous souhaitez avoir l'interface en français, pensez à indiquer "français" comme langue durant l'installation**. Si vous ne l'avez pas fait, vous pourrez changer la langue dans “Tools” puis “Options” puis “General”.</span>
+
 - Rendez-vous simplement sur [la page web du logiciel](https://joplinapp.org/)
 - Choisissez la version correspondant à votre système d’exploitation : Windows, Mac ou Linux.
 - Lancez l'installateur et suivez les instructions.
 
-> `r emo::ji("light_bulb")` **Si vous souhaitez avoir l'interface en français, pensez à indiquer "français" comme langue durant l'installation**. Si vous ne l'avez pas fait, vous pourrez changer la langue dans “Tools” puis “Options” puis “General”.
 
 ### Prise en main de Joplin
 
@@ -81,10 +78,8 @@ Par défaut, la fenêtre de Joplin se compose de 3 parties importantes :
 - la liste des notes à l’intérieur du carnet ou vous vous trouvez, au milieu
 - l’éditeur à droite, qui s’affiche généralement en deux partie (la partie édition, et la partie visualisation).
 
-<center>
 
 ![](./imgs/Joplin_interface.jpg)
- </center>
 
 #### L'essentiel
 

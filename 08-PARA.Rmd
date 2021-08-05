@@ -1,8 +1,6 @@
 ## La méthode P.A.R.A
 
-<center>
 ![](./imgs/PARA_Logo.jpeg)
-</center>
 
 **La méthode P.A.R.A (Projects, Areas, Resources, Archives) est une méthode pour organiser l'information digitale.**
 

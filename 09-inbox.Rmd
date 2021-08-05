@@ -1,8 +1,6 @@
 ## La notion de inbox pour vos taches
 
-<center>
 ![](./imgs/inbox.jpg)
-</center>
 
 **Une *inbox* se traduit par "boite entrante" en français.** Vous avez sûrement déjà lu ce mot la dans votre logiciel de gestion de mails. Il s'agit tout simplement d'**une boite virtuelle dans laquelle s'accumule des éléments (comme des mails, ou des taches) qui ont une certaine priorité qui leur est associée**.
 
