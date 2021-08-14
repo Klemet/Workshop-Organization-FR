@@ -4,4 +4,4 @@ Maintenant que nous avons découverts différents logiciels, nous allons voir en
 
 Chacune de ces méthodes sont très discutées sur internet, en particulier celle du *Zettelkasten* qui est la plus ancienne. Si vous êtes curieux.se, vous pourrez en savoir plus en tapant leur nom dans un moteur de recherche.
 
-Pour terminer, nous verrons comment ces méthodes peuvent être combinées ensembles afin de répondre à différents types d'informations dans votre vie.
+Pour terminer, nous verrons comment ces méthodes peuvent être combinées ensembles afin de gérer différents types d'informations dans votre vie.

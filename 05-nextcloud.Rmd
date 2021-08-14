@@ -11,7 +11,7 @@ Nextcloud permet de :
 - Avoir un espace de stockage de fichiers en ligne qui vous appartient totalement.
 - Avoir accès à pleins d'applications différentes toutes open-source qui permettent de gérer des listes de taches, des *kanban boards*, des calendriers, des contacts, des notes, des recettes, des cartes, de tracker la position de son téléphone, de collaborer sur des documents, et bien plus encore.
 
-> `r emo::ji("light_bulb")`  *Il est totalement possible de synchroniser sa base de donnée Joplin sur un espace Nextcloud. C'est d’ailleurs ce qui est recommandé par les créateurs de Joplin, car Joplin possède une application Nextcloud d'intégration avec Nextcloud !*
+> `r emo::ji("light_bulb")` *Il est totalement possible de synchroniser sa base de donnée Joplin sur un espace Nextcloud. C'est d’ailleurs ce qui est recommandé par les créateurs de Joplin, car Joplin possède une application Nextcloud d'intégration avec Nextcloud !*
 
 ### Installation de Nextcloud
 
@@ -42,7 +42,7 @@ Voici donc différentes options pour obtenir une instance Nextcloud :
 - Allez voir dans votre boite mail pour trouver l’e-mail de confirmation de `Cloudamo`. **Regardez bien dans vos spams**.
 - Cliquez sur le lien de validation qui se trouve dans l'e-mail de `Cloudamo`, et connectez vous sur la page qui s'ouvre.
 
-> `r emo::ji("light_bulb")`  *Si vous décidez d'utiliser Nextcloud et que vous avez apprécié Cloudamo, vous pouvez choisir un abonnement chez cet hébergeur pour obtenir plus d'espace de stockage ! Mais je vous recommande grandement [Hertznet](https://www.hetzner.com/storage/storage-share).*
+> `r emo::ji("light_bulb")` *Si vous décidez d'utiliser Nextcloud et que vous avez apprécié Cloudamo, vous pouvez choisir un abonnement chez cet hébergeur pour obtenir plus d'espace de stockage ! Mais je vous recommande grandement [Hertznet](https://www.hetzner.com/storage/storage-share).*
 
 ### Prise en main de Nextcloud
 
@@ -55,7 +55,7 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
 - Sur Nextcloud, rendez vous dans l'onglet `Tâches`.
 - Dans le menu à gauche, cliquez sur `Ajouter une liste` pour créer une liste de tâches nommée "Personnel". Refaite la même chose pour créer une autre liste nommée "Social".
 
-> `r emo::ji("light_bulb")`  *Les listes de tâches, tous comme les calendriers que l'on verra ensuite, sont associées à des couleurs. Utilisez les pour différencier facilement différentes listes, et ainsi catégoriser vos tâches !*
+> `r emo::ji("light_bulb")` *Les listes de tâches, tous comme les calendriers que l'on verra ensuite, sont associées à des couleurs. Utilisez les pour différencier facilement différentes listes, et ainsi catégoriser vos tâches !*
 
 - Dans la liste de tâches "Nextcloud", créez 5 nouvelles taches :
   - Créer des taches pour l'exercice 1
@@ -87,7 +87,7 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
 - Sur Nextcloud, rendez vous dans l'onglet `Deck`.
 - Dans le menu à gauche, utilisez `Ajouter un tableau` pour créer un nouveau tableau *kanban* nommé "Atelier open-source et organisation".
 - Rendez vous dans ce nouveau tableau, et créez 3 colonnes dans celui-ci : "A faire", "En cours", et "Terminé".
-- Dans la colonne "A faire", utilisez le petit bouton `+` pour créer 5 nouvelles "cartes" :
+- Dans la colonne "A faire", utilisez le petit bouton `+` pour créer 4 nouvelles "cartes" :
   - Découvrir Joplin
   - Découvrir Zotero
   - Découvrir Nextcloud
@@ -110,30 +110,28 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
 - Créez deux nouvelles étiquettes, en choisissant les couleurs que vous souhaitez : "Logiciels" et "Méthodes".
 - Ouvrez la description des cartes pour leur mettre l'étiquette qui leur correspond. Regardez le résultat visuel de votre tableau.
 
-> `r emo::ji("light_bulb")`  *Les tableaux Kanban sont excellent pour visuellement voir l'état d'un projet, que ce sois pour sois même ou avec d'autres personnes. Cela peut paraitre intimidant, mais n'hésitez pas à vous y essayer ! De nombreuses vidéos et articles existent sur internet pour en parler, si vous êtes curieux.se.*
+> `r emo::ji("light_bulb")` *Les tableaux Kanban sont excellent pour visuellement voir l'état d'un projet, que ce sois pour sois même ou avec d'autres personnes. Cela peut paraitre intimidant, mais n'hésitez pas à vous y essayer ! De nombreuses vidéos et articles existent sur internet pour en parler, si vous êtes curieux.se.*
 
 #### 4. Utiliser le calendrier
 
 - Sur Nextcloud, rendez vous dans l'onglet `Agenda`.
 - A coté du bouton `Aujourd'hui` dans le menu à gauche, utilisez le bouton qui permet de changer la vue (jour, semaine, mois, etc.). Essayez les différentes vues, puis sélectionnez la vue du mois.
-- Dans le menu à gauche, sélectionnez l'agenda "Personnel".
 
-> `r emo::ji("light_bulb")`  *Les groupes de taches et d’événements de l'agenda sont au sein d'un même fichier dans Nextcloud ! C'est parce que tous deux sont au format nommé "[ICalendar](https://fr.wikipedia.org/wiki/ICalendar)". Le format ICalendar est un formé de données très utilisé par quasiment toutes les boites mails qui existent. C'est le même qui est utilisé, généralement, lorsque vous recevez une invitation à un événement par mail ! C'est aussi un format qui rend la synchronisation avec votre téléphone très facile, comme nous allons le voir bientôt. Si l'une de vos taches est associée à une date, elle apparaitra dans votre calendrier !*
+> `r emo::ji("light_bulb")` *Les groupes de taches et d’événements de l'agenda sont au sein d'un même fichier dans Nextcloud ! C'est parce que tous deux sont au format nommé "[ICalendar](https://fr.wikipedia.org/wiki/ICalendar)". Le format ICalendar est un formé de données très utilisé par quasiment toutes les boites mails qui existent. C'est le même qui est utilisé, généralement, lorsque vous recevez une invitation à un événement par mail ! C'est aussi un format qui rend la synchronisation avec votre téléphone très facile, comme nous allons le voir bientôt. Si l'une de vos taches est associée à une date, elle apparaitra dans votre calendrier !*
 
 - Double-cliquez dans la case correspondant à la journée aujourd'hui pour faire apparaître la fenêtre vous permettant de créer un nouvel événement.
-- Nommez cet événement "Fin des exercices de Nextcloud". Programmez le pour aujourd'hui, et pour débuter dans 10 minutes. Sa durée n'as pas d'importance.
-- Créez un nouvel événement sur la date d'aujourd'hui, nommé "Atelier pour découvrir des logiciels open-source pour s'organiser". Cochez la case pour indiquer que cet événement sera sur la journée entière.
-- Dans le menu à gauche, sélectionnez l'agenda "Social".
-- Créez un nouvel événement dans deux jours, nommé "Rendez vous avec moi-même", de 15h00 jusqu’à 17h00.
+- Nommez cet événement "Fin des exercices de Nextcloud". Programmez le pour aujourd'hui, et pour débuter dans 10 minutes. Sa durée n'as pas d'importance. Mettez le dans le calendrier "Personel".
+- Créez un nouvel événement sur la date d'aujourd'hui, nommé "Atelier pour découvrir des logiciels open-source pour s'organiser". Cochez la case pour indiquer que cet événement sera sur la journée entière. Mettez le la enocre dans l'agenda "Personel".
+- Créez un nouvel événement dans deux jours, nommé "Rendez vous avec moi-même", de 15h00 jusqu’à 17h00, et mettez le dans l'agenda "Social".
 
-> `r emo::ji("light_bulb")`  *Comme vous le voyez, les taches qui s'affichent dans votre calendrier sont associées à la couleur de l'agenda dans lequel elles se trouvent ! Ceci est très pratique pour pouvoir différencier visuellement et très rapidement quel événement concerne quel sphère de votre vie. Comme pour les listes de taches, profitez en !*
+> `r emo::ji("light_bulb")` *Comme vous le voyez, les taches qui s'affichent dans votre calendrier sont associées à la couleur de l'agenda dans lequel elles se trouvent ! Ceci est très pratique pour pouvoir différencier visuellement et très rapidement quel événement concerne quel sphère de votre vie. Comme pour les listes de taches, profitez en !*
 
 #### 5. Synchroniser les taches de Nextcloud avec son téléphone
 
 - Saisissez vous de votre téléphone portable.
 
 - Si vous êtes sur un téléphone android :
-  - Rendez vous dans le *Google Play Store* pour télécharger l'application gratuite et open source "[Tasks.org](https://play.google.com/store/apps/details?id=org.tasks&hl=en_US&gl=US)".
+  - Rendez vous dans le *Google Play Store* pour télécharger l'application gratuite et open source "[Tasks.org](https://play.google.com/store/apps/details?id=org.tasks&hl=en_US&gl=US)" (ou bien utilisez F-droid pour cela).
   - Ouvrez l'application, et touchez l’icône du menu en haut à gauche. Rendez vous dans la section `Paramètres`.
   - Touchez l'option `Ajouter un compte`, puis choisissez un compte de type `CalDAV`.
   - Dans le champ `Nom d'utilisateur`, entrez l'adresse mail que vous avez utilisée pour vous inscrire à Cloudamo.
@@ -142,7 +140,7 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
   - Validez, puis laissez l'application faire sa synchronisation.
   - Dans le menu de l'application, vérifiez que vous avez maintenant accès aux listes de tâches que vous avez créé sur Cloudamo. Cliquez sur les taches pour voir que vous pouvez les éditer dans tous leurs détails : leur priorité, leur notes, leurs sous-taches, etc.
 
-> `r emo::ji("light_bulb")`  *Tasks.org est une application totalement open-source et gratuite pour gérer vos taches. Elle possède de très nombreuses fonctionnalités. Changez son thème, mettez des icônes pour vos listes de taches, utilisez ses widgets pour ajouter rapidement des taches depuis votre écran d'accueil, faites des taches récurrentes, et bien d'autres encore !*
+> `r emo::ji("light_bulb")` *Tasks.org est une application totalement open-source et gratuite pour gérer vos taches. Elle possède de très nombreuses fonctionnalités. Changez son thème, mettez des icônes pour vos listes de taches, utilisez ses widgets pour ajouter rapidement des taches depuis votre écran d'accueil, faites des taches récurrentes, et bien d'autres encore !*
 
 - Si vous êtes sur un téléphone Apple :
   - Ouvrez l'application `Rappels`.
@@ -159,14 +157,14 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
 
 > `r emo::ji("warning")` ***Les téléphone Apple n'ont pas beaucoup d'applications open-source et privées à leur disposition. Il m'est impossible de dire qui pourra avoir accès à vos données en utilisant ces applications. A l'inverse, Tasks.org sur Android ne présente pas ce problème. A vos risques et périls !***
 
-> `r emo::ji("light_bulb")`  *Sachez qu'il existe une application open-source et gratuite pour synchroniser et voir vos tableau Kanban de Nextcloud Deck sur votre téléphone ! Rendez vous dans votre magasin d'applications, et cherchez "Nextcloud Deck".*
+> `r emo::ji("light_bulb")` *Sachez qu'il existe une application open-source et gratuite pour synchroniser et voir vos tableau Kanban de Nextcloud Deck sur votre téléphone ! Rendez vous dans votre magasin d'applications, et cherchez "Nextcloud Deck".*
 
 #### 6. Synchroniser le calendrier de Nextcloud avec son téléphone
 
 - Saisissez vous de votre téléphone portable.
 
 - Si vous êtes sur un téléphone android :
-  - Rendez vous dans le *Google Play Store* pour télécharger l'application gratuite et open source "[DAVx5](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US)".
+  - Rendez vous dans le *Google Play Store* pour télécharger l'application gratuite et open source "[DAVx5](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US)" (ou bien utilisez F-droid pour cela).
   - Ouvrez l'application, et atteignez l'écran qui vous permet d'ajouter un compte. Choisissez l'option `Connection avec une URL et un nom d'utilisateur`.
   - Dans le champ `URL`, entrez `https://us.cloudamo.com`.
   - Dans le champ `Nom d'utilisateur`, entrez l'adresse mail que vous avez utilisée pour vous inscrire à Cloudamo.
@@ -174,7 +172,7 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
   - Laissez l'application faire sa synchronisation.
   - Allez dans le calendrier de votre téléphone. Si vous n'en avez pas encore un, vous pouvez télécharger l'application open-source [Simple calendar](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=en_US&gl=US).
 
-> `r emo::ji("light_bulb")`  *Malgré son nom étrange, DAVx5 est une fantastique application. Elle est sécurisée et recommandée par les développeurs de Nextcloud pour synchroniser votre téléphone avec vos informations sur Nextcloud. Si vous choisissez un autre hébergeur de Nextcloud, il vous suffira d'entrer l'URL du serveur Nextcloud auquel vous vous connectez à la place de celle de Cloudamo.*
+> `r emo::ji("light_bulb")` *Malgré son nom étrange, DAVx5 est une fantastique application. Elle est sécurisée et recommandée par les développeurs de Nextcloud pour synchroniser votre téléphone avec vos informations sur Nextcloud. Si vous choisissez un autre hébergeur de Nextcloud, il vous suffira d'entrer l'URL du serveur Nextcloud auquel vous vous connectez à la place de celle de Cloudamo.*
 
 > `r emo::ji("warning")` ***Sur Android, si vous utilisez le calendrier "Google", il m'est impossible de savoir si les données de votre calendrier pourront être lues ou partagées par Google. Je vous recommande d'utiliser une application open-source comme Simple calendar à la place.***
 
@@ -200,17 +198,17 @@ Dans Nextcloud, vous pouvez passer d'une application à une autre grace aux icô
 - Sur votre ordinateur :
   - Rendez vous sur [cette page](https://nextcloud.com/install/#install-clients) pour télécharger le logiciel Nextcloud qui permettra la synchronisation de vos fichiers entre votre ordinateur et Nextcloud
 
-> `r emo::ji("light_bulb")`  *En effet, Nextcloud sert aussi à stocker des fichiers, tout comme Google Drive, One Drive, ou Drop Box !.*
+> `r emo::ji("light_bulb")` *En effet, Nextcloud sert aussi à stocker des fichiers, tout comme Google Drive, One Drive, ou Drop Box !.*
 
   - Une fois l'exécutable téléchargé, installez le.
   - Lancez le programme.
   - Indiquer au programme l'URL de votre serveur Nextcloud (`https://us.cloudamo.com`), votre nom d'utilisateur sur Cloudamo, et votre mot de passe.
   - Laissez la synchronisation s'effectuer.
 
-> `r emo::ji("light_bulb")`  *A partir de maintenant, si vous déposez un nouveau fichier dans votre dossier "Nextcloud" sur votre ordinateur, celui-ci sera uploadé sur les serveurs de Cloudamo. A l'inverse, si un fichier a été ajouté dans votre Nextcloud sur les serveurs de Cloudamo, celui-ci sera téléchargé sur votre ordinateur. Ainsi, il y a une synchronisation constante, via ce petit logiciel, entre votre Nextcloud et votre ordinateur en terme de fichier. Vous pouvez bien évidemment customiser cette synchronisation dans les paramètres de l'application.*
+> `r emo::ji("light_bulb")` *A partir de maintenant, si vous déposez un nouveau fichier dans votre dossier "Nextcloud" sur votre ordinateur, celui-ci sera uploadé sur les serveurs de Cloudamo. A l'inverse, si un fichier a été ajouté dans votre Nextcloud sur les serveurs de Cloudamo, celui-ci sera téléchargé sur votre ordinateur. Ainsi, il y a une synchronisation constante, via ce petit logiciel, entre votre Nextcloud et votre ordinateur en terme de fichier. Vous pouvez bien évidemment customiser cette synchronisation dans les paramètres de l'application.*
 
 - Sur votre téléphone :
   - Installez l'application Nextcloud à partir de votre magasin d'application
   - Lancez l'application Nextcloud, et indiquez lui l'URL de Cloudamo, ainsi que votre nom d'utilisateur et votre mot de passe.
 
-> `r emo::ji("light_bulb")`  *Vous pourrez maintenant accéder aux fichiers sur votre Nextcloud à partir de votre téléphone ! La mémoire d'un téléphone étant précieuse, par défaut, l'application Nextcloud ne téléchargera les fichiers depuis votre Nextcloud que lorsque vous souhaiterez y accéder.*
+> `r emo::ji("light_bulb")` *Vous pourrez maintenant accéder aux fichiers sur votre Nextcloud à partir de votre téléphone ! La mémoire d'un téléphone étant précieuse, par défaut, l'application Nextcloud ne téléchargera les fichiers depuis votre Nextcloud que lorsque vous souhaiterez y accéder.*

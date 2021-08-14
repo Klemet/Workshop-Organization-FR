@@ -73,8 +73,8 @@ Pour en savoir plus sur la syntaxe markdown, vous pouvez visiter [la page wikip�
 
 Par défaut, la fenêtre de Joplin se compose de 3 parties importantes :
 
-- la liste de vos carnets (notebooks) tout à gauche
-- la liste des notes à l’intérieur du carnet ou vous vous trouvez, au milieu
+- la liste de vos carnets (notebooks) tout à gauche.
+- la liste des notes à l’intérieur du carnet ou vous vous trouvez, au milieu.
 - l’éditeur à droite, qui s’affiche généralement en deux partie (la partie édition, et la partie visualisation).
 
 
@@ -100,7 +100,7 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 
 - Dans Joplin, créez un nouveau carnet, nommé "`r emo::ji("notebook_with_decorative_cover")` Carnet pour exercice".
 
-> `r emo::ji("light_bulb")`  *Notez la possibilité de mettre des emojis dans les titres de vos carnets et de vos notes pour mieux les différencier.*
+> `r emo::ji("light_bulb")` *Notez la possibilité de mettre des emojis dans les titres de vos carnets et de vos notes pour mieux les différencier.*
 
 #### 2. Créer une note
 
@@ -113,13 +113,13 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 - Dans votre navigateur, faite un clic droit sur l'image, et choisissez `Copier`.
 - Retournez dans votre note. Faite un clic droit dans l'éditeur et choisissez l'option `Coller`, ou bien faite `Ctrl + V`.
 
-> `r emo::ji("light_bulb")`  *Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer en cliquant sur le lien. Extrèmement pratique pour s'y retrouver !*
+> `r emo::ji("light_bulb")` *Joplin gère tous les fichiers associés à vos documents Markdown automatiquement, que ce soit une image, un tableur excel, ou autre. Il n'est capable d'afficher que des images, et les autres types de fichiers seront représentés sous la forme d'un lien qui vous permettra de les ouvrir. Tous les fichiers sont gardés dans sa base de donnée, et il est même possible de les éditer en cliquant sur le lien. Extrèmement pratique pour s'y retrouver !*
 
 #### 4. Créer une tache et une liste de tache
 
 - Dans le "Carnet pour exercice", créez une nouvelle tache nommée "Tache de l'exercice 4" avec le bouton `Nouvelle tache`.
 
-> `r emo::ji("light_bulb")`  *Dans Joplin, les taches sont simplement des notes qui sont associées à une cache à cocher. Cependant, vous pouvez, comme pour toute note, y associer des fichiers, des images, et du texte.*
+> `r emo::ji("light_bulb")` *Dans Joplin, les taches sont simplement des notes qui sont associées à une cache à cocher. Cependant, vous pouvez, comme pour toute note, y associer des fichiers, des images, et du texte.*
 
 - Dans l'éditeur, écrivez les choses suivantes (attention de bien respecter les espaces !) :
 
@@ -133,14 +133,14 @@ Il me serait possible de vous faire la liste de toutes les fonctionnalités de J
 - Regardez au texte de votre tache mis en forme dans la droite de l'éditeur. Cliquez sur les différentes cases à cocher, et regardez ce qui se passe.
 - Quand cela est fait, cochez votre tache à cocher dans la fenêtre des notes de Joplin. Regardez ce qui se passe.
 
-> `r emo::ji("light_bulb")`  *Vous avez découvert l'une des fonctionnalités les plus utiles du Markdown : les cases à cocher. Dans le format texte, une case non-cochée s'écrit "`- [ ]`", et une case cochée s'écrit "`- [x]`".*
+> `r emo::ji("light_bulb")` *Vous avez découvert l'une des fonctionnalités les plus utiles du Markdown : les cases à cocher. Dans le format texte, une case non-cochée s'écrit "`- [ ]`", et une case cochée s'écrit "`- [x]`".*
 
 #### 5. Utiliser des étiquettes
 
 - Donnez à la note "Note pour exercice" l'étiquette "Exercice" en trouvant ajoutant une étiquette avec le bouton correspondant en bas de l'interface.
 - Observez qu'une nouvelle catégorie d'étiquette est apparue dans le menu des carnets.
 
-> `r emo::ji("light_bulb")`  *Les étiquettes sont extrèmements pratiques pour retrouver facilement ses notes. Trier ses notes en les mettants dans différents carnets peut être utile; mais comme on ne peut mettre une note que dans un seul carnet, cela reste limité. Mettriez vous une note avec des idées de cadeaux d'anniversaire pour une amie dans votre carnet "amis", ou dans votre carnets "idées" ? Avec des étiquettes, la question ne se pose plus : vous pouvez mettre les deux. Je vous conseille d'utiliser des étiquettes autant que possible !*
+> `r emo::ji("light_bulb")` *Les étiquettes sont extrèmements pratiques pour retrouver facilement ses notes. Trier ses notes en les mettants dans différents carnets peut être utile; mais comme on ne peut mettre une note que dans un seul carnet, cela reste limité. Mettriez vous une note avec des idées de cadeaux d'anniversaire pour une amie dans votre carnet "amis", ou dans votre carnets "idées" ? Avec des étiquettes, la question ne se pose plus : vous pouvez mettre les deux. Je vous conseille d'utiliser des étiquettes autant que possible !*
 
 #### 6. Changer l'interface
 

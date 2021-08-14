@@ -64,4 +64,4 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
 
 Je suis un étudiant au doctorat en écologie forestière, sous la supervision de [Elise Filotas](http://elisefilotas.ca/fr/home/) et [Christian Messier](www.cef-cfr.ca/index.php?n=Membres.ChristianMessier).
 
-Passioné par les logiciels open-source et par les méthodes d'organisation, j'ai décidé de mettre en place cet atelier afin de partager mes petites connaissances sur le sujet.
+Passionné par les logiciels open-source et par les méthodes d'organisation, j'ai décidé de mettre en place cet atelier afin de partager mes petites connaissances sur le sujet.

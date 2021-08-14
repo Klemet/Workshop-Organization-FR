@@ -6,7 +6,7 @@
 
 Avoir des informations de bibliographie complètes et rigoureuses est nécéssaire dans des documents universitaires (thèse, mémoire, article). Cela peut être très important pour des posts de blog ou de site internet, des vidéos, des scripts, et bien d'autres encore. Cela peut aussi être très utile pour gérer ses ressources personnelles, comme nous le verrons plus tard. On appelle les informations de bibliographie d'un document des '**méta-données**', à savoir des données *a propos du document*, mais *en dehors du document* (son titre, sa date de publication, son/ses auteurs.es, etc.).
 
-### Fonctionalités de Zotero
+### Fonctionnalités de Zotero
 
 Zotero permet de :
 
@@ -69,9 +69,9 @@ Pour cela, il vous suffit de cliquer sur le bouton du connecteur dans votre navi
 
 #### 4. Installer le plugin de Zotero "Better BibTex"
 
-- Rendez vous sur [ce lien la](https://github.com/retorquere/zotero-better-bibtex/releases/download/v5.4.7/zotero-better-bibtex-5.4.7.xpi) pour télécharger le plugin "Better BibTex"
+- Faite un clic droit sur [ce lien la](https://github.com/retorquere/zotero-better-bibtex/releases/download/v5.4.7/zotero-better-bibtex-5.4.7.xpi) et sléctionner "Enregistrer la cible du lien sous..." pour télécharger le plugin "Better BibTex"
 
-> `r emo::ji("light_bulb")`  *Le plugin "Better BibTex" permet de mieux connecter Zotero à l'utilisation de logiciels qui utilisent du Markdown. Nous allons l'utiliser juste après !*
+> `r emo::ji("light_bulb")` *Le plugin "Better BibTex" permet de mieux connecter Zotero à l'utilisation de logiciels qui utilisent du Markdown. Nous allons l'utiliser juste après !*
 
 - Dans la fenêtre de Zotero, allez dans l'onglet `Outils`, puis `Extensions`. Cliquez ensuite sur la petite icône d'engrenage à droite de la fenêtre, puis choisissez l'option "Installer depuis un fichier". Dans la fenêtre qui s'ouvre, sélectionnez le fichier du plugin "Better BibTex" que vous avez téléchargé.
 - Redémarrez Zotero.
@@ -83,7 +83,7 @@ Pour cela, il vous suffit de cliquer sur le bouton du connecteur dans votre navi
 - Dans les options, choisissez l'option` Garder à jour`, et laissez toutes les autres décochées.
 - Exportez le fichier .bib résultant quelque part sur votre ordinateur.
 
-> `r emo::ji("light_bulb")`  *Ce fichier .bib contient les informations de toutes les références de votre bibliothèque, associée à un petit code pour chaque que nous allons pouvoir insérer dans des documents en Markdown. En plus de cela, il est gardé automatiquement à jour grace à plugin "Better BibTex"; cela veut dire que chaque fois que vous ajouterez une référence dans Zotero, ce fichier .bib sera mis à jour pour qu'elle y soit ajoutée.*
+> `r emo::ji("light_bulb")` *Ce fichier .bib contient les informations de toutes les références de votre bibliothèque, associée à un petit code pour chaque que nous allons pouvoir insérer dans des documents en Markdown. En plus de cela, il est gardé automatiquement à jour grace à plugin "Better BibTex"; cela veut dire que chaque fois que vous ajouterez une référence dans Zotero, ce fichier .bib sera mis à jour pour qu'elle y soit ajoutée.*
 
 #### 6. Utiliser le plugin BibTex de Joplin pour ajouter des références
 
@@ -106,6 +106,6 @@ Les logiciels open-source ont une longue histoire .
   - Écrivez le code de la référence vous même, en écrivant des parenthèses carrées `[ ]` avec, a l'intérieur, un `@` collé a l'identifiant unique de l'article dans Zotero (qui se trouve tout en haut des informations d'un article).
 - Une fois la référence ajoutée, observez son rendu dans l'éditeur.
 
-> `r emo::ji("light_bulb")`  *Vous pouvez observer que le plugin BibTex met en forme la référence a l'intérieur du texte, mais ajoute aussi automatique une partie "références" à la fin de votre note qui indique toutes les documents référencés dans votre note.*
+> `r emo::ji("light_bulb")` *Vous pouvez observer que le plugin BibTex met en forme la référence a l'intérieur du texte, mais ajoute aussi automatique une partie "références" à la fin de votre note qui indique toutes les documents référencés dans votre note.*
 
-> `r emo::ji("light_bulb")`  *La syntaxe que je vous recommande d'utiliser dans vos notes en markdown pour les références est celle utilisée par Pandoc, un logiciel open-source très connu qui permet de transformer un document texte en presque n'importe quel format. Cette syntaxe élégante vous permet de mettre la citation dans le texte dans le format que vous souhaitez. Pour en savoir plus sur cette syntaxe, rendez vous sur [ce lien](https://pandoc.org/demo/example19/Extension-citations.html).*
+> `r emo::ji("light_bulb")` *La syntaxe que je vous recommande d'utiliser dans vos notes en markdown pour les références est celle utilisée par Pandoc, un logiciel open-source très connu qui permet de transformer un document texte en presque n'importe quel format. Cette syntaxe élégante vous permet de mettre la citation dans le texte dans le format que vous souhaitez. Pour en savoir plus sur cette syntaxe, rendez vous sur [ce lien](https://pandoc.org/demo/example19/Extension-citations.html).*

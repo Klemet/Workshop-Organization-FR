@@ -36,9 +36,11 @@ Ainsi, vous avez le choix : vous pouvez écrire à propos de ce que les élépha
 
 En ce faisait, vous n'avez pas à ré-écrire l'information plusieurs fois, et vous n'aurez à la modifier qu'une seule fois si besoin est. Vous avez ainsi encapsulé l'information à propos de ce que les éléphants mangent en la séparant du reste, et en indiquant des liens vers celle-ci la ou cela est nécessaire.
 
+La méthode du *Zettelkasten* encourage l'encapsulation autant que possible, en vous faisant écrire les choses une fois, et en facilitant la modification et la connexion de vos connaissances.
+
 5. **Elle évite de devoir chercher de l'information dans des longues notes ou de longs textes.**
 
-Ceci est une conséquence de l'encapsulation de l'information. Pour reprendre l'exemple précédent, vous n'aurez pas à écumer une des deux longues pages sur le quotidien ou les effets des bouses des éléphants pour savoir ce qu'ils mangent. Vous n'aurez qu'a retrouver la bonne page, ou la bonne note, pour trouver la bonne information.
+Ceci est une conséquence de l'encapsulation de l'information. Pour reprendre l'exemple précédent, vous n'aurez pas à écumer une des deux longues pages sur le quotidien des éléphants, ou sur les effets de leurs bouses pour savoir ce qu'ils mangent. Vous n'aurez qu'a retrouver la bonne page, ou la bonne note, pour trouver la bonne information.
 
 6. **Elle rend le fait de prendre des notes plus agréable.**
 
@@ -188,7 +190,7 @@ Durant ces exercices, nous mettrons en place un Zettelkasten dans le logiciel Jo
 - Allez dans la rubrique `Plugins`, puis téléchargez le plugin `Automatic Backlinks to note`. Les plus curieux.ses pourront aussi télécharger le plugin `Link Graph UI`, qui permet de visualiser les connections entre les notes sous forme d'un graphe interactif.
 - Retournez dans l'interface de Joplin. Créez un nouveau carnet nommé "*Zettelkasten*". Au sein de ce carnet, créez trois autres carnets : "Notes à écrire", "Notes atomiques", et "Notes d'indexage".
 
-> `r emo::ji("light_bulb")`  *Ca y est, vous voila prêt.e à commence votre Zettelkasten dans Joplin ! Toutes les autres fonctions nécessaires à la création d'un Zettelkasten sont déjà présentes dans Joplin. En particulier, faire des liens et associer des étiquettes à une note sont des choses très faciles à faire. En plus, comme vous pouvez avoir Joplin sur votre téléphone, vous serez capable de faire des notes n'importe où, et n'importe quand !*
+> `r emo::ji("light_bulb")` *Ca y est, vous voila prêt.e à commence votre Zettelkasten dans Joplin ! Toutes les autres fonctions nécessaires à la création d'un Zettelkasten sont déjà présentes dans Joplin. En particulier, faire des liens et associer des étiquettes à une note sont des choses très faciles à faire. En plus, comme vous pouvez avoir Joplin sur votre téléphone, vous serez capable de faire des notes n'importe où, et n'importe quand !*
 
 ##### 2. Rédiger 6 *Zettels* différentes
 

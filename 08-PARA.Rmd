@@ -110,7 +110,7 @@ Ainsi, nous mettrons les taches liées à des projets dans Nextcloud Deck (des k
 - Rendez vous dans Joplin
   - Créez 4 nouveaux carnets : "1 - Projets", "2 - Aires", "3 - Ressources", "4 - Archives"
 
-> `r emo::ji("light_bulb")`  *Les chiffres dans les titres de vos carnets servent à faire en sorte que Joplin les garde organisés dans le bon ordre.*
+> `r emo::ji("light_bulb")` *Les chiffres dans les titres de vos carnets servent à faire en sorte que Joplin les garde organisés dans le bon ordre.*
 
   - Dans le carnet "1 - Projet", créez trois nouveaux carnets : "Atelier open-source et organisation", "Achat d'un nouvel ordinateur" et "Fête d'anniversaire de Bastien".
   - Dans le carnet "2 - Aires", créez 6 nouveaux carnets : "Famille", "Amis", "Travail", "Karaté", "Finances" et "Santé".
@@ -121,7 +121,7 @@ Ainsi, nous mettrons les taches liées à des projets dans Nextcloud Deck (des k
   - Dans le dossier "1 - Projet", créez trois nouveaux dossiers : "Atelier open-source et organisation", "Achat d'un nouvel ordinateur" et "Fête d'anniversaire de Bastien".
   - Dans le dossier "2 - Aires", créez 6 nouveaux dossier : "Famille", "Amis", "Travail", "Karaté", "Finances" et "Santé".
 
-> `r emo::ji("light_bulb")`  *Et voila, vous êtes maintenant prêts à utiliser la méthode P.A.R.A ! Si vous avez utilisé des projets et des aires qui correspondent à votre vie, n'oubliez pas de transférer les fichiers et informations que vous avez déjà dans les logiciels correspondants.*
+> `r emo::ji("light_bulb")` *Et voila, vous êtes maintenant prêts à utiliser la méthode P.A.R.A ! Si vous avez utilisé des projets et des aires qui correspondent à votre vie, n'oubliez pas de transférer les fichiers et informations que vous avez déjà dans les logiciels correspondants.*
 
 #### 2. Travailler sur un projet avec la méthode P.A.R.A
 
@@ -133,7 +133,7 @@ Ainsi, nous mettrons les taches liées à des projets dans Nextcloud Deck (des k
   - Dans Nextcloud Deck, créez les cartes "Trouver l'endroit", "Trouvez l'heure", "Déterminer qui est invité", et "Déterminer les activités" dans la colonne "A faire"
   - Déplacez les cartes dans Nextcloud Deck au fur et à mesure que vous complétez les taches. N'hésitez pas à faire des fiches dans Joplin, à insérer des détails dans la description de vos cartes dans Nextcloud Deck, ou bien a creer ou enregistrer des fichiers dans votre dossier Nextcloud pour se faire.
 
-> `r emo::ji("light_bulb")`  *Avez vous remarqué durant l'exercice que le fait d'avoir limité la visibilité de l'information qui n'était pas pertinente pour votre projet vous à aidé à vous concentrer ? Partout ou se tournait votre regard, vous n'aviez que des ressources liés à votre projet; de cette manière, nous avons limité le travail qu'avait à faire votre cerveau pour identifier ce qu'il était important dans ce qu'il voyait. Ce genre de choses n'est pas à sous-estimer lorsque l'on travaille pendant longtemps sur un ordinateur.*
+> `r emo::ji("light_bulb")` *Avez vous remarqué durant l'exercice que le fait d'avoir limité la visibilité de l'information qui n'était pas pertinente pour votre projet vous à aidé à vous concentrer ? Partout ou se tournait votre regard, vous n'aviez que des ressources liés à votre projet; de cette manière, nous avons limité le travail qu'avait à faire votre cerveau pour identifier ce qu'il était important dans ce qu'il voyait. Ce genre de choses n'est pas à sous-estimer lorsque l'on travaille pendant longtemps sur un ordinateur.*
 
 #### 3. Mettre vos ressources au bon endroit avec la méthode P.A.R.A
 
@@ -144,4 +144,4 @@ Ainsi, nous mettrons les taches liées à des projets dans Nextcloud Deck (des k
   - Cette [image d'une veille carte du monde](https://i.pinimg.com/originals/ba/59/94/ba5994829ba487b5f00b0d7f643a6f58.jpg) que vous trouvez très jolie.
   - Vous avez décidé que vous aimeriez bien acheter un ordinateur portable plutôt qu'une tour, car votre ordinateur portable actuel ne marche plus très bien, et vous vous déplacez souvent.
 
-> `r emo::ji("light_bulb")`  *Certaines de ces ressources sont plus faciles à placer que d'autres : les informations sur l'anniversaire de Bastien et l'achat d'un nouvel ordinateur pourraient facilement aller dans Nextcloud Deck. La citation du seigneur des anneaux pourrait aller dans votre Zettelkasten, et la révision de votre kata devrait aller dans Nextcloud Tasks avec une date limite pour la tache. L'image de la vieille carte du monde, cependant, pourrait être insérée dans une note Joplin, ou bien directement déposée dans votre dossier Nextcloud.*
+> `r emo::ji("light_bulb")` *Certaines de ces ressources sont plus faciles à placer que d'autres : les informations sur l'anniversaire de Bastien et l'achat d'un nouvel ordinateur pourraient facilement aller dans Nextcloud Deck. La citation du seigneur des anneaux pourrait aller dans votre Zettelkasten, et la révision de votre kata devrait aller dans Nextcloud Tasks avec une date limite pour la tache. L'image de la vieille carte du monde, cependant, pourrait être insérée dans une note Joplin, ou bien directement déposée dans votre dossier Nextcloud.*
