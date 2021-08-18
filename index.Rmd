@@ -46,7 +46,7 @@ description: "Ces pages contiennent le contenu d'un atelier de découverte de lo
 
 ## Objectifs de l'atelier
 
-- Découvrir et apprendre à utiliser les fonctions de base des les logiciels suivants :
+- Découvrir et apprendre à utiliser les fonctions de base des logiciels suivants :
   - `r emo::ji("white_check_mark")` Joplin
   - `r emo::ji("white_check_mark")` Zotero
   - `r emo::ji("white_check_mark")` Nextcloud

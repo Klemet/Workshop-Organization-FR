@@ -90,7 +90,7 @@ Pour cela, il vous suffit de cliquer sur le bouton du connecteur dans votre navi
 - Ouvrez Joplin.
 - Allez dans l'onglet `Outils`, puis cliquez sur `Options`.
 - Allez dans l'onglet `Plugins` du menu des options.
-- Dans la barre de recherche, cherchez le plugin `Quick Links` et installez le.
+- Dans la barre de recherche, cherchez le plugin `BibTex` et installez le.
 - Redémarrez Joplin.
 - Retournez dans l'onglet `Outils`, puis cliquez sur `Options`.
 - Allez dans l'onglet `BibTex Plugin` qui est apparu dans les options.
