@@ -1,5 +1,5 @@
 ---
-title: "Atelier organisation et open-source"
+title: "Atelier open-source et organisation"
 url: 'https://github.com/Klemet/Workshop-Organization-FR'
 github-repo: "Klemet/Workshop-Organization-FR"
 cover-image: "images/cover.png"
@@ -11,7 +11,9 @@ link-citations: yes
 description: "Ces pages contiennent le contenu d'un atelier de découverte de logiciels open-source dans des buts d'organisation personnelle, créé par Clément Hardy."
 ---
 
-![](./imgs/Cover_workshop.jpg)
+<p align="center">
+  <img src="./imgs/Logo atelier organisation FR.svg" />
+</p>
 
 # Bienvenue !
 
