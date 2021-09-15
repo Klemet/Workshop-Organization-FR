@@ -28,14 +28,14 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="1.5001964"
-     inkscape:cx="179.30986"
-     inkscape:cy="158.3126"
+     inkscape:cx="254.96662"
+     inkscape:cy="204.30658"
      inkscape:window-width="1920"
      inkscape:window-height="1027"
      inkscape:window-x="-8"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="text1489" />
   <defs
      id="defs2">
     <rect
@@ -119,27 +119,141 @@
        transform="scale(0.26458333)"
        inkscape:transform-center-x="1.0965231e-06"
        inkscape:transform-center-y="-1.1142985e-06" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:8.46667px;line-height:0.95;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="87.362488"
-       y="56.075169"
-       id="text1489"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="87.362488"
-         y="56.075169"
-         id="tspan5383">Atelier</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="87.362488"
-         y="64.201187"
-         id="tspan1491">open-source</tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle;stroke-width:0.264583"
-         x="87.362488"
-         y="72.327209"
-         id="tspan1493">et organisation</tspan></text>
+    <g
+       aria-label="Atelier
+open-source
+et organisation"
+       id="text1489"
+       style="font-size:8.46667px;line-height:0.95;stroke-width:0.264583">
+      <path
+         d="m 79.4377,50.791967 h 0.6604 v 1.9812 h 0.6604 v 1.981201 h 0.6604 v 1.320801 h -0.6604 v -1.320801 h -0.6604 v -0.6604 h -1.981201 v 0.6604 h -0.6604 v -1.981201 h 0.6604 v 0.660401 H 80.0981 v -0.660401 h -0.6604 v -1.9812 H 78.777299 V 50.131566 H 79.4377 Z m -1.320801,1.9812 v -1.9812 h 0.6604 v 1.9812 z m -1.3208,1.981201 h 0.6604 v 1.320801 h -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path864" />
+      <path
+         d="m 83.383165,50.131566 v 1.320801 h 0.660401 v 0.6604 h -0.660401 v 3.302001 h 0.660401 v 0.660401 h -1.320801 v -3.962402 h -0.6604 v -0.6604 h 0.6604 v -1.320801 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path866" />
+      <path
+         d="m 84.71243,55.414768 v -3.302001 h 0.660401 v 1.320801 h 1.9812 v -1.320801 h -1.9812 v -0.6604 h 1.9812 v 0.6604 h 0.660401 v 1.981201 h -2.641601 v 1.3208 h 1.9812 v 0.660401 h -1.9812 v -0.660401 z m 3.302002,0 h -0.660401 v -0.6604 h 0.660401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path868" />
+      <path
+         d="m 89.343698,50.131566 v 5.943603 h -0.6604 v -5.943603 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path870" />
+      <path
+         d="m 90.656021,51.452367 v 4.622802 h -0.6604 v -4.622802 z m 0,-1.320801 v 0.660401 h -0.6604 v -0.660401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path872" />
+      <path
+         d="m 91.307945,55.414768 v -3.302001 h 0.6604 v 1.320801 h 1.981201 v -1.320801 h -1.981201 v -0.6604 h 1.981201 v 0.6604 h 0.6604 v 1.981201 h -2.641601 v 1.3208 h 1.981201 v 0.660401 h -1.981201 v -0.660401 z m 3.302001,0 h -0.6604 v -0.6604 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path874" />
+      <path
+         d="m 95.939212,51.452367 v 0.6604 h 0.660401 v 0.6604 h -0.660401 v 3.302002 h -0.6604 v -4.622802 z m 1.320801,0.6604 h -0.6604 v -0.6604 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path876" />
+      <path
+         d="m 70.505368,63.540787 h -0.660401 v -3.302001 h -1.9812 v -0.6604 h 1.9812 v 0.6604 h 0.660401 z m -3.302002,0 v -3.302001 h 0.660401 v 3.302001 z m 2.641601,0 v 0.6604 h -1.9812 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path878" />
+      <path
+         d="m 73.815834,64.201187 h -1.3208 v -0.6604 h -0.6604 v 1.981201 h -0.660401 v -5.943602 h 0.660401 v 0.6604 h 0.6604 v 0.6604 h -0.6604 v 1.981201 h 0.6604 v 0.6604 h 1.3208 z m 0.660401,-0.6604 h -0.660401 v -3.302001 h -1.3208 v -0.6604 h 1.3208 v 0.6604 h 0.660401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path880" />
+      <path
+         d="m 75.145101,63.540787 v -3.302001 h 0.6604 v 1.3208 h 1.981201 v -1.3208 h -1.981201 v -0.6604 h 1.981201 v 0.6604 h 0.6604 v 1.981201 h -2.641601 v 1.3208 h 1.981201 v 0.6604 h -1.981201 v -0.6604 z m 3.302001,0 h -0.6604 v -0.6604 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path882" />
+      <path
+         d="m 79.776368,59.578386 v 0.6604 h 0.6604 v 0.6604 h -0.6604 v 3.302001 h -0.6604 v -4.622801 z m 2.641601,4.622801 h -0.6604 v -3.962401 h -1.320801 v -0.6604 h 1.320801 v 0.6604 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path884" />
+      <path
+         d="m 85.051096,60.899186 v 0.6604 h -1.981201 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path886" />
+      <path
+         d="m 86.354958,61.559586 h 1.981201 v 0.660401 h 0.6604 v 1.3208 h -0.6604 v -1.3208 h -1.981201 v -0.660401 h -0.6604 v -1.3208 h 0.6604 z m 2.641601,-0.6604 h -0.6604 v -0.6604 h -1.981201 v -0.6604 h 1.981201 v 0.6604 h 0.6604 z m -2.641601,2.641601 h -0.6604 v -0.6604 h 0.6604 v 0.6604 h 1.981201 v 0.6604 h -1.981201 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path888" />
+      <path
+         d="m 92.950486,63.540787 h -0.660401 v -3.302001 h -1.981201 v -0.6604 h 1.981201 v 0.6604 h 0.660401 z m -3.302002,0 v -3.302001 h 0.6604 v 3.302001 z m 2.641601,0 v 0.6604 h -1.981201 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path890" />
+      <path
+         d="m 94.279752,63.540787 h 1.9812 v -3.962401 h 0.660401 v 4.622801 h -2.641601 z m -0.660401,0 v -3.962401 h 0.660401 v 3.962401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path892" />
+      <path
+         d="m 98.250619,59.578386 v 0.6604 h 0.6604 v 0.6604 h -0.6604 v 3.302001 h -0.6604 v -4.622801 z m 1.3208,0.6604 h -0.6604 v -0.6604 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path894" />
+      <path
+         d="m 100.24028,63.540787 v -3.302001 h 0.66041 v 3.302001 z m 2.64161,-2.641601 h -0.6604 v -0.6604 h -1.3208 v -0.6604 h 1.3208 v 0.6604 h 0.6604 z m -0.6604,2.641601 v 0.6604 h -1.3208 v -0.6604 z m 0.6604,-0.6604 v 0.6604 h -0.6604 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path896" />
+      <path
+         d="m 103.55074,63.540787 v -3.302001 h 0.6604 v 1.3208 h 1.98121 v -1.3208 h -1.98121 v -0.6604 h 1.98121 v 0.6604 h 0.6604 v 1.981201 h -2.64161 v 1.3208 h 1.98121 v 0.6604 h -1.98121 v -0.6604 z m 3.30201,0 h -0.6604 v -0.6604 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path898" />
+      <path
+         d="m 62.71722,71.666806 v -3.302001 h 0.660401 v 1.3208 h 1.9812 v -1.3208 h -1.9812 v -0.660401 h 1.9812 v 0.660401 h 0.660401 v 1.9812 h -2.641601 v 1.320801 h 1.9812 v 0.6604 h -1.9812 v -0.6604 z m 3.302002,0 h -0.660401 v -0.6604 h 0.660401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path900" />
+      <path
+         d="m 68.008888,66.383604 v 1.3208 h 0.6604 v 0.660401 h -0.6604 v 3.302001 h 0.6604 v 0.6604 h -1.3208 v -3.962401 h -0.6604 v -0.660401 h 0.6604 v -1.3208 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path902" />
+      <path
+         d="m 75.719683,71.666806 h -0.6604 v -3.302001 h -1.981201 v -0.660401 h 1.981201 v 0.660401 h 0.6604 z m -3.302001,0 v -3.302001 h 0.6604 v 3.302001 z m 2.641601,0 v 0.6604 h -1.981201 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path904" />
+      <path
+         d="m 77.048949,67.704404 v 0.660401 h 0.6604 v 0.6604 h -0.6604 v 3.302001 h -0.6604 v -4.622802 z m 1.320801,0.660401 h -0.660401 v -0.660401 h 0.660401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path906" />
+      <path
+         d="m 81.019815,68.364805 h -1.3208 v -0.660401 h 1.3208 v 0.660401 h 0.6604 v -0.660401 h 0.660401 v 5.283202 h -0.660401 v -1.3208 h -0.6604 v -0.6604 h 0.6604 v -1.981201 h -0.6604 z m -1.981201,3.302001 v -3.302001 h 0.660401 v 3.302001 z m 2.641601,1.3208 v 0.660401 h -2.641601 v -0.660401 z m -0.6604,-1.3208 v 0.6604 h -1.3208 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path908" />
+      <path
+         d="m 85.634143,67.704404 v 0.660401 h 0.660401 v 3.962401 h -0.660401 v -0.6604 h -0.6604 v -0.6604 h 0.6604 v -0.660401 h -1.9812 v -0.6604 h 1.9812 v -1.3208 h -1.9812 v -0.660401 z m -0.6604,4.622802 h -1.3208 v -0.6604 h -0.660401 v -1.320801 h 0.660401 v 1.320801 h 1.3208 z m -1.3208,-3.962401 v 0.6604 h -0.660401 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path910" />
+      <path
+         d="m 87.606869,67.704404 v 0.660401 h 0.6604 v 0.6604 h -0.6604 v 3.302001 h -0.660401 v -4.622802 z m 2.641601,4.622802 h -0.660401 v -3.962401 h -1.3208 v -0.660401 h 1.3208 v 0.660401 h 0.660401 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path912" />
+      <path
+         d="m 91.560795,67.704404 v 4.622802 h -0.660401 v -4.622802 z m 0,-1.3208 v 0.6604 h -0.660401 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path914" />
+      <path
+         d="m 92.873119,69.685605 h 1.981201 v 0.6604 h 0.6604 v 1.320801 h -0.6604 v -1.320801 h -1.981201 v -0.6604 h -0.6604 v -1.3208 h 0.6604 z m 2.641601,-0.6604 h -0.6604 v -0.6604 h -1.981201 v -0.660401 h 1.981201 v 0.660401 h 0.6604 z m -2.641601,2.641601 h -0.6604 v -0.6604 h 0.6604 v 0.6604 h 1.981201 v 0.6604 h -1.981201 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path916" />
+      <path
+         d="m 98.808246,67.704404 v 0.660401 h 0.6604 v 3.962401 h -0.6604 v -0.6604 h -0.6604 v -0.6604 h 0.6604 v -0.660401 h -1.981201 v -0.6604 h 1.981201 v -1.3208 h -1.981201 v -0.660401 z m -0.6604,4.622802 h -1.320801 v -0.6604 h -0.6604 v -1.320801 h 0.6604 v 1.320801 h 1.320801 z m -1.320801,-3.962401 v 0.6604 h -0.6604 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path918" />
+      <path
+         d="m 101.44137,66.383604 v 1.3208 h 0.6604 v 0.660401 h -0.6604 v 3.302001 h 0.6604 v 0.6604 h -1.3208 v -3.962401 h -0.6604 v -0.660401 h 0.6604 v -1.3208 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path920" />
+      <path
+         d="m 103.43104,67.704404 v 4.622802 h -0.6604 v -4.622802 z m 0,-1.3208 v 0.6604 h -0.6604 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path922" />
+      <path
+         d="m 107.38496,71.666806 h -0.6604 v -3.302001 h -1.9812 v -0.660401 h 1.9812 v 0.660401 h 0.6604 z m -3.302,0 v -3.302001 h 0.6604 v 3.302001 z m 2.6416,0 v 0.6604 h -1.9812 v -0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path924" />
+      <path
+         d="m 108.71423,67.704404 v 0.660401 h 0.6604 v 0.6604 h -0.6604 v 3.302001 h -0.6604 v -4.622802 z m 2.6416,4.622802 h -0.6604 v -3.962401 h -1.3208 v -0.660401 h 1.3208 v 0.660401 h 0.6604 z"
+         style="font-family:'C&amp;C Red Alert [LAN]';-inkscape-font-specification:'C&amp;C Red Alert [LAN]';text-align:center;text-anchor:middle"
+         id="path926" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
